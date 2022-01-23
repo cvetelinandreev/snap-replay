@@ -2,3 +2,5 @@ node_modules
 dist/js
 dist/css/reveal.js
 .vscode
+.DS_Store
+*.code-workspace
