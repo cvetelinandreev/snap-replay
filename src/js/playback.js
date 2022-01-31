@@ -328,8 +328,17 @@ export class Playback {
         this.playingLog = null;
         this.recorder = this.snapWindow.recorder;
         if (this.snapWindow.recorder) {
-            this.recorder.constructor.resetSnap(this.script.startXML);
-            // this.recorder.constructor.setRecordScale(this.script.config.blockScale);
+            setTimeout(() => {
+                this.snapWindow.recorder.constructor.setRecordScale(this.script.config.blockScale);
+ 
+                setTimeout(() => {
+                    this.snapWindow.recorder.constructor.setLanguage(this.script.config.language);
+
+                    setTimeout(() => {
+                        this.snapWindow.recorder.constructor.resetSnap(this.script.startXML);
+                    }, 1000);    
+                }, 1000);    
+            }, 1000);
             this.recorder.constructor.setOnClickCallback(
                 (x, y) => this.clickHighlight.trigger(x, y));
         }
@@ -498,7 +507,6 @@ export class Playback {
             this.checkForFocus();
         }, 1);
         if (duration > this.duration - 0.1) {
-            this.showFinishedModal();
             this.pause();
         }
     }
