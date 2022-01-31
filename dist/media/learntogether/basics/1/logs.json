@@ -7,6 +7,13 @@
         "timeDelta": 1
     },
     {
+        "type": "setLanguage",
+        "data": {
+            "language": "bg"
+        },
+        "timeDelta": 0
+    },
+    {
         "type": "slidesToggled",
         "data": {
             "value": true
@@ -20,7 +27,1577 @@
             "indexh": 1,
             "indexv": 0
         },
-        "timeDelta": 6442
+        "timeDelta": 7000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 9000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 2,
+            "indexv": 0
+        },
+        "timeDelta": 11000
+    },
+    {
+        "type": "run",
+        "data": {
+            "message": "IDE.greenFlag"
+        },
+        "timeDelta": 3265
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381435,
+                "template": false,
+                "spec": "напред",
+                "guid": "acdfa19e-1ea9-4094-9ae9-cacfef57bd61",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 742,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 42.5,
+                    "y": 42.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 1879
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 9429
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381438,
+                "template": false,
+                "spec": "надясно",
+                "guid": "d02322f8-a9b0-4184-89d2-cda2b05f1903",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 776.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 38.5,
+                    "y": 99,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 3346
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3668
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381439,
+                "template": false,
+                "spec": "наляво",
+                "guid": "87198f60-1a20-4b91-aca4-c8f9087b1149",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 811,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 36.5,
+                    "y": 158.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 3350
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3668
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "pen",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 4225
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381442,
+                "template": false,
+                "spec": "без следа",
+                "guid": "149ff6b7-cbcc-4aee-825d-492f6d918a53",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 767.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 32.5,
+                    "y": 216,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2786
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381442,
+            "template": false,
+            "spec": "без следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 4029
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3225
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 528
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381451,
+                "template": false,
+                "spec": "със следа",
+                "guid": "85a78fe5-25aa-4bb7-be28-1383e794ef64",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 802,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 26.5,
+                    "y": 278.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2950
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381451,
+            "template": false,
+            "spec": "със следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3230
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 936
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 343
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "motion",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 1505
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381458,
+                "template": false,
+                "spec": "отмени",
+                "guid": "11cbb52f-1eb0-445d-a90d-6e746ab14515",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 845.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 265.5,
+                    "y": 36,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2412
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381458,
+            "template": false,
+            "spec": "отмени",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2684
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381458,
+            "template": false,
+            "spec": "отмени",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 936
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "pen",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 1608
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381459,
+                "template": false,
+                "spec": "изчисти",
+                "guid": "de3b578f-0285-4d4a-878f-40306820300a",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 733,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 255.5,
+                    "y": 100.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2443
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381459,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 6261
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "variables",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 1561
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "guid": "ad26e989-9872-4d89-ad4d-3b1048f7a22f",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 1431,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 252.5,
+                    "y": 169.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 1937
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "guid": "155f939a-cde2-4223-9d52-f0a7f8002865",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 1471.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 252.5,
+                    "y": 230,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2390
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 3,
+            "indexv": 0
+        },
+        "timeDelta": 14120
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 233
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 479
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1001
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 184
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 320
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 832
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 184
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 295
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 864
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 193
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 264
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1120
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 288
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1128
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 192
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 256
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1056
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 184
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1064
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 192
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 376
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2481
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 199
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 368
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1104
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1432
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 227
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 373
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1145
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 207
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 281
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 383
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1120
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 384
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "к",
+            "value": "к"
+        },
+        "timeDelta": 14154
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къ",
+            "value": "къ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къщ",
+            "value": "къщ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къща",
+            "value": "къща"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381460,
+            "template": false,
+            "spec": "запомни %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3174
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381459,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 6249
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "к",
+            "value": "к"
+        },
+        "timeDelta": 10584
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къ",
+            "value": "къ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къщ",
+            "value": "къщ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къща",
+            "value": "къща"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381461,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3343
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "к",
+            "value": "к"
+        },
+        "timeDelta": 13938
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къ",
+            "value": "къ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къш",
+            "value": "къш"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къшт",
+            "value": "къшт"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къшта",
+            "value": "къшта"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381461,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 7255
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381442,
+            "template": false,
+            "spec": "без следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3500
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381451,
+            "template": false,
+            "spec": "със следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къща",
+            "value": "къща"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381461,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381442,
+            "template": false,
+            "spec": "без следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1500
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381451,
+            "template": false,
+            "spec": "със следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381461,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 4,
+            "indexv": 0
+        },
+        "timeDelta": 5000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
     },
     {
         "type": "slidesToggled",
@@ -30,1736 +1607,15 @@
         "timeDelta": 10000
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 18,
-            "highlight": false
-        },
-        "timeDelta": 11000
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 2,
-            "indexv": 0
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "run",
-        "data": {
-            "message": "IDE.greenFlag"
-        },
-        "timeDelta": 2607
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 26,
-                    "y": 473.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 6,
-                    "y": 12.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10964
-    },
-    {
         "type": "run",
         "data": {
             "selector": "evaluateCustomBlock",
-            "id": 362583,
+            "id": 381459,
             "template": false,
-            "spec": "move forward",
+            "spec": "изчисти",
             "message": "Block.clickRun"
         },
-        "timeDelta": 8740
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 10,
-                    "y": 12.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 5,
-                    "y": 57.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 3387
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1166
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 10,
-                    "y": 57.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 5,
-                    "y": 103.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 7081
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3992
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 656
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 10,
-                    "y": 103.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 4,
-                    "y": 148.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 6395
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 4126
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362586,
-            "template": false,
-            "spec": "pen up",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3232
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1128
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 10,
-                    "y": 148.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 4,
-                    "y": 192.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 3523
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362587,
-            "template": false,
-            "spec": "pen down",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1198
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1439
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 10,
-                    "y": 192.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 7,
-                    "y": 237.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 3000
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362614,
-            "template": false,
-            "spec": "undo",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1467
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 10,
-                    "y": 237.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 7,
-                    "y": 282.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 5026
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362615,
-            "template": false,
-            "spec": "clear",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 6114
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 10,
-                    "y": 282.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 308,
-                    "y": 11.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 7627
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 308,
-                    "y": 11.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 309,
-                    "y": 58.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 6456
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 309,
-                    "y": 58.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 15,
-                    "y": 480.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 12153
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 3,
-            "indexv": 0
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 6557
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 432
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 472
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2225
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 375
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 561
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2007
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 344
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 472
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1216
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 368
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 464
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1393
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 207
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 256
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1128
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 209
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 247
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1160
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 193
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 455
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 4480
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 281
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1024
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 192
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 352
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1072
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1184
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 345
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 311
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1056
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 312
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 352
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 536
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1632
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 232
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 472
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 15,
-                    "y": 480.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 306,
-                    "y": 10.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 8883
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362616,
-            "template": false,
-            "spec": "save",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 845
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "k"
-        },
-        "timeDelta": 1825
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": ""
-        },
-        "timeDelta": 1088
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "к"
-        },
-        "timeDelta": 489
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "кт"
-        },
-        "timeDelta": 279
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "ктъ"
-        },
-        "timeDelta": 11
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "кт"
-        },
-        "timeDelta": 760
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "к"
-        },
-        "timeDelta": 173
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къ"
-        },
-        "timeDelta": 380
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къщ"
-        },
-        "timeDelta": 440
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къща"
-        },
-        "timeDelta": 431
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "къща"
-        },
-        "timeDelta": 1389
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 306,
-                    "y": 10.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 307,
-                    "y": 58.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 7386
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362615,
-            "template": false,
-            "spec": "clear",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1053
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362617,
-            "template": false,
-            "spec": "draw",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2273
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "к"
-        },
-        "timeDelta": 2110
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къ"
-        },
-        "timeDelta": 1033
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къш"
-        },
-        "timeDelta": 4512
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къшт"
-        },
-        "timeDelta": 2313
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къшта"
-        },
-        "timeDelta": 45
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "къшта"
-        },
-        "timeDelta": 3239
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362617,
-            "template": false,
-            "spec": "draw",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 5868
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "к"
-        },
-        "timeDelta": 1191
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къ"
-        },
-        "timeDelta": 294
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къщ"
-        },
-        "timeDelta": 906
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къща"
-        },
-        "timeDelta": 84
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "къща"
-        },
-        "timeDelta": 2321
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 307,
-                    "y": 58.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 293,
-                    "y": 244.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 7512
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 293,
-                    "y": 244.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 306,
-                    "y": 194.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 20218
-    },
-    {
-        "type": "inputSlotEdit",
-        "data": {
-            "id": {
-                "selector": "setColor",
-                "id": 306575,
-                "template": false,
-                "spec": "set pen color to %clr",
-                "argIndex": 0,
-                "argType": "object",
-                "objType": "Object"
-            },
-            "color": {
-                "r": 14,
-                "g": 255,
-                "b": 122,
-                "a": 1,
-                "objType": "Color"
-            },
-            "value": {
-                "r": 14,
-                "g": 255,
-                "b": 122,
-                "a": 1,
-                "objType": "Color"
-            }
-        },
-        "timeDelta": 2691
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "setColor",
-            "id": 306575,
-            "template": false,
-            "spec": "set pen color to %clr",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 6858
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 306,
-                    "y": 194.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 311,
-                    "y": 239.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 2400
-    },
-    {
-        "type": "inputSlotEdit",
-        "data": {
-            "id": {
-                "selector": "setSize",
-                "id": 306588,
-                "template": false,
-                "spec": "set pen size to %n",
-                "argIndex": 0,
-                "argType": "object",
-                "objType": "Object"
-            },
-            "text": "3",
-            "value": "3"
-        },
-        "timeDelta": 3088
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "setSize",
-            "id": 306588,
-            "template": false,
-            "spec": "set pen size to %n",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 95
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 311,
-                    "y": 239.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 308,
-                    "y": 284.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 2584
-    },
-    {
-        "type": "inputSlotEdit",
-        "data": {
-            "id": {
-                "selector": "doSetVar",
-                "id": 363201,
-                "template": false,
-                "spec": "set %var to %s",
-                "argIndex": 1,
-                "argType": "object",
-                "objType": "Object"
-            },
-            "text": "30",
-            "value": "30"
-        },
-        "timeDelta": 3984
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doSetVar",
-            "id": 363201,
-            "template": false,
-            "spec": "set %var to %s",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 128
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362615,
-            "template": false,
-            "spec": "clear",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3264
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 308,
-                    "y": 284.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 314,
-                    "y": 55.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 3298
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362617,
-            "template": false,
-            "spec": "draw",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 470
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "к"
-        },
-        "timeDelta": 1390
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къ"
-        },
-        "timeDelta": 462
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къщ"
-        },
-        "timeDelta": 1327
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "къща"
-        },
-        "timeDelta": 112
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "къща"
-        },
-        "timeDelta": 1357
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 4,
-            "indexv": 0
-        },
-        "timeDelta": 7000
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": true
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 999,
-                "y": 291,
-                "objType": "Point"
-            }
-        },
-        "timeDelta": 11353
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false
-        },
-        "timeDelta": 7229
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": false
-        },
-        "timeDelta": 1
+        "timeDelta": 5597
     },
     {
         "type": "slideChanged",
@@ -1768,68 +1624,12 @@
             "indexh": 5,
             "indexv": 0
         },
-        "timeDelta": 500
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 314,
-                    "y": 55.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 42,
-                    "y": 445.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 4120
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362615,
-            "template": false,
-            "spec": "clear",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3760
+        "timeDelta": 2000
     },
     {
         "type": "videoPause",
         "data": {},
-        "timeDelta": 16400
+        "timeDelta": 33234
     },
     {
         "type": "slideChanged",
@@ -1838,12 +1638,26 @@
             "indexh": 6,
             "indexv": 0
         },
-        "timeDelta": 1
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 10000
     },
     {
         "type": "videoPause",
         "data": {},
-        "timeDelta": 8842
+        "timeDelta": 5191
     },
     {
         "type": "slideChanged",
@@ -1852,1907 +1666,14 @@
             "indexh": 7,
             "indexv": 0
         },
-        "timeDelta": 1
+        "timeDelta": 4000
     },
     {
-        "type": "run",
+        "type": "slidesToggled",
         "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362615,
-            "template": false,
-            "spec": "clear",
-            "message": "Block.clickRun"
+            "value": true
         },
-        "timeDelta": 17027
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362587,
-            "template": false,
-            "spec": "pen down",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3735
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 950
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362616,
-            "template": false,
-            "spec": "save",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1707
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "д"
-        },
-        "timeDelta": 1925
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дъ"
-        },
-        "timeDelta": 215
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дър"
-        },
-        "timeDelta": 206
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дърв"
-        },
-        "timeDelta": 465
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дърво"
-        },
-        "timeDelta": 87
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "дърво"
-        },
-        "timeDelta": 994
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362586,
-            "template": false,
-            "spec": "pen up",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3756
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362586,
-            "template": false,
-            "spec": "pen up",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1425
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2079
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 464
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 217
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2303
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 449
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2456
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 192
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362585,
-            "template": false,
-            "spec": "turn left",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 273
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362617,
-            "template": false,
-            "spec": "draw",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3048
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "д"
-        },
-        "timeDelta": 1193
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дъ"
-        },
-        "timeDelta": 439
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дър"
-        },
-        "timeDelta": 258
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дърв"
-        },
-        "timeDelta": 454
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дърва"
-        },
-        "timeDelta": 97
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дърв"
-        },
-        "timeDelta": 945
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "дърво"
-        },
-        "timeDelta": 304
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362587,
-            "template": false,
-            "spec": "pen down",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3460
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362587,
-            "template": false,
-            "spec": "pen down",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 617
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "дърво"
-        },
-        "timeDelta": 2354
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 29,
-                    "y": 458.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 305,
-                    "y": 195.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 13784
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 305,
-                    "y": 195.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 306,
-                    "y": 238.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 2527
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 306,
-                    "y": 238.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 308,
-                    "y": 285.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 2274
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "reifyReporter",
-                "id": 362002,
-                "template": false,
-                "spec": "%rr %ringparms",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 308,
-                    "y": 285.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Turtle",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 42,
-                    "y": 432.5,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 1406
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362615,
-            "template": false,
-            "spec": "clear",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 5000
-    },
-    {
-        "type": "videoPause",
-        "data": {},
-        "timeDelta": 3721
+        "timeDelta": 0
     },
     {
         "type": "slideChanged",
@@ -3761,616 +1682,7 @@
             "indexh": 8,
             "indexv": 0
         },
-        "timeDelta": 1
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 16317
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 688
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1112
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 608
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 176
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 208
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 432
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 537
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 951
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 928
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362583,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1160
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1408
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 176
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 184
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 176
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 196
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362616,
-            "template": false,
-            "spec": "save",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1964
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "в"
-        },
-        "timeDelta": 1727
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "ве"
-        },
-        "timeDelta": 78
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "вен"
-        },
-        "timeDelta": 312
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венч"
-        },
-        "timeDelta": 244
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венче"
-        },
-        "timeDelta": 116
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчел"
-        },
-        "timeDelta": 276
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчели"
-        },
-        "timeDelta": 88
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчелис"
-        },
-        "timeDelta": 81
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 249
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 1372
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2098
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 258
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362617,
-            "template": false,
-            "spec": "draw",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3013
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "в"
-        },
-        "timeDelta": 1763
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "ве"
-        },
-        "timeDelta": 88
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "вен"
-        },
-        "timeDelta": 309
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венч"
-        },
-        "timeDelta": 281
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венче"
-        },
-        "timeDelta": 91
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчел"
-        },
-        "timeDelta": 155
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчели"
-        },
-        "timeDelta": 72
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчелис"
-        },
-        "timeDelta": 140
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 226
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 358
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2062
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 288
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362617,
-            "template": false,
-            "spec": "draw",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2569
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "в"
-        },
-        "timeDelta": 861
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "ве"
-        },
-        "timeDelta": 93
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "вен"
-        },
-        "timeDelta": 143
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венч"
-        },
-        "timeDelta": 236
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венче"
-        },
-        "timeDelta": 140
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчел"
-        },
-        "timeDelta": 67
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчели"
-        },
-        "timeDelta": 90
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчелис"
-        },
-        "timeDelta": 131
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 204
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 418
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2065
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 183
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362617,
-            "template": false,
-            "spec": "draw",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 176
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362617,
-            "template": false,
-            "spec": "draw",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362584,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 195
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 362617,
-            "template": false,
-            "spec": "draw",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "inputPromptEdited",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "inputPromptAccept",
-        "data": {
-            "value": "венчелистче"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "videoPause",
-        "data": {},
-        "timeDelta": 6897
+        "timeDelta": 5000
     },
     {
         "type": "slideChanged",
@@ -4379,26 +1691,7 @@
             "indexh": 9,
             "indexv": 0
         },
-        "timeDelta": 1
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": true
-        },
-        "timeDelta": 1246
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": false
-        },
-        "timeDelta": 12000
-    },
-    {
-        "type": "videoPause",
-        "data": {},
-        "timeDelta": 1672
+        "timeDelta": 8000
     },
     {
         "type": "slideChanged",
@@ -4407,139 +1700,13 @@
             "indexh": 10,
             "indexv": 0
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": false
-        },
-        "timeDelta": 11500
-    },
-    {
-        "type": "videoPause",
-        "data": {},
-        "timeDelta": 135
+        "timeDelta": 8000
     },
     {
         "type": "slideChanged",
         "data": {
             "id": "",
-            "indexh": 11,
-            "indexv": 0
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 12,
-            "indexv": 0
-        },
-        "timeDelta": 3000
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": false
-        },
-        "timeDelta": 12350
-    },
-    {
-        "type": "videoPause",
-        "data": {},
-        "timeDelta": 0
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 13,
-            "indexv": 0
-        },
-        "timeDelta": 450
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 14,
-            "indexv": 0
-        },
-        "timeDelta": 13311
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": false
-        },
-        "timeDelta": 11000
-    },
-    {
-        "type": "videoPause",
-        "data": {},
-        "timeDelta": 0
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 15,
-            "indexv": 0
-        },
-        "timeDelta": 0
-    },    {
-        "type": "slidesToggled",
-        "data": {
-            "value": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 16,
-            "indexv": 0
-        },
-        "timeDelta": 3355
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 17,
-            "indexv": 0
-        },
-        "timeDelta": 11201
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 18,
+            "indexh": 4,
             "indexv": 0
         },
         "timeDelta": 16000
@@ -4548,9 +1715,9 @@
         "type": "slideChanged",
         "data": {
             "id": "",
-            "indexh": 19,
+            "indexh": 11,
             "indexv": 0
         },
-        "timeDelta": 20000
+        "timeDelta": 5000
     }
 ]
