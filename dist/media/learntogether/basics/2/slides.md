@@ -3,77 +3,64 @@
 <div><img src="img/tsvetelin.png" alt="tsvetelin" style="width:100px;"/> Цветелин Андреев</div>
 
 ---
+# Преговор
+
+<img src="img/previous/fw.png" alt="Forward">
+<img src="img/previous/tr.png" alt="Turn Right" >
+<img src="img/previous/tl.png" alt="Turn Left" >
+<img src="img/previous/pd.png" alt="Pen down" >
+<img src="img/previous/pu.png" alt="Pen up" >
+
+---
 ## Цел на урока
 
-* Да се запознаем с Костенурката.
-* Да я накараме да рисува картини.
-
-<img src="img/seaturtle.svg" alt="turtle" style="width:300px; transform: rotate(-90deg);"/>
-
----
-# Основни команди
+* Да сменяме цвета и дебелината на молива.
+* Да променяме стъпката на костенурката.
+* Да нарисуваме градина с цветя и мозайка.
 
 ---
-# Демонстрация КЪЩА
+# Палитрата на костенурката
 
 ---
-<img src="img/savestage.png" alt="Save stage" style="width:100%">
+# Демонстрация
 
 ---
 ## Задача 1
-
-**Накарайте костенурката да рисува и други картини**
+# Нарисувайте цвете
 
 ---
 ## Задача 2
 
-**Нарисувайте първата буква от името си**
+**Превърнете се в градинари и нарисувайте цветна градина с различни видове цветя. Например хризантеми, лилии, маргаритки.**
+
+<img src="img/assignment2_flowers.png" alt="Flowers">
 
 ---
 ## Задача 3
 
-**Нарисувайте дърво. Нарисувайте гора**
+**Изрисувайте следната фигура:**
+<img src="img/assignment3_detail.png" alt="Assignment 7. Model">
+
+---
+## Задача 3
+
+**Използвайте я за да нарисувате:**
+<img src="img/assignment3_task.png" alt="Assignment 7. Task">
 
 ---
 ## Задача 4
 
-**Нарисувайте цвете**
+**Накарайте костенурката да нарисува следната фигура:**
+<img src="img/assignment4_task.png" alt="Assignment 8">
+
+---
+## Мозайки
+<img src="img/assignment5_mosaic.jpeg" alt="Mosaic" style="height: 500px">
 
 ---
 ## Задача 5
 
-**Изрисувайте следната фигура:**
-<img src="img/assignment5_detail.png" alt="Assignment 7. Model" style="width: 100px">
-
-**Използвайте я за да нарисувате:**
-<img src="img/assignment5_task.png" alt="Assignment 7. Task">
-
----
-## Задача 6
-
-**Накарайте костенурката да нарисува следната фигура:**
-<img src="img/assignment6_task.png" alt="Assignment 8">
-
----
-# Бъдете любознателни
-
----
-## Задача 7
-
-**Превърнете се в градинари и нарисувайте цветна градина с различни видове цветя. Например хризантеми, лилии, маргаритки.**
-
-**По какво си приличат и различават?**
-
-<img src="img/assignment7_flowers.png" alt="Flowers">
-
----
-## Мозайки
-<img src="img/assignment8_mosaic.jpeg" alt="Mosaic" style="height: 500px">
-
----
-## Задача 8
-
-**Нарисувайте мозайка**
+**Нарисувайте модел на мозайка**
 
 <font size="5">
 
@@ -91,9 +78,7 @@ _Упътване:_
 # От участниците
 
 ---
-<img src="img/participants/1.png" alt="From the participants">
-
-Небе и трева. Вяра (5 г.)
+# НЯМА :(
 
 ---
 ## Изпратете вашите най-красиви рисунки 
@@ -104,11 +89,9 @@ _Упътване:_
 ---
 # Обобщение
 
-
-* Припомнете си какво правихме в този урок.
-
-* Нарисувайте това, което научихте или ви впечатли.
-
+<img src="img/retrospection/setpencolor.png" alt="set pen color">
+<img src="img/retrospection/setpensize.png" alt="set pen size" >
+<img src="img/retrospection/setstep.png" alt="set step" >
 
 ---
 # Благодаря
