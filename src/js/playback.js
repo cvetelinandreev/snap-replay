@@ -328,17 +328,10 @@ export class Playback {
         this.playingLog = null;
         this.recorder = this.snapWindow.recorder;
         if (this.snapWindow.recorder) {
-            setTimeout(() => {
-                this.snapWindow.recorder.constructor.setRecordScale(this.script.config.blockScale);
- 
-                setTimeout(() => {
-                    this.snapWindow.recorder.constructor.setLanguage(this.script.config.language);
+            this.snapWindow.recorder.constructor.setRecordScale(this.script.config.blockScale);
+            this.snapWindow.recorder.constructor.setLanguage(this.script.config.language, 
+                () => this.snapWindow.recorder.constructor.resetSnap(this.script.startXML));
 
-                    setTimeout(() => {
-                        this.snapWindow.recorder.constructor.resetSnap(this.script.startXML);
-                    }, 1000);    
-                }, 1000);    
-            }, 1000);
             this.recorder.constructor.setOnClickCallback(
                 (x, y) => this.clickHighlight.trigger(x, y));
         }
