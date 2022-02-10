@@ -14,6 +14,7 @@ export class Script {
         this.words = words;
         this.config = {
             blockScale: 1,
+            lang: 'en'
         }
         if (scriptYAML) {
             let script = YAML.parse(scriptYAML);
@@ -37,9 +38,13 @@ export class Script {
     addLogs(logs) {
         let time = 0;
         logs.forEach((log, index) => {
-            // console.log(log);
+            console.log(log);
             if (log.type === 'setBlockScale') {
                 this.config.blockScale = log.data.scale;
+                return;
+            }
+            if (log.type === 'setLanguage') {
+                this.config.lang = log.data.lang;
                 return;
             }
             time += log.timeDelta / 1000;

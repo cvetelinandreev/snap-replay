@@ -13,7 +13,7 @@ window.Trace = {
 
 export class Playback {
 
-    static DB_LOG = true;
+    static DB_LOG = false;
 
     // 0 because we do this in the script itself now
     static BUFFER_MS = 0;
@@ -329,7 +329,17 @@ export class Playback {
         this.recorder = this.snapWindow.recorder;
         if (this.snapWindow.recorder) {
             this.recorder.constructor.setRecordScale(this.script.config.blockScale);
-            this.recorder.constructor.resetSnap(this.script.startXML);
+
+            let configLang = this.script.config.lang;
+            let currentLang = this.snapWindow.ide.userLanguage;
+
+            if (currentLang === null && configLang === 'en'
+                || currentLang === configLang) {
+                this.recorder.constructor.resetSnap(this.script.startXML);
+            } else {
+                this.recorder.constructor.setLanguage(this.script.config.lang, () =>
+                    this.recorder.constructor.resetSnap(this.script.startXML));
+            }
             this.recorder.constructor.setOnClickCallback(
                 (x, y) => this.clickHighlight.trigger(x, y));
         }
