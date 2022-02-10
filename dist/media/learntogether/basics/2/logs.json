@@ -1,0 +1,1441 @@
+[
+    {
+        "type": "setBlockScale",
+        "data": {
+            "scale": 1.5
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "setLanguage",
+        "data": {
+            "lang": "bg"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 1,
+            "indexv": 0
+        },
+        "timeDelta": 6221
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 2,
+            "indexv": 0
+        },
+        "timeDelta": 13591
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 3,
+            "indexv": 0
+        },
+        "timeDelta": 15099
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 3862
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 4,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 18,
+            "highlight": false
+        },
+        "timeDelta": 3751
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "setColor",
+                "id": 381530,
+                "template": false,
+                "spec": "избери молив с цвят %clr",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 162.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 160.5,
+                    "y": 142.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2409
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setColor",
+            "id": 381530,
+            "template": false,
+            "spec": "избери молив с цвят %clr",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 11542
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381419,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 784
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 360
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "setColor",
+                "id": 381530,
+                "template": false,
+                "spec": "избери молив с цвят %clr",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "color": {
+                "r": 54,
+                "g": 255,
+                "b": 95,
+                "a": 1,
+                "objType": "Color"
+            },
+            "value": {
+                "r": 54,
+                "g": 255,
+                "b": 95,
+                "a": 1,
+                "objType": "Color"
+            }
+        },
+        "timeDelta": 9221
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setColor",
+            "id": 381530,
+            "template": false,
+            "spec": "избери молив с цвят %clr",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 5014
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2168
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 457
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381419,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3991
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "setSize",
+                "id": 381539,
+                "template": false,
+                "spec": "избери молив с размер %n",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 368,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 162.5,
+                    "y": 205,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 3907
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "setSize",
+                "id": 381539,
+                "template": false,
+                "spec": "избери молив с размер %n",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "5",
+            "value": "5"
+        },
+        "timeDelta": 18831
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setSize",
+            "id": 381539,
+            "template": false,
+            "spec": "избери молив с размер %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1406
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1537
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 399
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 345
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381419,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 5280
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "variables",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 869
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381546,
+                "template": false,
+                "spec": "направи стъпки на %n",
+                "guid": "bd0e88e8-bab5-4cdf-bc2c-c0dc98e95409",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 2287.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 163.5,
+                    "y": 268.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 3187
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381546,
+                "template": false,
+                "spec": "направи стъпки на %n",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "20",
+            "value": "20"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381546,
+                "template": false,
+                "spec": "направи стъпки на %n",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "100",
+            "value": "100"
+        },
+        "timeDelta": 16204
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381546,
+            "template": false,
+            "spec": "направи стъпки на %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 72
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381546,
+            "template": false,
+            "spec": "направи стъпки на %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 512
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1416
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381419,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 18632
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "setColor",
+                "id": 381530,
+                "template": false,
+                "spec": "избери молив с цвят %clr",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "color": {
+                "r": 255,
+                "g": 203,
+                "b": 5,
+                "a": 1,
+                "objType": "Color"
+            },
+            "value": {
+                "r": 255,
+                "g": 203,
+                "b": 5,
+                "a": 1,
+                "objType": "Color"
+            }
+        },
+        "timeDelta": 3808
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setColor",
+            "id": 381530,
+            "template": false,
+            "spec": "избери молив с цвят %clr",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381546,
+                "template": false,
+                "spec": "направи стъпки на %n",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "10",
+            "value": "10"
+        },
+        "timeDelta": 5022
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381546,
+            "template": false,
+            "spec": "направи стъпки на %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 78
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "setSize",
+                "id": 381539,
+                "template": false,
+                "spec": "избери молив с размер %n",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "1",
+            "value": "1"
+        },
+        "timeDelta": 4954
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setSize",
+            "id": 381539,
+            "template": false,
+            "spec": "избери молив с размер %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 86
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381423,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къща",
+            "value": "къща"
+        },
+        "timeDelta": 8849
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381423,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2671
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "setColor",
+                "id": 381530,
+                "template": false,
+                "spec": "избери молив с цвят %clr",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "color": {
+                "r": 126,
+                "g": 255,
+                "b": 135,
+                "a": 1,
+                "objType": "Color"
+            },
+            "value": {
+                "r": 126,
+                "g": 255,
+                "b": 135,
+                "a": 1,
+                "objType": "Color"
+            }
+        },
+        "timeDelta": 9779
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "setSize",
+                "id": 381539,
+                "template": false,
+                "spec": "избери молив с размер %n",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "3",
+            "value": "3"
+        },
+        "timeDelta": 3430
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setSize",
+            "id": 381539,
+            "template": false,
+            "spec": "избери молив с размер %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 87
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381546,
+                "template": false,
+                "spec": "направи стъпки на %n",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "20",
+            "value": "20"
+        },
+        "timeDelta": 5834
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setColor",
+            "id": 381530,
+            "template": false,
+            "spec": "избери молив с цвят %clr",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1143
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setSize",
+            "id": 381539,
+            "template": false,
+            "spec": "избери молив с размер %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 456
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381546,
+            "template": false,
+            "spec": "направи стъпки на %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 615
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381423,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1097
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "setColor",
+                "id": 381530,
+                "template": false,
+                "spec": "избери молив с цвят %clr",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "color": {
+                "r": 255,
+                "g": 14,
+                "b": 243,
+                "a": 1,
+                "objType": "Color"
+            },
+            "value": {
+                "r": 255,
+                "g": 14,
+                "b": 243,
+                "a": 1,
+                "objType": "Color"
+            }
+        },
+        "timeDelta": 4273
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setColor",
+            "id": 381530,
+            "template": false,
+            "spec": "избери молив с цвят %clr",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1063
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "setSize",
+                "id": 381539,
+                "template": false,
+                "spec": "избери молив с размер %n",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "5",
+            "value": "5"
+        },
+        "timeDelta": 2769
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "setSize",
+            "id": 381539,
+            "template": false,
+            "spec": "избери молив с размер %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 111
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381546,
+                "template": false,
+                "spec": "направи стъпки на %n",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "30",
+            "value": "30"
+        },
+        "timeDelta": 3105
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381546,
+            "template": false,
+            "spec": "направи стъпки на %n",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 87
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381423,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1792
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 5,
+            "indexv": 0
+        },
+        "timeDelta": 8024
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381419,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 7385
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1415
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 624
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 904
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 192
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 192
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 304
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 440
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 548
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 968
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381415,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 968
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1692
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 192
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 256
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 248
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 512
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381422,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "венчелистче",
+            "value": "венчелистче"
+        },
+        "timeDelta": 8647
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381422,
+            "template": false,
+            "spec": "запомни %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1102
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 6471
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 496
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381422,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "венчелистче",
+            "value": "венчелистче"
+        },
+        "timeDelta": 4746
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381423,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "венчелистче",
+            "value": "венчелистче"
+        },
+        "timeDelta": 1127
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381423,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 103
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2017
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 192
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381423,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1088
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1368
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 208
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381423,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 832
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1240
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 208
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381423,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1008
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1832
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381416,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 201
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381423,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 959
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 11307
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 6,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 20000
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 8682
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 7,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 8,
+            "indexv": 0
+        },
+        "timeDelta": 6000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 5850
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 9,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 12600
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 10,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 11,
+            "indexv": 0
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 11500
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 12,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 13,
+            "indexv": 0
+        },
+        "timeDelta": 7000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 14,
+            "indexv": 0
+        },
+        "timeDelta": 4000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 15,
+            "indexv": 0
+        },
+        "timeDelta": 17000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 16,
+            "indexv": 0
+        },
+        "timeDelta": 20000
+    }
+]

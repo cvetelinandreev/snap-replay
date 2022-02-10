@@ -1,0 +1,1723 @@
+[
+    {
+        "type": "setBlockScale",
+        "data": {
+            "scale": 1.5
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "setLanguage",
+        "data": {
+            "lang": "bg"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 1,
+            "indexv": 0
+        },
+        "timeDelta": 7000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 9000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 2,
+            "indexv": 0
+        },
+        "timeDelta": 11000
+    },
+    {
+        "type": "run",
+        "data": {
+            "message": "IDE.greenFlag"
+        },
+        "timeDelta": 3265
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381435,
+                "template": false,
+                "spec": "напред",
+                "guid": "acdfa19e-1ea9-4094-9ae9-cacfef57bd61",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 742,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 42.5,
+                    "y": 42.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 1879
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 9429
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381438,
+                "template": false,
+                "spec": "надясно",
+                "guid": "d02322f8-a9b0-4184-89d2-cda2b05f1903",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 776.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 38.5,
+                    "y": 99,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 3346
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3668
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381439,
+                "template": false,
+                "spec": "наляво",
+                "guid": "87198f60-1a20-4b91-aca4-c8f9087b1149",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 811,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 36.5,
+                    "y": 158.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 3350
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3668
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "pen",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 4225
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381442,
+                "template": false,
+                "spec": "без следа",
+                "guid": "149ff6b7-cbcc-4aee-825d-492f6d918a53",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 767.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 32.5,
+                    "y": 216,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2786
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381442,
+            "template": false,
+            "spec": "без следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 4029
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3225
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 528
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381451,
+                "template": false,
+                "spec": "със следа",
+                "guid": "85a78fe5-25aa-4bb7-be28-1383e794ef64",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 802,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 26.5,
+                    "y": 278.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2950
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381451,
+            "template": false,
+            "spec": "със следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3230
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 936
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 343
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "motion",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 1505
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381458,
+                "template": false,
+                "spec": "отмени",
+                "guid": "11cbb52f-1eb0-445d-a90d-6e746ab14515",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 845.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 265.5,
+                    "y": 36,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2412
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381458,
+            "template": false,
+            "spec": "отмени",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2684
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381458,
+            "template": false,
+            "spec": "отмени",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 936
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "pen",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 1608
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381459,
+                "template": false,
+                "spec": "изчисти",
+                "guid": "de3b578f-0285-4d4a-878f-40306820300a",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 733,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 255.5,
+                    "y": 100.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2443
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381459,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 6261
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "variables",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 1561
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "guid": "ad26e989-9872-4d89-ad4d-3b1048f7a22f",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 1431,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 252.5,
+                    "y": 169.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 1937
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "guid": "155f939a-cde2-4223-9d52-f0a7f8002865",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 1471.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 252.5,
+                    "y": 230,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2390
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 3,
+            "indexv": 0
+        },
+        "timeDelta": 14120
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 233
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 479
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1001
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 184
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 320
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 832
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 184
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 295
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 864
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 193
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 264
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1120
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 288
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1128
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 192
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 256
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1056
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 184
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1064
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 192
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 376
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2481
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 199
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 368
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1104
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1432
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 227
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 373
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1145
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 207
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 281
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381438,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 383
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1120
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 384
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "к",
+            "value": "к"
+        },
+        "timeDelta": 14154
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къ",
+            "value": "къ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къщ",
+            "value": "къщ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381460,
+                "template": false,
+                "spec": "запомни %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къща",
+            "value": "къща"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381460,
+            "template": false,
+            "spec": "запомни %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3174
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381459,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 6249
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "к",
+            "value": "к"
+        },
+        "timeDelta": 10584
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къ",
+            "value": "къ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къщ",
+            "value": "къщ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къща",
+            "value": "къща"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381461,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3343
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "к",
+            "value": "к"
+        },
+        "timeDelta": 13938
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къ",
+            "value": "къ"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къш",
+            "value": "къш"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къшт",
+            "value": "къшт"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къшта",
+            "value": "къшта"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381461,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 7255
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381442,
+            "template": false,
+            "spec": "без следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3500
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381451,
+            "template": false,
+            "spec": "със следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 381461,
+                "template": false,
+                "spec": "нарисувай %txt",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "къща",
+            "value": "къща"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381461,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381442,
+            "template": false,
+            "spec": "без следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1500
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381435,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381439,
+            "template": false,
+            "spec": "наляво",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381451,
+            "template": false,
+            "spec": "със следа",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381461,
+            "template": false,
+            "spec": "нарисувай %txt",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 300
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 4,
+            "indexv": 0
+        },
+        "timeDelta": 5000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381459,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 5597
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 5,
+            "indexv": 0
+        },
+        "timeDelta": 2000
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 33234
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 6,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 5191
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 7,
+            "indexv": 0
+        },
+        "timeDelta": 4000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 8,
+            "indexv": 0
+        },
+        "timeDelta": 5000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 9,
+            "indexv": 0
+        },
+        "timeDelta": 8000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 10,
+            "indexv": 0
+        },
+        "timeDelta": 8000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 4,
+            "indexv": 0
+        },
+        "timeDelta": 16000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 11,
+            "indexv": 0
+        },
+        "timeDelta": 5000
+    }
+]

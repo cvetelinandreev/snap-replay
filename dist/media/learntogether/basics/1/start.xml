@@ -1,0 +1,1264 @@
+<project name="Урок №1 КОСТЕНУРКАТА РИСУВА. Програма Художник" app="iSnap 3.0, http://go.ncsu.edu/isnap" version="1" guid="6211d7bf-f197-4476-b50b-2619463bc6f3" assignment="">
+    <data>{}</data>
+    <notes></notes>
+    <thumbnail>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAB4CAYAAAB1ovlvAAAAAXNSR0IArs4c6QAABFpJREFUeF7t1suLjQEYx/HfmasxhpnBuMyIGSQpNI2iZCFF2djIZWnFzt6foJSUjSiWbJTEajIpUi65LiiXkHE/LjNnLmccjbI/8+upZ3G+Z/0+z1Of91vnLVQqlYr4IZAkUCDAJHnO/hMgQEJIFSDAVH6OEyANpAoQYCo/xwmQBlIFCDCVn+MESAOpAgSYys9xAqSBVAECTOXnOAHSQKoAAabyc5wAaSBVgABT+TlOgDSQKkCAqfwcJ0AaSBUgwFR+jhMgDaQKEGAqP8cJkAZSBQgwlZ/jBEgDqQIEmMrPcQKkgVQBAkzl5zgB0kCqAAGm8nOcAGkgVYAAU/k5ToA0kCpAgKn8HCdAGkgVIMBUfo4TIA2kChBgKj/HCZAGUgUIMJWf4wRIA6kCBJjKz3ECpIFUAQJM5ec4AdJAqgABpvJznABpIFWAAFP5OU6ANJAqQICp/BwnQBpIFSDAVH6OEyANpAoQYCo/xwnQbKBSqejl1wf6URrRhp7Nqi80mptqe4wAzfdfLL3Txftn1NLUoJ1r96trzmpzU22PEaD5/v9Uyrr9+rxam9u1fske1RXqzU21PUaAxvuf/vs9PXhZl+5e1dKOTh3bfVjruvuMTYwQ4AwbmI7vysObGnpxWW+/jurLr3EtaW/T0V3b1NvZr/mtvSqoMMOttfs4Ac7g3Y+Vf+rZx+s6cW1In36UNKelQQ11depobdTKRXPV39uhnnkbtKZrBxFW6UqAVUJN/ZnUnbcXVJ4a19Cz32puKmq4OKaJqSl1t7do1cLtGuibq9JkUX2dWzSrcV6Vm2v7MQKs8v0XS+/1a/yTFret1bVH93Rq8Kzq6wpavmC2nn8Y1cUjx7WwrbPKbTz2X4AAjRamvwNPDh7XuRtPtXFFu3av36p9m/YamxghQKOBifKIbr05q/7uQ/o++kqfRx5rYNlBYxMjBGg0MDb5U4+Hr2ig54DGy7/1ZPiqBpYdMDYxQoBmA9Pfg23NXf+mRye+aXYT338OJQE6asyECRBgGCWLHAECdNSYCRMgwDBKFjkCBOioMRMmQIBhlCxyBAjQUWMmTIAAwyhZ5AgQoKPGTJgAAYZRssgRIEBHjZkwAQIMo2SRI0CAjhozYQIEGEbJIkeAAB01ZsIECDCMkkWOAAE6asyECRBgGCWLHAECdNSYCRMgwDBKFjkCBOioMRMmQIBhlCxyBAjQUWMmTIAAwyhZ5AgQoKPGTJgAAYZRssgRIEBHjZkwAQIMo2SRI0CAjhozYQIEGEbJIkeAAB01ZsIECDCMkkWOAAE6asyECRBgGCWLHAECdNSYCRMgwDBKFjkCBOioMRMmQIBhlCxyBAjQUWMmTIAAwyhZ5AgQoKPGTJgAAYZRssgRIEBHjZkwAQIMo2SRI0CAjhozYQIEGEbJIkeAAB01ZsIECDCMkkWOAAE6asyECRBgGCWLHAECdNSYCRMgwDBKFjkCBOioMRMmQIBhlCxyBP4CH+Zjt00cuocAAAAASUVORK5CYII=</thumbnail>
+    <stage name="Сцена" width="480" height="360" costume="0" color="255,255,255,1" tempo="60" threadsafe="false" penlog="false" volume="100" pan="0" lines="round" ternary="false" hyperops="true" codify="false" inheritance="true" sublistIDs="false" scheduled="false" id="1">
+        <pentrails>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAAAXNSR0IArs4c6QAADoVJREFUeF7t1cEJAAAIxDDdf2m3sJ+4wEEQuuMIECBAgACBd4F9XzRIgAABAgQIjAB7AgIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECByxcQFpoRMBzwAAAABJRU5ErkJggg==</pentrails>
+        <costumes>
+            <list struct="atomic" id="2"></list>
+        </costumes>
+        <sounds>
+            <list struct="atomic" id="3"></list>
+        </sounds>
+        <variables></variables>
+        <blocks></blocks>
+        <scripts></scripts>
+        <sprites>
+            <sprite name="Костенурка" idx="1" x="0" y="0" heading="0" scale="1" volume="100" pan="0" rotation="1" draggable="false" costume="1" color="80,80,80,1" pen="tip" id="8">
+                <costumes>
+                    <list id="9">
+                        <item>
+                            <costume name="seaturtle" center-x="16.5" center-y="16" image="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIzMy40ODYzNzQ5MTEyMTg3NiIgaGVpZ2h0PSIzMS45NDA1ODUxOTI1OTA4MjciIHZpZXdCb3g9IjYuMzMyNzExMTkxNjk4OTcgNi4zMDQzMDUwNDg1MTA0OTQgMzMuNDg2Mzc0OTExMjE4NzYgMzEuOTQwNTg1MTkyNTkwODI3Ij4KICA8IS0tIEV4cG9ydGVkIGJ5IFNjcmF0Y2ggLSBodHRwOi8vc2NyYXRjaC5taXQuZWR1LyAtLT4KICA8ZyBpZD0iSUQwLjc2NTIxMTM1NTg3MjQ1MjMiPgogICAgPGcgaWQ9InN2Z18yNzMiPgogICAgICA8cGF0aCBpZD0ic3ZnXzI3NCIgZmlsbD0iI0JCREE4QSIgZD0iTSAxOC4wNzgzIDcuMTg5OCBDIDE4LjE5NjMgNy42MzMgMTguNjMyOSA5Ljg3NjUgMjAuMTQgMTIuMzMyMyBDIDIwLjU4MDUgMTMuMDUgMjEuMTEzMiAxMy43ODY3IDIxLjc1NTcgMTQuNTAwOSBDIDE5LjQzMzUgMTQuNzMzOCAxNy4zOTE5IDE1LjY5OTcgMTUuOTUwNyAxNy4wOTY5IEMgMTMuNzkxMyAxNi4xOTc4IDguOTIwOCAxNC42MzI1IDYuMzU3MSAxNy40MzAyIEMgNi4zNTcxIDE3LjQzMDIgNi4wNjM3IDE4LjUwNzUgOC4yMjc0IDE4LjM5NyBDIDEwLjM5MTQgMTguMjg2NCA4Ljk0NjUgMTkuMzgzMSAxMC40NDQyIDE5LjU0MjcgQyAxMS41MzczIDE5LjY1OTIgMTMuMDM1NiAxOC42Mjk2IDE0LjU0MDEgMTguOTQyNyBDIDEzLjk3MDIgMTkuOTk2OCAxMy42ODI5IDIxLjE3MjIgMTMuNzU2OSAyMi4zOTUyIEMgMTMuODA2NCAyMy4yMjE2IDE0LjAxNzIgMjQuMDA2NCAxNC4zNjE5IDI0LjczMDMgQyAxMi45OTE0IDI0Ljg3MjEgMTEuNjIyNCAyNC4wNjI3IDEwLjYyNTQgMjQuMjAyNCBDIDkuMTM0IDI0LjQxMTcgMTAuNjE0MiAyNS40NTk2IDguNDQ4MSAyNS40MjEzIEMgNi4yODE2IDI1LjM4MjggNi42MTA5IDI2LjQ0OTggNi42MTA5IDI2LjQ0OTggQyA5LjA4NjcgMjguOTc2OCAxMy40Mzk1IDI3LjY0NzUgMTUuNzQyNCAyNi42NjkzIEMgMTcuNDY3OSAyOC40MDE1IDIwLjE0MDkgMjkuNDMyMyAyMy4wNzU2IDI5LjI1NTYgQyAyMy4xMjEyIDI5LjI1MjcgMjMuMTY2NSAyOS4yNDkzIDIzLjIxMTUgMjkuMjQ1OCBDIDIxLjU1NCAzMS41MTQ0IDIwLjE5NzUgMzQuNjE5NyAyMS4zMzU2IDM4LjAxNzcgQyAyMS4zMzU2IDM4LjAxNzcgMjEuMzc3NCAzOC41ODAyIDIyLjI1OTQgMzcuODkwNCBDIDIyLjYyMzkgMzcuNjA1NyAyNC41NDc5IDM2LjMyMDYgMjYuMTM1MiAzMy45MTU2IEMgMjcuMjA4OCAzMi4yODg3IDI4LjEyNzcgMzAuMTQ5IDI4LjMwNTQgMjcuNDYwMiBDIDI5Ljc0NDYgMjYuNDM1NyAzMC43OTQ1IDI1LjA0ODcgMzEuMjU1MiAyMy40ODggQyAzMS44MTIzIDIzLjM1NzMgMzIuNDkzIDIzLjQ1NjcgMzMuMjExIDI0LjE1NjcgQyAzMy45NzgyIDI1LjY4OTMgMzUuNTcyNyAyNi41ODE0IDM3LjE0NjUgMjYuMjI1MSBDIDM5LjAzNjMgMjUuNzk2OSA0MC4xNzg5IDIzLjczMTIgMzkuNjk4MyAyMS42MTEzIEMgMzkuMjE4MSAxOS40OTA3IDM3LjI5NzEgMTguMTE5MyAzNS40MDczIDE4LjU0NzMgQyAzNC41OTc5IDE4LjczMDcgMzMuOTI2NSAxOS4yMTUxIDMzLjQ2MDEgMTkuODc0NyBDIDMyLjkwNTcgMjAuMTQ5OCAzMi4wOSAyMC4zNzU4IDMxLjI2NzUgMTkuOTYwNiBDIDMwLjY0MjMgMTcuODAzNSAyOC44ODI0IDE2LjA1NTcgMjYuNTYzMyAxNS4xNDEzIEMgMjUuNjA5IDEyLjQwODMgMjMuMTYxNCA3LjE0MDggMTguMjg1OSA2LjMzMzIgQyAxOC4yODYgNi4zMzM0IDE3Ljc5MjQgNi4xMTY0IDE4LjA3ODMgNy4xODk4IFogIiBzdHJva2Utd2lkdGg9IjAuMDIyMDY5MDMzNTMzMjExNjU0Ii8+CiAgICAgIDxnIGlkPSJzdmdfMjc1Ij4KICAgICAgICA8cGF0aCBpZD0ic3ZnXzI3NiIgZmlsbD0iIzAxNjA0QSIgZD0iTSAxMy43NTY5IDIyLjM5NTQgQyAxNC4wMDI3IDI2LjQ3OTYgMTguMTc0OSAyOS41NTExIDIzLjA3NTggMjkuMjU1OCBDIDI3Ljk3NjUgMjguOTYwNyAzMS43NSAyNS40MTA2IDMxLjUwNDEgMjEuMzI2NyBDIDMxLjI1ODMgMTcuMjQyOCAyNy4wODU5IDE0LjE3MTEgMjIuMTg1MiAxNC40NjYxIEMgMTcuMjg0NCAxNC43NjE1IDEzLjUxMDUgMTguMzExNyAxMy43NTY5IDIyLjM5NTQgWiBNIDE1Ljk5MiAyNS41ODgyIEMgMTUuMTUyNiAyNC4zMTY4IDE0LjQzNTIgMjIuNzU4OSAxNi45OTE0IDIyLjYwNjMgQyAxNi45OTE0IDIyLjYwNjMgMTguODE0MSAyMi42MDM4IDE5LjAyOTggMjMuNTY4NiBDIDE5LjI0NTQgMjQuNTMzMyAxNi44MzIgMjYuODU5OSAxNS45OTIgMjUuNTg4MiBaIE0gMjAuOTI2NSAyOC41MDU0IEMgMTkuNDExNCAyOC4zNDI0IDE3Ljc1MzggMjcuOTAyMSAxOS4yNjUzIDI1LjgzNSBDIDE5LjI2NTMgMjUuODM1IDIwLjQyNSAyNC40MjkyIDIxLjMwNTkgMjQuODc3NiBDIDIyLjE4NjkgMjUuMzI2MSAyMi40NDEyIDI4LjY2ODYgMjAuOTI2NSAyOC41MDU0IFogTSAyNi45OTY1IDI3LjQ3NTkgQyAyNS43MzY0IDI4LjMzMjIgMjQuMTg3OSAyOS4wNjk3IDI0LjAwMTggMjYuNTE1NyBDIDI0LjAwMTggMjYuNTE1NyAyMy45NzU1IDI0LjY5MjkgMjQuOTM3NCAyNC40NjQ5IEMgMjUuODk5MSAyNC4yMzY1IDI4LjI1NyAyNi42MTk2IDI2Ljk5NjUgMjcuNDc1OSBaIE0gMjkuOTk1IDIxLjQzMjkgQyAzMC4xOTI2IDIyLjk0MzggMzAuMTU0MyAyNC42NTgxIDI3Ljc5IDIzLjY3NTIgQyAyNy43OSAyMy42NzUyIDI2LjE1MDQgMjIuODc4MiAyNi4zNzk2IDIxLjkxNjYgQyAyNi42MDg3IDIwLjk1NTEgMjkuNzk3MyAxOS45MjE4IDI5Ljk5NSAyMS40MzI5IFogTSAyNC43Nzc2IDIyLjk5NzcgQyAyMy40ODIyIDI0Ljg0OTggMTkuNjgwNiAyNC4yNTYzIDE5LjgzODQgMjIuNTg5NCBDIDE5Ljk5NjUgMjAuOTIyNiAyMC41MjkzIDE5LjA4MyAyMy40NDAzIDIwLjYwNzEgQyAyMy40NDAyIDIwLjYwNyAyNS45OTc4IDIxLjI1MzQgMjQuNzc3NiAyMi45OTc3IFogTSAyNi40MTU4IDE2LjQ2MTYgQyAyNy44MTgxIDE3LjA1NzYgMjkuMjc2MiAxNy45NjAyIDI3LjIyOTYgMTkuNDk5MyBDIDI3LjIyOTYgMTkuNDk5MyAyNS43MTEzIDIwLjUwNzkgMjQuOTk5MSAxOS44MjI5IEMgMjQuMjg2NSAxOS4xMzc2IDI1LjAxMzQgMTUuODY1MiAyNi40MTU4IDE2LjQ2MTYgWiBNIDIxLjAxOTMgMTUuNzQzNSBDIDIyLjUyNTMgMTUuNTEyNyAyNC4yNDA1IDE1LjUxMzYgMjMuMzA5MyAxNy44OTkgQyAyMy4zMDkzIDE3Ljg5OSAyMi41NDg4IDE5LjU1NTQgMjEuNTgyNCAxOS4zNDc1IEMgMjAuNjE2IDE5LjEzOTggMTkuNTEyOSAxNS45NzQyIDIxLjAxOTMgMTUuNzQzNSBaIE0gMTguNjg4MSAxOC41MTI3IEMgMTguNjg4MSAxOC41MTI3IDE5LjQyNiAyMC4xNzk2IDE4LjYzMDUgMjAuNzY2MSBDIDE3LjgzNDkgMjEuMzUyOCAxNC43MzI1IDIwLjA4MzMgMTUuNTU2NiAxOC44MDIgQyAxNi4zODEgMTcuNTIwMiAxNy41MTcgMTYuMjM1OCAxOC42ODgxIDE4LjUxMjcgWiAiIHN0cm9rZS13aWR0aD0iMC4wMjIwNjkwMzM1MzMyMTE2NTQiLz4KICAgICAgICA8cGF0aCBpZD0ic3ZnXzI3NyIgZmlsbD0iIzAxNjA0QSIgZD0iTSAzNi44MzczIDIyLjI4NiBDIDM3LjMxNTcgMjIuMzAwNiAzNy43MTYxIDIyLjA0NjMgMzcuNzMwNiAyMS43MTc2IEMgMzcuNzQ0NyAyMS4zOTAyIDM3LjM2OTIgMjEuMTExOCAzNi44OTEgMjEuMDk2NyBDIDM2LjQxMjIgMjEuMDgyNyAzNi4wMTI1IDIxLjMzNjUgMzUuOTk3NyAyMS42NjUyIEMgMzUuOTgyNyAyMS45OTMyIDM2LjM1OTQgMjIuMjcxMSAzNi44MzczIDIyLjI4NiBaICIgc3Ryb2tlLXdpZHRoPSIwLjAyMjA2OTAzMzUzMzIxMTY1NCIvPgogICAgICAgIDxwYXRoIGlkPSJzdmdfMjc4IiBmaWxsPSIjMDE2MDRBIiBkPSJNIDM2Ljk3MzcgMjQuMTQzOSBDIDM3LjQyNTQgMjQuMDQ2NyAzNy43MzgxIDIzLjcxMjkgMzcuNjcxIDIzLjM5OTEgQyAzNy42MDMxIDIzLjA4NTIgMzcuMTgxNCAyMi45MDk3IDM2LjcyOTMgMjMuMDA3MyBDIDM2LjI3NTkgMjMuMTA0NyAzNS45NjQxIDIzLjQzODYgMzYuMDMxNSAyMy43NTE5IEMgMzYuMDk5MyAyNC4wNjU4IDM2LjUyMDUgMjQuMjQxNiAzNi45NzM3IDI0LjE0MzkgWiAiIHN0cm9rZS13aWR0aD0iMC4wMjIwNjkwMzM1MzMyMTE2NTQiLz4KICAgICAgICA8cGF0aCBpZD0ic3ZnXzI3OSIgZmlsbD0iIzAxNjA0QSIgZD0iTSAzOC45NjExIDIyLjQ0MjUgQyAzOS4wODY3IDIyLjUyNCAzOS4yMzM2IDIyLjUxNzkgMzkuMjg5IDIyLjQyODMgQyAzOS4zNDQzIDIyLjMzODggMzkuMjg3NCAyMi4yIDM5LjE2MTkgMjIuMTE4MyBDIDM5LjAzNTkgMjIuMDM2OCAzOC44ODkzIDIyLjA0MzMgMzguODMzNyAyMi4xMzI5IEMgMzguNzc4NSAyMi4yMjIzIDM4LjgzNTkgMjIuMzYxIDM4Ljk2MTEgMjIuNDQyNSBaICIgc3Ryb2tlLXdpZHRoPSIwLjAyMjA2OTAzMzUzMzIxMTY1NCIvPgogICAgICAgIDxwYXRoIGlkPSJzdmdfMjgwIiBmaWxsPSIjMDE2MDRBIiBkPSJNIDM4Ljk4NzQgMjMuMzAyNyBDIDM5LjE2MjcgMjMuMjc1OCAzOS4yOTA3IDIzLjE2MzkgMzkuMjczMyAyMy4wNTM3IEMgMzkuMjU1OSAyMi45NDMxIDM5LjA5OTYgMjIuODc1NSAzOC45MjQ0IDIyLjkwMjkgQyAzOC43NDkzIDIyLjkyOTYgMzguNjIxMyAyMy4wNDEyIDM4LjYzODYgMjMuMTUxOSBDIDM4LjY1NjUgMjMuMjYyMSAzOC44MTIyIDIzLjMyOTkgMzguOTg3NCAyMy4zMDI3IFogIiBzdHJva2Utd2lkdGg9IjAuMDIyMDY5MDMzNTMzMjExNjU0Ii8+CiAgICAgIDwvZz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPg==" id="10"/>
+                        </item>
+                    </list>
+                </costumes>
+                <sounds>
+                    <list struct="atomic" id="11"></list>
+                </sounds>
+                <blocks></blocks>
+                <variables></variables>
+                <scripts>
+                    <script x="13.333333333333334" y="313.3333333333333">
+                        <block blockID="378360" s="receiveGo"></block>
+                        <custom-block id="384279" s="изчисти">undefined</custom-block>
+                        <block blockID="378362" s="doSetVar">
+                            <l>stored drawings</l>
+                            <block blockID="378417" s="reportNewList">
+                                <list></list>
+                            </block>
+                        </block>
+                    </script>
+                    <script x="13.333333333333334" y="398.3333333333333">
+                        <block blockID="378469" s="receiveKey">
+                            <l>
+                                <option>up arrow</option>
+                            </l>
+                        </block>
+                        <custom-block id="384283" s="напред">undefined</custom-block>
+                    </script>
+                    <script x="13.333333333333334" y="461.3333333333333">
+                        <block blockID="378471" s="receiveKey">
+                            <l>
+                                <option>down arrow</option>
+                            </l>
+                        </block>
+                        <custom-block id="384285" s="отмени">undefined</custom-block>
+                    </script>
+                    <script x="13.333333333333334" y="524.3333333333334">
+                        <block blockID="378474" s="receiveKey">
+                            <l>
+                                <option>right arrow</option>
+                            </l>
+                        </block>
+                        <custom-block id="384287" s="надясно">undefined</custom-block>
+                    </script>
+                    <script x="13.333333333333334" y="587.3333333333334">
+                        <block blockID="378477" s="receiveKey">
+                            <l>
+                                <option>left arrow</option>
+                            </l>
+                        </block>
+                        <custom-block id="384289" s="наляво">undefined</custom-block>
+                    </script>
+                </scripts>
+            </sprite>
+            <watcher var="stored drawings" style="normal" x="10" y="10" color="243,118,29" hidden="true"/>
+            <watcher var="draw original" style="normal" x="10" y="39.500001999999995" color="243,118,29" hidden="true"/>
+            <watcher var="step" style="normal" x="10" y="69.00000399999999" color="243,118,29" hidden="true"/>
+            <watcher var="CMD LEFT" style="normal" x="10" y="98.50000599999998" color="243,118,29" hidden="true"/>
+            <watcher var="CMD FORWARD" style="normal" x="10" y="128.00000799999998" color="243,118,29" hidden="true"/>
+            <watcher var="CMD PARAMS SEPARATOR" style="normal" x="10" y="157.50000999999997" color="243,118,29" hidden="true"/>
+            <watcher var="CMD PEN DOWN" style="normal" x="10" y="187.00001199999997" color="243,118,29" hidden="true"/>
+            <watcher var="CMD PEN UP" style="normal" x="10" y="216.50001399999996" color="243,118,29" hidden="true"/>
+            <watcher var="CMD RIGHT" style="normal" x="10" y="246.00001599999996" color="243,118,29" hidden="true"/>
+            <watcher var="commands history" style="normal" x="10" y="275.50001799999995" color="243,118,29" hidden="true"/>
+        </sprites>
+    </stage>
+    <hidden></hidden>
+    <headers></headers>
+    <code></code>
+    <blocks>
+        <block-definition s="изчисти" type="command" category="pen" guid="de3b578f-0285-4d4a-878f-40306820300a" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <custom-block id="383929" s="clear %b">
+                    <l>
+                        <bool>true</bool>
+                    </l>undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="запомни %&apos;name&apos;" type="command" category="lists" guid="ad26e989-9872-4d89-ad4d-3b1048f7a22f" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+            </inputs>
+            <script>
+                <block blockID="369432" s="bubble">
+                    <l></l>
+                </block>
+                <block blockID="12493" s="doIfElse">
+                    <block blockID="12494" s="reportListIsEmpty">
+                        <block id="384138" var="commands history"/>
+                    </block>
+                    <script>
+                        <block blockID="12496" s="bubble">
+                            <l>На екрана няма рисунка, която да запомня. Моля, нарисувайте.</l>
+                        </block>
+                    </script>
+                    <script>
+                        <block blockID="12498" s="doIfElse">
+                            <block blockID="12499" s="reportGreaterThan">
+                                <block blockID="12500" s="reportStringSize">
+                                    <block id="384143" var="name"/>
+                                </block>
+                                <l>0</l>
+                            </block>
+                            <script>
+                                <block blockID="12502" s="doIfElse">
+                                    <custom-block id="384145" s="is drawing present %txt">
+                                        <block id="384146" var="name"/>
+undefined</custom-block>
+                                    <script>
+                                        <block blockID="12505" s="bubble">
+                                            <block blockID="12506" s="reportJoinWords">
+                                                <list>
+                                                    <l>Вече знам как се рисува &apos;</l>
+                                                    <block id="384149" var="name"/>
+                                                    <l>&apos;. Моля, изберете друго име.</l>
+                                                </list>
+                                            </block>
+                                        </block>
+                                    </script>
+                                    <script>
+                                        <custom-block id="384150" s="store command %txt">
+                                            <block id="384151" var="name"/>
+undefined</custom-block>
+                                        <block blockID="12510" s="bubble">
+                                            <block blockID="12511" s="reportJoinWords">
+                                                <list>
+                                                    <l>Сега вече знам как се рисува &apos;</l>
+                                                    <block id="384154" var="name"/>
+                                                    <l>&apos;</l>
+                                                </list>
+                                            </block>
+                                        </block>
+                                    </script>
+                                </block>
+                            </script>
+                            <script>
+                                <block blockID="12514" s="bubble">
+                                    <l>Моля, въведете име за тази рисунка.</l>
+                                </block>
+                            </script>
+                        </block>
+                    </script>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="нарисувай %&apos;име&apos;" type="command" category="lists" guid="155f939a-cde2-4223-9d52-f0a7f8002865" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+            </inputs>
+            <script>
+                <block blockID="359695" s="bubble">
+                    <l></l>
+                </block>
+                <block blockID="12519" s="doIfElse">
+                    <block blockID="12520" s="reportOr">
+                        <block blockID="12521" s="reportEquals">
+                            <block blockID="12522" s="reportStringSize">
+                                <block id="384175" var="име"/>
+                            </block>
+                            <l>0</l>
+                        </block>
+                        <block blockID="12524" s="reportNot">
+                            <custom-block id="384177" s="is drawing present %txt">
+                                <block id="384178" var="име"/>
+undefined</custom-block>
+                        </block>
+                    </block>
+                    <script>
+                        <block blockID="12527" s="bubble">
+                            <block blockID="12528" s="reportJoinWords">
+                                <list>
+                                    <l>Не знам как да нарисувам &apos;</l>
+                                    <block id="384181" var="име"/>
+                                    <l>&apos;. Но мога да се науча.</l>
+                                </list>
+                            </block>
+                        </block>
+                    </script>
+                    <script>
+                        <custom-block id="384182" s="draw %txt , original: %b , log: %b">
+                            <block id="384183" var="име"/>
+                            <block id="384184" var="draw original"/>
+                            <l>
+                                <bool>true</bool>
+                            </l>undefined</custom-block>
+                    </script>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="clear %&apos;clear history&apos;" type="command" category="other" guid="f1542aa9-ff8b-4988-93fb-97337a26a398" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <custom-block id="383930" s="pen up, log: %b">
+                    <l>
+                        <bool>false</bool>
+                    </l>undefined</custom-block>
+                <block blockID="12569" s="clear"></block>
+                <block blockID="12570" s="gotoXY">
+                    <l>0</l>
+                    <l>0</l>
+                </block>
+                <block blockID="12571" s="setHeading">
+                    <l>0</l>
+                </block>
+                <block blockID="12572" s="bubble">
+                    <l></l>
+                </block>
+                <block blockID="12573" s="doIf">
+                    <block id="383936" var="clear history"/>
+                    <script>
+                        <block blockID="12577" s="doSetVar">
+                            <l>commands history</l>
+                            <block blockID="12578" s="reportNewList">
+                                <list></list>
+                            </block>
+                        </block>
+                    </script>
+                </block>
+                <custom-block id="383939" s="pen down , log: %b">
+                    <l>
+                        <bool>false</bool>
+                    </l>undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="без следа" type="command" category="pen" guid="149ff6b7-cbcc-4aee-825d-492f6d918a53" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="369229" s="bubble">
+                    <l></l>
+                </block>
+                <custom-block id="383941" s="pen up, log: %b">
+                    <l>
+                        <bool>true</bool>
+                    </l>undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="pen up, log: %&apos;log&apos;" type="command" category="other" guid="f409aef2-fdb5-4408-82fe-e1e517f2bbaa" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <block blockID="12785" s="doIf">
+                    <block id="383943" var="log"/>
+                    <script>
+                        <custom-block id="383944" s="record %txt %mult%txt">
+                            <block id="383945" var="CMD PEN UP"/>
+                            <list></list>undefined</custom-block>
+                    </script>
+                </block>
+                <block blockID="12604" s="up"></block>
+            </script>
+        </block-definition>
+        <block-definition s="record %&apos;command&apos; %&apos;params&apos;" type="command" category="other" guid="11cb91ac-52aa-4ddf-8ffe-a4f63a8e78f1" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+                <input type="%mult%txt"></input>
+            </inputs>
+            <script>
+                <block blockID="12839" s="doDeclareVariables">
+                    <list>
+                        <l>cmd with params</l>
+                    </list>
+                </block>
+                <block blockID="12842" s="doSetVar">
+                    <l>cmd with params</l>
+                    <block blockID="12843" s="reportJoinWords">
+                        <list>
+                            <block id="383952" var="command"/>
+                            <block blockID="12845" s="reportMap">
+                                <block blockID="12847" s="reifyReporter">
+                                    <autolambda>
+                                        <block blockID="12848" s="reportJoinWords">
+                                            <list>
+                                                <block id="383957" var="CMD PARAMS SEPARATOR"/>
+                                                <l></l>
+                                            </list>
+                                        </block>
+                                    </autolambda>
+                                    <list></list>
+                                </block>
+                                <block id="383958" var="params"/>
+                            </block>
+                        </list>
+                    </block>
+                </block>
+                <block blockID="12851" s="doAddToList">
+                    <block id="383960" var="cmd with params"/>
+                    <block id="383961" var="commands history"/>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="pen down , log: %&apos;log&apos;" type="command" category="other" guid="f409aef2-fdb5-4408-82fe-e1e517f2bbaa" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <block blockID="12780" s="doIf">
+                    <block id="383963" var="log"/>
+                    <script>
+                        <custom-block id="383964" s="record %txt %mult%txt">
+                            <block id="383965" var="CMD PEN DOWN"/>
+                            <list></list>undefined</custom-block>
+                    </script>
+                </block>
+                <block blockID="12609" s="down"></block>
+            </script>
+        </block-definition>
+        <block-definition s="със следа" type="command" category="pen" guid="85a78fe5-25aa-4bb7-be28-1383e794ef64" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="369236" s="bubble">
+                    <l></l>
+                </block>
+                <custom-block id="383968" s="pen down , log: %b">
+                    <l>
+                        <bool>true</bool>
+                    </l>undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="дефинирай константите" type="command" category="variables" guid="d6b40cf4-e90e-4ce3-8dee-bcbdcc5669d7" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="12827" s="doSetVar">
+                    <l>CMD FORWARD</l>
+                    <l>F</l>
+                </block>
+                <block blockID="12828" s="doSetVar">
+                    <l>CMD RIGHT</l>
+                    <l>R</l>
+                </block>
+                <block blockID="12829" s="doSetVar">
+                    <l>CMD LEFT</l>
+                    <l>L</l>
+                </block>
+                <block blockID="364018" s="doSetVar">
+                    <l>CMD PEN UP</l>
+                    <l>U</l>
+                </block>
+                <block blockID="364019" s="doSetVar">
+                    <l>CMD PEN DOWN</l>
+                    <l>D</l>
+                </block>
+                <block blockID="12833" s="doSetVar">
+                    <l>CMD PARAMS SEPARATOR</l>
+                    <l>|</l>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="напред" type="command" category="motion" guid="acdfa19e-1ea9-4094-9ae9-cacfef57bd61" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="369178" s="bubble">
+                    <l></l>
+                </block>
+                <custom-block id="383976" s="напред %l %n %n , връщане %b , запомни %b">
+                    <custom-block id="383977" s="get pen color as list">undefined</custom-block>
+                    <block blockID="377853" s="getPenAttribute">
+                        <l>
+                            <option>size</option>
+                        </l>
+                    </block>
+                    <block id="383979" var="step"/>
+                    <l>
+                        <bool>false</bool>
+                    </l>
+                    <l>
+                        <bool>true</bool>
+                    </l>undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="напред %&apos;color&apos; %&apos;size&apos; %&apos;step&apos; , връщане %&apos;undo&apos; , запомни %&apos;log&apos;" type="command" category="other" guid="ec52724a-2326-4647-8454-57dab03a873a" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%l"></input>
+                <input type="%n"></input>
+                <input type="%n"></input>
+                <input type="%b"></input>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <block blockID="13007" s="doIf">
+                    <block blockID="13008" s="reportAnd">
+                        <block id="383982" var="log"/>
+                        <block blockID="13010" s="reportNot">
+                            <block id="383984" var="undo"/>
+                        </block>
+                    </block>
+                    <script>
+                        <custom-block id="383985" s="record %txt %mult%txt">
+                            <block id="383986" var="CMD FORWARD"/>
+                            <list>
+                                <block blockID="316098" s="reportListItem">
+                                    <l>1</l>
+                                    <block id="383988" var="color"/>
+                                </block>
+                                <block blockID="316330" s="reportListItem">
+                                    <l>2</l>
+                                    <block id="383990" var="color"/>
+                                </block>
+                                <block blockID="316562" s="reportListItem">
+                                    <l>3</l>
+                                    <block id="383992" var="color"/>
+                                </block>
+                                <block blockID="317094" s="reportListItem">
+                                    <l>4</l>
+                                    <block id="383994" var="color"/>
+                                </block>
+                                <block id="383995" var="size"/>
+                                <block id="383996" var="step"/>
+                            </list>undefined</custom-block>
+                    </script>
+                </block>
+                <custom-block id="383997" s="move forward %l %n %n , undo %b">
+                    <block id="383998" var="color"/>
+                    <block id="383999" var="size"/>
+                    <block id="384000" var="step"/>
+                    <block id="384001" var="undo"/>
+undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="move forward %&apos;color&apos; %&apos;size&apos; %&apos;step&apos; , undo %&apos;undo&apos;" type="command" category="other" guid="ec52724a-2326-4647-8454-57dab03a873a" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%l"></input>
+                <input type="%n"></input>
+                <input type="%n"></input>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <block blockID="12585" s="doIfElse">
+                    <block id="384003" var="undo"/>
+                    <script>
+                        <block blockID="325023" s="setSize">
+                            <block blockID="325403" s="reportSum">
+                                <block id="384006" var="size"/>
+                                <l>1</l>
+                            </block>
+                        </block>
+                        <block blockID="12587" s="setColor">
+                            <color>255,255,255,1</color>
+                        </block>
+                        <block blockID="12598" s="forward">
+                            <block blockID="319159" s="reportMonadic">
+                                <l>
+                                    <option>neg</option>
+                                </l>
+                                <block id="384010" var="step"/>
+                            </block>
+                        </block>
+                        <block blockID="324265" s="setSize">
+                            <block id="384012" var="size"/>
+                        </block>
+                        <custom-block id="384013" s="set pen color to %l">
+                            <block id="384014" var="color"/>
+undefined</custom-block>
+                    </script>
+                    <script>
+                        <block blockID="12583" s="setSize">
+                            <block id="384016" var="size"/>
+                        </block>
+                        <custom-block id="384017" s="set pen color to %l">
+                            <block id="384018" var="color"/>
+undefined</custom-block>
+                        <block blockID="321428" s="forward">
+                            <block id="384020" var="step"/>
+                        </block>
+                    </script>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="turn right , log: %&apos;log&apos;" type="command" category="other" guid="ed05f04a-7990-4f13-9b15-9a4aed52154e" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <block blockID="69338" s="doIf">
+                    <block id="384022" var="log"/>
+                    <script>
+                        <custom-block id="384023" s="record %txt %mult%txt">
+                            <block id="384024" var="CMD RIGHT"/>
+                            <list></list>undefined</custom-block>
+                    </script>
+                </block>
+                <block blockID="69342" s="turn">
+                    <l>30</l>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="надясно" type="command" category="motion" guid="d02322f8-a9b0-4184-89d2-cda2b05f1903" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="369215" s="bubble">
+                    <l></l>
+                </block>
+                <custom-block id="384027" s="turn right , log: %b">
+                    <l>
+                        <bool>true</bool>
+                    </l>undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="наляво" type="command" category="motion" guid="87198f60-1a20-4b91-aca4-c8f9087b1149" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="369222" s="bubble">
+                    <l></l>
+                </block>
+                <custom-block id="384029" s="turn left , log %b">
+                    <l>
+                        <bool>true</bool>
+                    </l>undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="delete last command" type="command" category="other" guid="fc8777bb-d265-4d7c-9356-ea9697b4d69d" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="12821" s="doDeleteFromList">
+                    <l>
+                        <option>last</option>
+                    </l>
+                    <block id="384031" var="commands history"/>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="отмени" type="command" category="motion" guid="11cbb52f-1eb0-445d-a90d-6e746ab14515" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="369195" s="bubble">
+                    <l></l>
+                </block>
+                <custom-block id="384033" s="undo %txt">
+                    <block blockID="303118" s="reportListItem">
+                        <l>
+                            <option>last</option>
+                        </l>
+                        <block id="384035" var="commands history"/>
+                    </block>undefined</custom-block>
+                <custom-block id="384036" s="delete last command">undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="undo %&apos;command&apos;" type="command" category="other" guid="41cf4fbc-2732-4490-b3d0-c48a22ce6b60" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+            </inputs>
+            <script>
+                <block blockID="12941" s="doDeclareVariables">
+                    <list>
+                        <l>commandKey</l>
+                    </list>
+                </block>
+                <block blockID="12944" s="doSetVar">
+                    <l>commandKey</l>
+                    <block blockID="12945" s="reportLetter">
+                        <l>1</l>
+                        <block id="384042" var="command"/>
+                    </block>
+                </block>
+                <block blockID="12947" s="doIf">
+                    <block blockID="12948" s="reportEquals">
+                        <block id="384045" var="commandKey"/>
+                        <block id="384046" var="CMD FORWARD"/>
+                    </block>
+                    <script>
+                        <custom-block id="384047" s="exec forward %txt , undo: %b , original: %b , log: %b">
+                            <block id="384048" var="command"/>
+                            <l>
+                                <bool>true</bool>
+                            </l>
+                            <l>
+                                <bool>true</bool>
+                            </l>
+                            <l>
+                                <bool>false</bool>
+                            </l>undefined</custom-block>
+                    </script>
+                </block>
+                <block blockID="12956" s="doIf">
+                    <block blockID="12957" s="reportEquals">
+                        <block id="384051" var="commandKey"/>
+                        <block id="384052" var="CMD LEFT"/>
+                    </block>
+                    <script>
+                        <custom-block id="384053" s="turn right , log: %b">
+                            <l>
+                                <bool>false</bool>
+                            </l>undefined</custom-block>
+                    </script>
+                </block>
+                <block blockID="12961" s="doIf">
+                    <block blockID="12962" s="reportEquals">
+                        <block id="384056" var="commandKey"/>
+                        <block id="384057" var="CMD RIGHT"/>
+                    </block>
+                    <script>
+                        <custom-block id="384058" s="turn left , log %b">
+                            <l>
+                                <bool>false</bool>
+                            </l>undefined</custom-block>
+                    </script>
+                </block>
+                <block blockID="12966" s="doIf">
+                    <block blockID="12967" s="reportEquals">
+                        <block id="384061" var="commandKey"/>
+                        <block id="384062" var="CMD PEN DOWN"/>
+                    </block>
+                    <script>
+                        <custom-block id="384063" s="pen up, log: %b">
+                            <l>
+                                <bool>false</bool>
+                            </l>undefined</custom-block>
+                    </script>
+                </block>
+                <block blockID="12971" s="doIf">
+                    <block blockID="12972" s="reportEquals">
+                        <block id="384066" var="commandKey"/>
+                        <block id="384067" var="CMD PEN UP"/>
+                    </block>
+                    <script>
+                        <custom-block id="384068" s="pen down , log: %b">
+                            <l>
+                                <bool>false</bool>
+                            </l>undefined</custom-block>
+                    </script>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="exec forward %&apos;command&apos; , undo: %&apos;undo&apos; , original: %&apos;original&apos; , log: %&apos;log&apos;" type="command" category="other" guid="7977a407-fbcd-4e1d-82af-0f23bec8b5e2" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+                <input type="%b"></input>
+                <input type="%b"></input>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <block blockID="12536" s="doIfElse">
+                    <block id="384070" var="original"/>
+                    <script>
+                        <block blockID="12538" s="doDeclareVariables">
+                            <list>
+                                <l>commandSplit</l>
+                                <l>current color</l>
+                                <l>current size</l>
+                            </list>
+                        </block>
+                        <block blockID="12541" s="doSetVar">
+                            <l>commandSplit</l>
+                            <block blockID="12542" s="reportTextSplit">
+                                <block id="384078" var="command"/>
+                                <block id="384079" var="CMD PARAMS SEPARATOR"/>
+                            </block>
+                        </block>
+                        <block blockID="354754" s="doSetVar">
+                            <l>current color</l>
+                            <custom-block id="384081" s="get pen color as list">undefined</custom-block>
+                        </block>
+                        <block blockID="355598" s="doSetVar">
+                            <l>current size</l>
+                            <block blockID="341257" s="getPenAttribute">
+                                <l>
+                                    <option>size</option>
+                                </l>
+                            </block>
+                        </block>
+                        <custom-block id="384084" s="напред %l %n %n , връщане %b , запомни %b">
+                            <block blockID="377834" s="reportNewList">
+                                <list>
+                                    <block blockID="377835" s="reportListItem">
+                                        <l>2</l>
+                                        <block id="384087" var="commandSplit"/>
+                                    </block>
+                                    <block blockID="377837" s="reportListItem">
+                                        <l>3</l>
+                                        <block id="384089" var="commandSplit"/>
+                                    </block>
+                                    <block blockID="377839" s="reportListItem">
+                                        <l>4</l>
+                                        <block id="384091" var="commandSplit"/>
+                                    </block>
+                                    <block blockID="377841" s="reportListItem">
+                                        <l>5</l>
+                                        <block id="384093" var="commandSplit"/>
+                                    </block>
+                                </list>
+                            </block>
+                            <block blockID="377843" s="reportListItem">
+                                <l>6</l>
+                                <block id="384095" var="commandSplit"/>
+                            </block>
+                            <block blockID="377845" s="reportListItem">
+                                <l>7</l>
+                                <block id="384097" var="commandSplit"/>
+                            </block>
+                            <block id="384098" var="undo"/>
+                            <block id="384099" var="log"/>
+undefined</custom-block>
+                        <custom-block id="384100" s="set pen color to %l">
+                            <block id="384101" var="current color"/>
+undefined</custom-block>
+                        <block blockID="357244" s="setSize">
+                            <block id="384103" var="current size"/>
+                        </block>
+                    </script>
+                    <script>
+                        <custom-block id="384104" s="напред %l %n %n , връщане %b , запомни %b">
+                            <custom-block id="384105" s="get pen color as list">undefined</custom-block>
+                            <block blockID="377830" s="getPenAttribute">
+                                <l>
+                                    <option>size</option>
+                                </l>
+                            </block>
+                            <block id="384107" var="step"/>
+                            <block id="384108" var="undo"/>
+                            <block id="384109" var="log"/>
+undefined</custom-block>
+                    </script>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="get drawing name %&apos;command&apos;" type="reporter" category="other" guid="5999b156-0f98-4570-bc86-7e02bab71880" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+            </inputs>
+            <script>
+                <block blockID="13002" s="doReport">
+                    <block blockID="13003" s="reportListItem">
+                        <l>2</l>
+                        <block blockID="13004" s="reportTextSplit">
+                            <block id="384113" var="command"/>
+                            <block id="384114" var="CMD PARAMS SEPARATOR"/>
+                        </block>
+                    </block>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="undo drawing %&apos;name&apos;" type="command" category="other" guid="003eb356-5fc2-4b5f-9d91-786a52da3fd0" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+            </inputs>
+            <script>
+                <block blockID="12983" s="doDeclareVariables">
+                    <list>
+                        <l>drawing commands</l>
+                    </list>
+                </block>
+                <block blockID="12986" s="doSetVar">
+                    <l>drawing commands</l>
+                    <block blockID="12987" s="reportListItem">
+                        <l>2</l>
+                        <block blockID="12988" s="reportFindFirst">
+                            <block blockID="12990" s="reifyPredicate">
+                                <autolambda>
+                                    <block blockID="12991" s="reportEquals">
+                                        <block blockID="12992" s="reportListItem">
+                                            <l>1</l>
+                                            <l/>
+                                        </block>
+                                        <block id="384125" var="name"/>
+                                    </block>
+                                </autolambda>
+                                <list></list>
+                            </block>
+                            <block id="384126" var="stored drawings"/>
+                        </block>
+                    </block>
+                </block>
+                <block blockID="12995" s="doFor">
+                    <l>i</l>
+                    <block blockID="299133" s="reportListLength">
+                        <block id="384130" var="drawing commands"/>
+                    </block>
+                    <l>1</l>
+                    <script>
+                        <custom-block id="384131" s="undo %txt">
+                            <block blockID="303113" s="reportListItem">
+                                <block id="384133" var="i"/>
+                                <block id="384134" var="drawing commands"/>
+                            </block>undefined</custom-block>
+                    </script>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="is drawing present %&apos;name&apos;" type="predicate" category="other" guid="db75f1b3-8d36-484b-8176-1d31def84b05" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+            </inputs>
+            <script>
+                <block blockID="12888" s="doReport">
+                    <block blockID="12889" s="reportFindFirst">
+                        <block blockID="12891" s="reifyPredicate">
+                            <autolambda>
+                                <block blockID="12892" s="reportEquals">
+                                    <block blockID="12893" s="reportListItem">
+                                        <l>1</l>
+                                        <l/>
+                                    </block>
+                                    <block id="384162" var="name"/>
+                                </block>
+                            </autolambda>
+                            <list></list>
+                        </block>
+                        <block id="384163" var="stored drawings"/>
+                    </block>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="store command %&apos;name&apos;" type="command" category="other" guid="b6806a91-708b-4bf8-8b50-1370ef580b76" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+            </inputs>
+            <script>
+                <block blockID="12872" s="doAddToList">
+                    <block blockID="12873" s="reportNewList">
+                        <list>
+                            <block id="384166" var="name"/>
+                            <block blockID="357317" s="reportConcatenatedLists">
+                                <list>
+                                    <block id="384168" var="commands history"/>
+                                </list>
+                            </block>
+                        </list>
+                    </block>
+                    <block id="384169" var="stored drawings"/>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="draw %&apos;name&apos; , original: %&apos;original&apos; , log: %&apos;log&apos;" type="command" category="other" guid="102dcf00-5c76-490e-b0c4-2f4bcf552a02" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+                <input type="%b"></input>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <block blockID="12795" s="doDeclareVariables">
+                    <list>
+                        <l>raw commands</l>
+                    </list>
+                </block>
+                <block blockID="12798" s="doSetVar">
+                    <l>raw commands</l>
+                    <block blockID="12799" s="reportListItem">
+                        <l>2</l>
+                        <block blockID="12800" s="reportFindFirst">
+                            <block blockID="12802" s="reifyPredicate">
+                                <autolambda>
+                                    <block blockID="12803" s="reportEquals">
+                                        <block blockID="12804" s="reportListItem">
+                                            <l>1</l>
+                                            <l/>
+                                        </block>
+                                        <block id="384195" var="name"/>
+                                    </block>
+                                </autolambda>
+                                <list></list>
+                            </block>
+                            <block id="384196" var="stored drawings"/>
+                        </block>
+                    </block>
+                </block>
+                <custom-block id="384197" s="draw commands %l , original: %b , log: %b">
+                    <block id="384198" var="raw commands"/>
+                    <block id="384199" var="original"/>
+                    <block id="384200" var="log"/>
+undefined</custom-block>
+            </script>
+        </block-definition>
+        <block-definition s="draw commands %&apos;commands&apos; , original: %&apos;original&apos; , log: %&apos;log&apos;" type="command" category="other" guid="9c9dd054-62f5-4f1c-a14b-4cc388b0a362" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%l"></input>
+                <input type="%b"></input>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <block blockID="12685" s="doForEach">
+                    <l>command</l>
+                    <block id="384203" var="commands"/>
+                    <script>
+                        <block blockID="12688" s="doDeclareVariables">
+                            <list>
+                                <l>commandKey</l>
+                            </list>
+                        </block>
+                        <block blockID="12691" s="doSetVar">
+                            <l>commandKey</l>
+                            <block blockID="12692" s="reportLetter">
+                                <l>1</l>
+                                <block id="384209" var="command"/>
+                            </block>
+                        </block>
+                        <block blockID="12694" s="doIf">
+                            <block blockID="12695" s="reportEquals">
+                                <block id="384212" var="commandKey"/>
+                                <block id="384213" var="CMD FORWARD"/>
+                            </block>
+                            <script>
+                                <custom-block id="384214" s="exec forward %txt , undo: %b , original: %b , log: %b">
+                                    <block id="384215" var="command"/>
+                                    <l>
+                                        <bool>false</bool>
+                                    </l>
+                                    <block id="384216" var="original"/>
+                                    <block id="384217" var="log"/>
+undefined</custom-block>
+                            </script>
+                        </block>
+                        <block blockID="12704" s="doIf">
+                            <block blockID="12705" s="reportEquals">
+                                <block id="384220" var="commandKey"/>
+                                <block id="384221" var="CMD LEFT"/>
+                            </block>
+                            <script>
+                                <custom-block id="384222" s="turn left , log %b">
+                                    <block id="384223" var="log"/>
+undefined</custom-block>
+                            </script>
+                        </block>
+                        <block blockID="12710" s="doIf">
+                            <block blockID="12711" s="reportEquals">
+                                <block id="384226" var="commandKey"/>
+                                <block id="384227" var="CMD RIGHT"/>
+                            </block>
+                            <script>
+                                <custom-block id="384228" s="turn right , log: %b">
+                                    <block id="384229" var="log"/>
+undefined</custom-block>
+                            </script>
+                        </block>
+                        <block blockID="12716" s="doIf">
+                            <block blockID="12717" s="reportEquals">
+                                <block id="384232" var="commandKey"/>
+                                <block id="384233" var="CMD PEN UP"/>
+                            </block>
+                            <script>
+                                <custom-block id="384234" s="pen up, log: %b">
+                                    <block id="384235" var="log"/>
+undefined</custom-block>
+                            </script>
+                        </block>
+                        <block blockID="12722" s="doIf">
+                            <block blockID="12723" s="reportEquals">
+                                <block id="384238" var="commandKey"/>
+                                <block id="384239" var="CMD PEN DOWN"/>
+                            </block>
+                            <script>
+                                <custom-block id="384240" s="pen down , log: %b">
+                                    <block id="384241" var="log"/>
+undefined</custom-block>
+                            </script>
+                        </block>
+                    </script>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="turn left , log %&apos;log&apos;" type="command" category="other" guid="9230b3fc-ef0e-40f2-82f1-b3059b74306d" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%b"></input>
+            </inputs>
+            <script>
+                <block blockID="12790" s="doIf">
+                    <block id="384243" var="log"/>
+                    <script>
+                        <custom-block id="384244" s="record %txt %mult%txt">
+                            <block id="384245" var="CMD LEFT"/>
+                            <list></list>undefined</custom-block>
+                    </script>
+                </block>
+                <block blockID="12608" s="turnLeft">
+                    <l>30</l>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="get pen color as list" type="reporter" category="other" guid="f86a403b-f2ca-4c54-9c50-a2b21ba61689" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="339301" s="doReport">
+                    <block blockID="314601" s="reportNewList">
+                        <list>
+                            <block blockID="314602" s="getPenAttribute">
+                                <l>
+                                    <option>hue</option>
+                                </l>
+                            </block>
+                            <block blockID="314603" s="getPenAttribute">
+                                <l>
+                                    <option>saturation</option>
+                                </l>
+                            </block>
+                            <block blockID="314604" s="getPenAttribute">
+                                <l>
+                                    <option>brightness</option>
+                                </l>
+                            </block>
+                            <block blockID="314605" s="getPenAttribute">
+                                <l>
+                                    <option>transparency</option>
+                                </l>
+                            </block>
+                        </list>
+                    </block>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="set pen color to %&apos;color&apos;" type="command" category="other" guid="68d03f80-29d0-48e2-85e0-c7608f59231c" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%l"></input>
+            </inputs>
+            <script>
+                <block blockID="12588" s="setPenHSVA">
+                    <l>
+                        <option>hue</option>
+                    </l>
+                    <block blockID="313395" s="reportListItem">
+                        <l>1</l>
+                        <block id="384255" var="color"/>
+                    </block>
+                </block>
+                <block blockID="12580" s="setPenHSVA">
+                    <l>
+                        <option>saturation</option>
+                    </l>
+                    <block blockID="311705" s="reportListItem">
+                        <l>2</l>
+                        <block id="384258" var="color"/>
+                    </block>
+                </block>
+                <block blockID="12581" s="setPenHSVA">
+                    <l>
+                        <option>brightness</option>
+                    </l>
+                    <block blockID="312781" s="reportListItem">
+                        <l>3</l>
+                        <block id="384261" var="color"/>
+                    </block>
+                </block>
+                <block blockID="12582" s="setPenHSVA">
+                    <l>
+                        <option>transparency</option>
+                    </l>
+                    <block blockID="312966" s="reportListItem">
+                        <l>4</l>
+                        <block id="384264" var="color"/>
+                    </block>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="рисувай с текущия молив" type="command" category="pen" guid="ff602517-cdad-4fcc-a4cb-1032ea642064" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="269475" s="doSetVar">
+                    <l>draw original</l>
+                    <block blockID="361091" s="reportBoolean">
+                        <l>
+                            <bool>false</bool>
+                        </l>
+                    </block>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="рисувай с оригиналния молив" type="command" category="pen" guid="d54aa9d6-6ac2-4e2e-9785-335873a170cd" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="362556" s="doSetVar">
+                    <l>draw original</l>
+                    <block blockID="362557" s="reportBoolean">
+                        <l>
+                            <bool>true</bool>
+                        </l>
+                    </block>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="промени стъпката на %&apos;step p&apos;" type="command" category="motion" guid="a7d16e62-26be-490d-92d5-4a6a85db00b9" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%n"></input>
+            </inputs>
+            <script>
+                <block blockID="363201" s="doSetVar">
+                    <l>step</l>
+                    <block id="384270" var="step p"/>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="инициализирай променливите" type="command" category="variables" guid="4ac236e7-d7ad-4dc0-bcb7-96b945891a75" isImported="false">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs></inputs>
+            <script>
+                <block blockID="378703" s="doSetVar">
+                    <l>stored drawings</l>
+                    <block blockID="378704" s="reportNewList">
+                        <list></list>
+                    </block>
+                </block>
+                <block blockID="381270" s="doSetVar">
+                    <l>commands history</l>
+                    <block blockID="381271" s="reportNewList">
+                        <list></list>
+                    </block>
+                </block>
+                <block blockID="378761" s="doSetVar">
+                    <l>draw original</l>
+                    <block blockID="378762" s="reportBoolean">
+                        <l>
+                            <bool>false</bool>
+                        </l>
+                    </block>
+                </block>
+                <block blockID="378820" s="doSetVar">
+                    <l>step</l>
+                    <l>20</l>
+                </block>
+            </script>
+        </block-definition>
+    </blocks>
+    <variables>
+        <variable name="stored drawings">
+            <list struct="atomic" id="773"></list>
+        </variable>
+        <variable name="draw original">
+            <bool>false</bool>
+        </variable>
+        <variable name="step">
+            <l>20</l>
+        </variable>
+        <variable name="CMD LEFT">
+            <l>L</l>
+        </variable>
+        <variable name="CMD FORWARD">
+            <l>F</l>
+        </variable>
+        <variable name="CMD PARAMS SEPARATOR">
+            <l>|</l>
+        </variable>
+        <variable name="CMD PEN DOWN">
+            <l>D</l>
+        </variable>
+        <variable name="CMD PEN UP">
+            <l>U</l>
+        </variable>
+        <variable name="CMD RIGHT">
+            <l>R</l>
+        </variable>
+        <variable name="commands history">
+            <list struct="atomic" id="774">D</list>
+        </variable>
+    </variables>
+    <editing></editing>
+</project>
