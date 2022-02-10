@@ -38,7 +38,7 @@ export class Script {
     addLogs(logs) {
         let time = 0;
         logs.forEach((log, index) => {
-            console.log(log);
+            // console.log(log);
             if (log.type === 'setBlockScale') {
                 this.config.blockScale = log.data.scale;
                 return;
