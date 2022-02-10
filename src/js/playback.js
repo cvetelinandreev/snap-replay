@@ -13,7 +13,7 @@ window.Trace = {
 
 export class Playback {
 
-    static DB_LOG = false;
+    static DB_LOG = true;
 
     // 0 because we do this in the script itself now
     static BUFFER_MS = 0;
