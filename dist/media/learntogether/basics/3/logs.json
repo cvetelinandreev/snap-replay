@@ -1,0 +1,4767 @@
+[
+    {
+        "type": "setBlockScale",
+        "data": {
+            "scale": 1.5
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "setLanguage",
+        "data": {
+            "lang": "bg"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 1,
+            "indexv": 0
+        },
+        "timeDelta": 4000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 2,
+            "indexv": 0
+        },
+        "timeDelta": 3000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 3,
+            "indexv": 0
+        },
+        "timeDelta": 12000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 4,
+            "indexv": 0
+        },
+        "timeDelta": 39000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 5,
+            "indexv": 0
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 23370
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381624,
+                "template": false,
+                "spec": "напред",
+                "guid": "acdfa19e-1ea9-4094-9ae9-cacfef57bd61",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 739,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 29.5,
+                    "y": 31,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381625,
+                "template": false,
+                "spec": "надясно",
+                "guid": "d02322f8-a9b0-4184-89d2-cda2b05f1903",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 773.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 26.5,
+                    "y": 87.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381626,
+                "template": false,
+                "spec": "наляво",
+                "guid": "87198f60-1a20-4b91-aca4-c8f9087b1149",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 808,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 24.5,
+                    "y": 145,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381627,
+                "template": false,
+                "spec": "отмени",
+                "guid": "11cbb52f-1eb0-445d-a90d-6e746ab14515",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 842.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 23.5,
+                    "y": 196.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "pen",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381628,
+                "template": false,
+                "spec": "изчисти",
+                "guid": "de3b578f-0285-4d4a-878f-40306820300a",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 733,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 21.5,
+                    "y": 250.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "motion",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381628,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 2605
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381628,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 4438
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2080
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2376
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381627,
+            "template": false,
+            "spec": "отмени",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1928
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381627,
+            "template": false,
+            "spec": "отмени",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 216
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381627,
+            "template": false,
+            "spec": "отмени",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 216
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381627,
+            "template": false,
+            "spec": "отмени",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 441
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381625,
+            "template": false,
+            "spec": "надясно",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2743
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1650
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 215
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 281
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381624,
+            "template": false,
+            "spec": "напред",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 902
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 6,
+            "indexv": 0
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 12000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 7,
+            "indexv": 0
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381628,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 14254
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381624,
+                "template": false,
+                "spec": "напред",
+                "guid": "acdfa19e-1ea9-4094-9ae9-cacfef57bd61",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 29.5,
+                    "y": 31,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 34,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381625,
+                "template": false,
+                "spec": "надясно",
+                "guid": "d02322f8-a9b0-4184-89d2-cda2b05f1903",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 26.5,
+                    "y": 87.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 76.5,
+                    "y": 69.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381626,
+                "template": false,
+                "spec": "наляво",
+                "guid": "87198f60-1a20-4b91-aca4-c8f9087b1149",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 24.5,
+                    "y": 145,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 116.5,
+                    "y": 106,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381627,
+                "template": false,
+                "spec": "отмени",
+                "guid": "11cbb52f-1eb0-445d-a90d-6e746ab14515",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 23.5,
+                    "y": 196.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 100.5,
+                    "y": 145.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 381628,
+                "template": false,
+                "spec": "изчисти",
+                "guid": "de3b578f-0285-4d4a-878f-40306820300a",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 21.5,
+                    "y": 250.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 55.5,
+                    "y": 168.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381697,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 50.5,
+                    "y": 42.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 12799
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381697,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "50",
+            "value": "50"
+        },
+        "timeDelta": 12575
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "forward",
+            "id": 381697,
+            "template": false,
+            "spec": "напред с %n стъпки",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3616
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381698,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 45.5,
+                    "y": 115,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 7130
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turnLeft",
+                "id": 381699,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 88.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 43.5,
+                    "y": 180.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2286
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381698,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 45.5,
+                    "y": 115,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 304.5,
+                    "y": 110,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 9530
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381698,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "90",
+            "value": "90"
+        },
+        "timeDelta": 5639
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "turn",
+            "id": 381698,
+            "template": false,
+            "spec": "надясно на %n градуса",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 119
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "pen",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 3002
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "down",
+                "id": 381700,
+                "template": false,
+                "spec": "спусни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 54,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 310.5,
+                    "y": 212,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 3000
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "up",
+                "id": 381701,
+                "template": false,
+                "spec": "вдигни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 88.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 310.5,
+                    "y": 266.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 2274
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "turn",
+            "id": 381698,
+            "template": false,
+            "spec": "надясно на %n градуса",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 18500
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "forward",
+            "id": 381697,
+            "template": false,
+            "spec": "напред с %n стъпки",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "turn",
+            "id": 381698,
+            "template": false,
+            "spec": "надясно на %n градуса",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "turn",
+            "id": 381698,
+            "template": false,
+            "spec": "надясно на %n градуса",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "clear",
+            "id": 381427,
+            "template": true,
+            "spec": "изчисти всичко",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381698,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 275.5,
+                    "y": 178.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381697,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 304.5,
+                    "y": 110,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 50.5,
+                    "y": 74,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turnLeft",
+                "id": 381699,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 275.5,
+                    "y": 210,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 381698,
+                    "template": false,
+                    "spec": "надясно на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 43.5,
+                    "y": 180.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 50.5,
+                    "y": 105.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381697,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 50.5,
+                    "y": 42.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 35.5,
+                    "y": 54.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 1882
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "down",
+                "id": 381700,
+                "template": false,
+                "spec": "спусни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 310.5,
+                    "y": 212,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 75.5,
+                    "y": 137,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "up",
+                "id": 381701,
+                "template": false,
+                "spec": "вдигни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 310.5,
+                    "y": 266.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 57.5,
+                    "y": 195.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 500
+    },
+
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "motion",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381702,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 43.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 3596
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381702,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "50",
+            "value": "50"
+        },
+        "timeDelta": 7470
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381703,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 294.5,
+                    "y": 179.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381702,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 75,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 4405
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381703,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "90",
+            "value": "90"
+        },
+        "timeDelta": 4000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "forward",
+            "id": 381702,
+            "template": false,
+            "spec": "напред с %n стъпки",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 6496
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "forward",
+            "id": 381702,
+            "template": false,
+            "spec": "напред с %n стъпки",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 5408
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "forward",
+            "id": 381702,
+            "template": false,
+            "spec": "напред с %n стъпки",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 817
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "forward",
+            "id": 381702,
+            "template": false,
+            "spec": "напред с %n стъпки",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1007
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "clear",
+            "id": 381427,
+            "template": true,
+            "spec": "изчисти всичко",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 12258
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381704,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 294.5,
+                    "y": 211,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 381703,
+                    "template": false,
+                    "spec": "надясно на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 106.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381705,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 294.5,
+                    "y": 242.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381704,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 138,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381706,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 294.5,
+                    "y": 274,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 381705,
+                    "template": false,
+                    "spec": "надясно на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 169.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381707,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 294.5,
+                    "y": 305.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381706,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 201,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381708,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 294.5,
+                    "y": 337,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 381707,
+                    "template": false,
+                    "spec": "надясно на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 232.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381709,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 294.5,
+                    "y": 368.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381708,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 264,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381704,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "50",
+            "value": "50"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381705,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "90",
+            "value": "90"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381706,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "50",
+            "value": "50"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381707,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "90",
+            "value": "90"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381708,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "50",
+            "value": "50"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381709,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "90",
+            "value": "90"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "forward",
+            "id": 381702,
+            "template": false,
+            "spec": "напред с %n стъпки",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 4208
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381702,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 69.5,
+                    "y": 43.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 9.5,
+                    "y": 100.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 5853
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 5,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "pen",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 843
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "clear",
+            "id": 381427,
+            "template": true,
+            "spec": "изчисти всичко",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 897
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 8,
+            "indexv": 0
+        },
+        "timeDelta": 15000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 9,
+            "indexv": 0
+        },
+        "timeDelta": 8000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 10,
+            "indexv": 0
+        },
+        "timeDelta": 13000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 11,
+            "indexv": 0
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 7000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 5,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 5251
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "down",
+                "id": 381710,
+                "template": false,
+                "spec": "спусни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 54,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 53,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 20000
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "motion",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381711,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 183,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "down",
+                    "id": 381710,
+                    "template": false,
+                    "spec": "спусни молива",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 78.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381711,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "90",
+            "value": "90"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381712,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 214.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 381711,
+                    "template": false,
+                    "spec": "надясно на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 110,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381712,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "80",
+            "value": "80"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turnLeft",
+                "id": 381713,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 246,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381712,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 88.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 141.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381714,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 277.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turnLeft",
+                    "id": 381713,
+                    "template": false,
+                    "spec": "наляво на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 173,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turnLeft",
+                "id": 381713,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "135",
+            "value": "135"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381714,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "113",
+            "value": "113"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381715,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 309,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381714,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 204.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381716,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 340.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 381715,
+                    "template": false,
+                    "spec": "надясно на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 236,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381715,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "135",
+            "value": "135"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381716,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "80",
+            "value": "80"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turnLeft",
+                "id": 381717,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 372,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381716,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 88.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 267.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381718,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 403.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turnLeft",
+                    "id": 381717,
+                    "template": false,
+                    "spec": "наляво на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 299,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turnLeft",
+                "id": 381719,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 435,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381718,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 88.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 330.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turnLeft",
+                "id": 381717,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "120",
+            "value": "120"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381718,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "80",
+            "value": "80"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turnLeft",
+                "id": 381719,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "120",
+            "value": "120"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381720,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 466.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turnLeft",
+                    "id": 381719,
+                    "template": false,
+                    "spec": "наляво на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 362,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turnLeft",
+                "id": 381721,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 498,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381720,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 88.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 393.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381722,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 529.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turnLeft",
+                    "id": 381721,
+                    "template": false,
+                    "spec": "наляво на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 425,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381720,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "80",
+            "value": "80"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turnLeft",
+                "id": 381721,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "30",
+            "value": "30"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381722,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "80",
+            "value": "80"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turnLeft",
+                "id": 381723,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 561,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381722,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 88.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 456.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381724,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 592.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turnLeft",
+                    "id": 381723,
+                    "template": false,
+                    "spec": "наляво на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 488,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381725,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 624,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381724,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 519.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turnLeft",
+                "id": 381723,
+                "template": false,
+                "spec": "наляво на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "135",
+            "value": "135"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381724,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "113",
+            "value": "113"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381725,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "135",
+            "value": "135"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381726,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 299.5,
+                    "y": 637.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 381725,
+                    "template": false,
+                    "spec": "надясно на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 551,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381726,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "80",
+            "value": "80"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "down",
+            "id": 381710,
+            "template": false,
+            "spec": "спусни молива",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 7000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 12,
+            "indexv": 0
+        },
+        "timeDelta": 2000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 13,
+            "indexv": 0
+        },
+        "timeDelta": 19000
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "down",
+                "id": 381710,
+                "template": false,
+                "spec": "спусни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 74.5,
+                    "y": 35,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 56.5,
+                    "y": 35,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 13400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381628,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 400
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 500
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 381628,
+            "template": false,
+            "spec": "изчисти",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "clear",
+            "id": 381427,
+            "template": true,
+            "spec": "изчисти всичко",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 10
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "down",
+                "id": 381727,
+                "template": false,
+                "spec": "спусни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 54,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 86.5,
+                    "y": 60,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "motion",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381728,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 311.5,
+                    "y": 190,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "down",
+                    "id": 381727,
+                    "template": false,
+                    "spec": "спусни молива",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 86.5,
+                    "y": 85.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381729,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 311.5,
+                    "y": 221.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381728,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 86.5,
+                    "y": 117,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381730,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 311.5,
+                    "y": 253,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 381729,
+                    "template": false,
+                    "spec": "надясно на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 86.5,
+                    "y": 148.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381731,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 311.5,
+                    "y": 284.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381730,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 86.5,
+                    "y": 180,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381732,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 311.5,
+                    "y": 316,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 381731,
+                    "template": false,
+                    "spec": "надясно на %n градуса",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 86.5,
+                    "y": 211.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381733,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 311.5,
+                    "y": 347.5,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 381732,
+                    "template": false,
+                    "spec": "напред с %n стъпки",
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 86.5,
+                    "y": 243,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381728,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "40",
+            "value": "40"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381729,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "60",
+            "value": "60"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381730,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "40",
+            "value": "40"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381731,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "60",
+            "value": "60"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 381732,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "40",
+            "value": "40"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 381733,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "argIndex": 0,
+                "argType": "object",
+                "objType": "Object"
+            },
+            "text": "60",
+            "value": "60"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "down",
+            "id": 381727,
+            "template": false,
+            "spec": "спусни молива",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "down",
+            "id": 381727,
+            "template": false,
+            "spec": "спусни молива",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 38000
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "down",
+                "id": 381727,
+                "template": false,
+                "spec": "спусни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 86.5,
+                    "y": 60,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "ScrollFrameMorph"
+                },
+                "position": {
+                    "x": 30.5,
+                    "y": 77,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 10164
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 14,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "pen",
+            "message": "IDE.changeCategory"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "clear",
+            "id": 381427,
+            "template": true,
+            "spec": "изчисти всичко",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 100
+    },
+
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 381734,
+                "template": false,
+                "spec": "напред с %n стъпки",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 7.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 160,
+                    "y": 30,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 5000
+    },
+   
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 381735,
+                "template": false,
+                "spec": "надясно на %n градуса",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 160,
+                    "y": 80,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 291
+    },
+
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "up",
+                "id": 381736,
+                "template": false,
+                "spec": "вдигни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 54,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 160,
+                    "y": 130,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 9000
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "down",
+                "id": 381737,
+                "template": false,
+                "spec": "спусни молива",
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 7.5,
+                    "y": 88.5,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Костенурка",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 160,
+                    "y": 180,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            }
+        },
+        "timeDelta": 1391
+    },
+    {
+        "type": "videoPause",
+        "data": {},
+        "timeDelta": 5000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 15,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 16,
+            "indexv": 0
+        },
+        "timeDelta": 17000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 17,
+            "indexv": 0
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 15,
+            "indexv": 0
+        },
+        "timeDelta": 10000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 18,
+            "indexv": 0
+        },
+        "timeDelta": 21042
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 19,
+            "indexv": 0
+        },
+        "timeDelta": 4000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 20,
+            "indexv": 0
+        },
+        "timeDelta": 4000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 21,
+            "indexv": 0
+        },
+        "timeDelta": 9000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 22,
+            "indexv": 0
+        },
+        "timeDelta": 24000
+    }
+]
