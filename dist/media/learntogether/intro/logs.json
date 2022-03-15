@@ -1,0 +1,478 @@
+[
+    {
+        "type": "setBlockScale",
+        "data": {
+            "scale": 1.5
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "setLanguage",
+        "data": {
+            "lang": "en"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 18,
+            "highlight": false
+        },
+        "timeDelta": 108
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 21498,
+            "template": false,
+            "spec": "start orbit game",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 7420
+    },
+    {
+        "type": "IDE_selectSprite",
+        "data": {
+            "value": "Spaceship",
+            "message": "IDE.selectSprite"
+        },
+        "timeDelta": 1320
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 160,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 6024
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 199,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2594
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 194,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 5627
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 194,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 767
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 155,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1087
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 155,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 184
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 155,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 174
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 155,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 178
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 155,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 175
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 155,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 210
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 155,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 179
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "receiveKey",
+            "id": 155,
+            "template": false,
+            "spec": "when %keyHat key pressed",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "IDE_selectSprite",
+        "data": {
+            "value": "Тurtle",
+            "message": "IDE.selectSprite"
+        },
+        "timeDelta": 4968
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 21497,
+            "template": false,
+            "spec": "clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1416
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 21499,
+            "template": false,
+            "spec": "move forward",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3801
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 21500,
+            "template": false,
+            "spec": "turn right",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1759
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 53266,
+            "template": false,
+            "spec": "draw fern",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 4297
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 53303,
+            "template": false,
+            "spec": "draw fern flower",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 4602
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 21497,
+            "template": false,
+            "spec": "clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3358
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": true
+        },
+        "timeDelta": 1299
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": false
+        },
+        "timeDelta": 34
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 3,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 3,
+            "highlight": false
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": false
+        },
+        "timeDelta": 17
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": true
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": false
+        },
+        "timeDelta": 15
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": false
+        },
+        "timeDelta": 18
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": false
+        },
+        "timeDelta": 15
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 9,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 9,
+            "highlight": false
+        },
+        "timeDelta": 17
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": false
+        },
+        "timeDelta": 34
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 11,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 11,
+            "highlight": false
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 12,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 12,
+            "highlight": false
+        },
+        "timeDelta": 34
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": false
+        },
+        "timeDelta": 33
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 15,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 15,
+            "highlight": false
+        },
+        "timeDelta": 22
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 16,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 16,
+            "highlight": false
+        },
+        "timeDelta": 278
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 18,
+            "highlight": true
+        },
+        "timeDelta": 84
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 163,
+                "y": 233,
+                "objType": "Point"
+            }
+        },
+        "timeDelta": 258
+    }
+]
