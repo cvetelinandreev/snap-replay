@@ -16,451 +16,197 @@
     {
         "type": "menuItemSelect",
         "data": {
-            "index": 18,
-            "highlight": false
-        },
-        "timeDelta": 108
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 21498,
-            "template": false,
-            "spec": "start orbit game",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 7420
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "Spaceship",
-            "message": "IDE.selectSprite"
-        },
-        "timeDelta": 1320
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 160,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 6024
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 199,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2594
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 194,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 5627
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 194,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 767
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 155,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1087
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 155,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 184
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 155,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 174
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 155,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 178
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 155,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 175
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 155,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 210
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 155,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 179
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "receiveKey",
-            "id": 155,
-            "template": false,
-            "spec": "when %keyHat key pressed",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 200
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "Тurtle",
-            "message": "IDE.selectSprite"
-        },
-        "timeDelta": 4968
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 21497,
-            "template": false,
-            "spec": "clear",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1416
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 21499,
-            "template": false,
-            "spec": "move forward",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3801
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 21500,
-            "template": false,
-            "spec": "turn right",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 1759
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 53266,
-            "template": false,
-            "spec": "draw fern",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 4297
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 53303,
-            "template": false,
-            "spec": "draw fern flower",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 4602
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 21497,
-            "template": false,
-            "spec": "clear",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 3358
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true
-        },
-        "timeDelta": 1299
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false
-        },
-        "timeDelta": 16
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false
-        },
-        "timeDelta": 17
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false
-        },
-        "timeDelta": 15
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false
-        },
-        "timeDelta": 18
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": false
-        },
-        "timeDelta": 15
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 9,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 9,
-            "highlight": false
-        },
-        "timeDelta": 17
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 10,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 10,
-            "highlight": false
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 11,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 11,
-            "highlight": false
-        },
-        "timeDelta": 16
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 12,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 12,
-            "highlight": false
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 14,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 14,
-            "highlight": false
-        },
-        "timeDelta": 33
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 15,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 15,
-            "highlight": false
-        },
-        "timeDelta": 22
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 16,
-            "highlight": true
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
             "index": 16,
             "highlight": false
         },
-        "timeDelta": 278
+        "timeDelta": 28583
     },
     {
-        "type": "menuItemSelect",
+        "type": "run",
         "data": {
-            "index": 18,
-            "highlight": true
+            "selector": "evaluateCustomBlock",
+            "id": 4261551,
+            "template": false,
+            "spec": "main menu Y to Fern",
+            "message": "Block.clickRun"
         },
-        "timeDelta": 84
+        "timeDelta": 10255
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261552,
+            "template": false,
+            "spec": "main menu Y to Fern 1",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 12182
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261553,
+            "template": false,
+            "spec": "main menu Y to Fern 2",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 7467
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261554,
+            "template": false,
+            "spec": "main menu Y to Fern 3",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261555,
+            "template": false,
+            "spec": "main menu Y to Fern 4",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 4051
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261556,
+            "template": false,
+            "spec": "main menu Y to Fern 5",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 10150
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261557,
+            "template": false,
+            "spec": "main menu Y to Fern 6",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 14450
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261558,
+            "template": false,
+            "spec": "main menu Y to Fern 7",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 9434
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261559,
+            "template": false,
+            "spec": "main menu Y to Fern 8",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3883
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261550,
+            "template": false,
+            "spec": "main menu clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 36987
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261560,
+            "template": false,
+            "spec": "main menu play ode of joy",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 5798
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261550,
+            "template": false,
+            "spec": "main menu clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 21817
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261561,
+            "template": false,
+            "spec": "main menu characteristic",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 6317
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261562,
+            "template": false,
+            "spec": "main menu start orbit game",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 27517
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261550,
+            "template": false,
+            "spec": "main menu clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2050
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261562,
+            "template": false,
+            "spec": "main menu start orbit game",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1267
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261550,
+            "template": false,
+            "spec": "main menu clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 18503
     },
     {
         "type": "menu",
@@ -468,11 +214,144 @@
             "parent": null,
             "open": false,
             "position": {
-                "x": 163,
-                "y": 233,
+                "x": 129,
+                "y": 14,
                 "objType": "Point"
             }
         },
-        "timeDelta": 258
+        "timeDelta": 32160
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": true
+        },
+        "timeDelta": 435
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": false
+        },
+        "timeDelta": 15
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 3,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 3,
+            "highlight": false
+        },
+        "timeDelta": 18
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": false
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": true
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": false
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": false
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 13,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 13,
+            "highlight": false
+        },
+        "timeDelta": 17
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": false
+        },
+        "timeDelta": 17
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 16,
+            "highlight": true
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 164,
+                "y": 211,
+                "objType": "Point"
+            }
+        },
+        "timeDelta": 405
     }
 ]
