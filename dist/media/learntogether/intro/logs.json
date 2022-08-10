@@ -1,0 +1,357 @@
+[
+    {
+        "type": "setBlockScale",
+        "data": {
+            "scale": 1.5
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "setLanguage",
+        "data": {
+            "lang": "en"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 16,
+            "highlight": false
+        },
+        "timeDelta": 28583
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261551,
+            "template": false,
+            "spec": "main menu Y to Fern",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 10255
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261552,
+            "template": false,
+            "spec": "main menu Y to Fern 1",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 12182
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261553,
+            "template": false,
+            "spec": "main menu Y to Fern 2",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 7467
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261554,
+            "template": false,
+            "spec": "main menu Y to Fern 3",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2400
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261555,
+            "template": false,
+            "spec": "main menu Y to Fern 4",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 4051
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261556,
+            "template": false,
+            "spec": "main menu Y to Fern 5",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 10150
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261557,
+            "template": false,
+            "spec": "main menu Y to Fern 6",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 14450
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261558,
+            "template": false,
+            "spec": "main menu Y to Fern 7",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 9434
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261559,
+            "template": false,
+            "spec": "main menu Y to Fern 8",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 3883
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261550,
+            "template": false,
+            "spec": "main menu clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 36987
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261560,
+            "template": false,
+            "spec": "main menu play ode of joy",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 5798
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261550,
+            "template": false,
+            "spec": "main menu clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 21817
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261561,
+            "template": false,
+            "spec": "main menu characteristic",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 6317
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261562,
+            "template": false,
+            "spec": "main menu start orbit game",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 27517
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261550,
+            "template": false,
+            "spec": "main menu clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 2050
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261562,
+            "template": false,
+            "spec": "main menu start orbit game",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 1267
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 4261550,
+            "template": false,
+            "spec": "main menu clear",
+            "message": "Block.clickRun"
+        },
+        "timeDelta": 18503
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 129,
+                "y": 14,
+                "objType": "Point"
+            }
+        },
+        "timeDelta": 32160
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": true
+        },
+        "timeDelta": 435
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": false
+        },
+        "timeDelta": 15
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 3,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 3,
+            "highlight": false
+        },
+        "timeDelta": 18
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": false
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": true
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": false
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": false
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 13,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 13,
+            "highlight": false
+        },
+        "timeDelta": 17
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": true
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": false
+        },
+        "timeDelta": 17
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 16,
+            "highlight": true
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 164,
+                "y": 211,
+                "objType": "Point"
+            }
+        },
+        "timeDelta": 405
+    }
+]
