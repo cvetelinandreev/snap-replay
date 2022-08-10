@@ -14,6 +14,47 @@
         "timeDelta": 1
     },
     {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 1,
+            "indexv": 0
+        },
+        "timeDelta": 3000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 2,
+            "indexv": 0
+        },
+        "timeDelta": 6000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 21605
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 3,
+            "indexv": 0
+        },
+        "timeDelta": 2000
+    },
+    {
         "type": "blockDrop",
         "data": {
             "lastDroppedBlock": {
@@ -57,7 +98,14 @@
                 "objType": "Object"
             }
         },
-        "timeDelta": 36605
+        "timeDelta": 3000
+    },
+    {
+        "type": "slidesVisible",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 1000
     },
     {
         "type": "run",
@@ -2285,5 +2333,55 @@
         "type": "videoPause",
         "data": {},
         "timeDelta": 10000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 4,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesVisible",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 500
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 5,
+            "indexv": 0
+        },
+        "timeDelta": 3000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 6,
+            "indexv": 0
+        },
+        "timeDelta": 6000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 7,
+            "indexv": 0
+        },
+        "timeDelta": 7000
     }
 ]
