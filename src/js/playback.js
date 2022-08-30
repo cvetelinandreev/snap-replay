@@ -751,7 +751,7 @@ export class Playback {
         }, 1);
 
         if (duration > this.duration - 0.1) {
-            this.showFinishedModal();
+            // this.showFinishedModal();
             this.pause();
         }
         this.updateTime();
