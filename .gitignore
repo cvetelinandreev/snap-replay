@@ -3,3 +3,6 @@ dist/js
 dist/css/reveal.js
 .vscode
 .env
+
+# OS specific
+.DS_Store 
