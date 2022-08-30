@@ -5,16 +5,26 @@
     top: 0px;
     left: 0px;
     width: 100%;
-    height: calc(100% - 150px);
+    height: calc(100% - 65px);
     transition: all 0.5s ease;
+    z-index: 2;
 }
 
 #slides.minimized {
-    top: calc(100% - 280px);
+    top: calc(100% - 195px);
     left: calc(100% - 205px);
     width: 198px;
     height: 123px;
     border: 1px solid rgb(26, 0, 75);
+}
+
+.bigbar #slides {
+    height: calc(100% - 110px);
+}
+
+.bigbar #slides.minimized {
+    top: calc(100% - 240px);
+    height: 123px;
 }
 
 #slides.hidden {
@@ -36,6 +46,12 @@
     font-size: large;
 }
 
+#slides-toggle.blinking {
+    animation: blinker 1s ease-in-out infinite alternate;
+}
+/* @keyframes blinker { to { background-color: rgb(122, 124, 0); } } */
+@keyframes blinker { to { opacity: 0; } }
+
 #slides-toggle.hidden {
     display: none;
 }
@@ -55,10 +71,15 @@
     margin: 0;
 }
 
+.reveal {
+    font-size: 2em;
+}
+
 .reveal code {
     background-color: #333;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 6px;
+    padding: 3px;
+    white-space: nowrap;
 }
 
 .reveal .quiz a {
@@ -85,4 +106,13 @@
 
 .reveal p img {
     margin: inherit;
+}
+
+.reveal strong {
+    color: #7d7dff
+}
+
+.reveal table {
+    color: white;
+    font-size: 1em;
 }
