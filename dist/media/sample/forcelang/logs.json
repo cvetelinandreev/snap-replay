@@ -1,0 +1,16 @@
+[
+    {
+        "type": "setBlockScale",
+        "data": {
+            "scale": 2
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "setLanguage",
+        "data": {
+            "lang": "bg"
+        },
+        "timeDelta": 1
+    }
+]
