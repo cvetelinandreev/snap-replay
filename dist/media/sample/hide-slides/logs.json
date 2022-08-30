@@ -1,0 +1,44 @@
+[
+    {
+        "type": "setBlockScale",
+        "data": {
+            "scale": 1
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 2000
+    },
+    {
+        "type": "slidesVisible",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 2000
+    },
+    {
+        "type": "slidesVisible",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 2000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 2000
+    }
+]

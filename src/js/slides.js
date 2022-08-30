@@ -21,6 +21,7 @@ export class Slides {
     loadMarkdown(markdown) {
         this.markdown = markdown;
         this.maximized = false;
+        this.visible = true;
 
         $('#markdown').html(markdown);
         let deck = new Reveal({
@@ -93,6 +94,7 @@ export class Slides {
     reset() {
         this.deck.slide(0, 0);
         this.setMaximized(false);
+        this.setVisible(true);
     }
 
     loadRecord(record) {
@@ -119,6 +121,11 @@ export class Slides {
             case 'slidesToggled':
                 return (callback, fast) => {
                     this.setMaximized(data.value);
+                    setTimeout(callback, 1);
+                };
+            case 'slidesVisible':
+                return (callback, fast) => {
+                    this.setVisible(data.value);
                     setTimeout(callback, 1);
                 };
             case 'waitForQuestion':
@@ -208,6 +215,17 @@ export class Slides {
         $('#slides-toggle-icon').toggleClass('bi-arrow-up-left', !maximized);
         $('#slides-toggle-icon').toggleClass('bi-arrow-down-right', maximized);
         if (!maximized) $('#slides-toggle').removeClass('blinking');
+        setTimeout(() => this.deck.layout(), 500);
+    }
+
+    setVisible(visible) {
+        this.visible = visible;
+        Slides.recordEvent('slidesVisible', {value: this.visible});
+        if (visible) {
+            $('#slides').removeClass('hidden');
+        } else {
+            $('#slides').addClass('hidden');
+        }
         setTimeout(() => this.deck.layout(), 500);
     }
 }
