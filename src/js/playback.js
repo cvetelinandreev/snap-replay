@@ -751,7 +751,9 @@ export class Playback {
         }, 1);
 
         if (duration > this.duration - 0.1) {
-            // this.showFinishedModal();
+            if (process.env.SKIP_FINISHED_MODAL !== "true") {
+                this.showFinishedModal();
+            }
             this.pause();
         }
         this.updateTime();
