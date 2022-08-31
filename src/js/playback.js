@@ -498,18 +498,10 @@ export class Playback {
         this.recorder = this.snapWindow.recorder;
         this.snapEdits = 0;
         if (this.snapWindow.recorder) {
-            this.recorder.constructor.setRecordScale(this.script.config.blockScale);
-
-            let configLang = this.script.config.lang;
-            let currentLang = this.snapWindow.ide.userLanguage;
-
-            if (currentLang === null && configLang === 'en'
-                || currentLang === configLang) {
-                this.recorder.constructor.resetSnap(this.script.startXML);
-            } else {
-                this.recorder.constructor.setLanguage(this.script.config.lang, () =>
-                    this.recorder.constructor.resetSnap(this.script.startXML));
-            }
+            this.recorder.constructor.resetSnap(this.script.startXML);
+            this.recorder.constructor.setLanguage(this.script.config.lang, () => {
+                this.recorder.constructor.setRecordScale(this.script.config.blockScale);
+            });
             this.recorder.constructor.setOnClickCallback(
                 (x, y) => this.simulateClick(x, y));
         }
