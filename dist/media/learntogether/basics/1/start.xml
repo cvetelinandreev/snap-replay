@@ -28,7 +28,7 @@
                 <blocks></blocks>
                 <variables></variables>
                 <scripts>
-                    <script x="13.333333333333334" y="313.3333333333333">
+                    <script x="10" y="1300">
                         <block blockID="378360" s="receiveGo"></block>
                         <custom-block id="384279" s="изчисти">undefined</custom-block>
                         <block blockID="378362" s="doSetVar">
@@ -38,7 +38,7 @@
                             </block>
                         </block>
                     </script>
-                    <script x="13.333333333333334" y="398.3333333333333">
+                    <script x="10" y="1400">
                         <block blockID="378469" s="receiveKey">
                             <l>
                                 <option>up arrow</option>
@@ -46,7 +46,7 @@
                         </block>
                         <custom-block id="384283" s="напред">undefined</custom-block>
                     </script>
-                    <script x="13.333333333333334" y="461.3333333333333">
+                    <script x="10" y="1500">
                         <block blockID="378471" s="receiveKey">
                             <l>
                                 <option>down arrow</option>
@@ -54,7 +54,7 @@
                         </block>
                         <custom-block id="384285" s="отмени">undefined</custom-block>
                     </script>
-                    <script x="13.333333333333334" y="524.3333333333334">
+                    <script x="10" y="1600">
                         <block blockID="378474" s="receiveKey">
                             <l>
                                 <option>right arrow</option>
@@ -62,7 +62,7 @@
                         </block>
                         <custom-block id="384287" s="надясно">undefined</custom-block>
                     </script>
-                    <script x="13.333333333333334" y="587.3333333333334">
+                    <script x="10" y="1700">
                         <block blockID="378477" s="receiveKey">
                             <l>
                                 <option>left arrow</option>

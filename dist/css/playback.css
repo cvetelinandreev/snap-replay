@@ -3,9 +3,39 @@ body {
     overflow: hidden;
 }
 
+#loading {
+    background-color: black;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading p {
+    color: #eee;
+    font-size: 4em;
+}
+
+#loading.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
 #isnap {
     width: 100%;
-    height: calc(100% - 152px);
+    height: calc(100% - 67px);
+    transition: height 0.5s;
+}
+
+.bigbar #isnap {
+    height: calc(100% - 112px);
 }
 
 .playpause.pause {
@@ -19,11 +49,11 @@ body {
     box-sizing: border-box;
     width: 0;
     height: 40px;
-  
+
     border-color: transparent transparent transparent #202020;
     transition: 100ms all ease;
     cursor: pointer;
-  
+
     border-style: solid;
     border-width: 20px 0 20px 32px;
 
@@ -139,11 +169,28 @@ body {
     transform: scale(0, 0);
     transition: transform 0.15s linear;
 }
+
 #clickHighlight.down {
     transform: scale(0.5, 0.5);
     /* opacity: 0.3; */
 }
 
+#cursor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    width: 25px;
+    transition-timing-function: ease-in-out;
+}
+
+#cursor.moving {
+    opacity: 1;
+}
+
+#cursor.hidden {
+    opacity: 0;
+}
 
 button.hidden {
     display: none;
@@ -168,4 +215,34 @@ i.button-icon {
 
 #solution-image {
     display: block;
+    width: 100%;
+}
+
+#time {
+    float: left;
+    font-size: 0.8em;
+    margin-top: -20px;
+    margin-left: 60px;
+    color: #555;
+}
+
+#problems {
+    float: right;
+    font-size: 0.8em;
+    margin-top: -20px;
+    margin-right: 50px;
+    color: #555;
+}
+
+#problems a {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+#problems a:hover {
+    opacity: 1;
+}
+
+p.hidden {
+    display: none;
 }

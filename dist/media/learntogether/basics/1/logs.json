@@ -2,7 +2,7 @@
     {
         "type": "setBlockScale",
         "data": {
-            "scale": 1.5
+            "scale": 1
         },
         "timeDelta": 1
     },

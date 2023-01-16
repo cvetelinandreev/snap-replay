@@ -2,67 +2,60 @@
     {
         "type": "setBlockScale",
         "data": {
-            "scale": 1
+            "scale": 1,
+            "_recordID": "1d100e9b-7c66-4230-93aa-6033c324e107"
         },
         "timeDelta": 0
     },
     {
         "type": "setLanguage",
         "data": {
-            "lang": "bg"
+            "lang": "bg",
+            "_recordID": "5e6f2de3-2c67-43da-ad54-fd2cf4148cae"
         },
-        "timeDelta": 1
+        "timeDelta": 0
     },
     {
-        "type": "slidesToggled",
+        "type": "menuItemSelect",
         "data": {
-            "value": true
+            "index": 18,
+            "highlight": false,
+            "_recordID": "187dba48-1412-42a8-b9f4-e3d231a3d69a"
         },
-        "timeDelta": 1
+        "timeDelta": 220
     },
     {
-        "type": "slideChanged",
+        "type": "block_grabbed",
         "data": {
-            "id": "",
-            "indexh": 1,
-            "indexv": 0
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 882685,
+                "template": false,
+                "spec": "ред %l %cmdRing",
+                "definitionGUID": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 873,
+                "y": 110,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "381b740f-ec79-4296-a76e-e89731eb18a5"
         },
-        "timeDelta": 3000
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 2,
-            "indexv": 0
-        },
-        "timeDelta": 6000
-    },
-    {
-        "type": "slidesToggled",
-        "data": {
-            "value": false
-        },
-        "timeDelta": 21605
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 3,
-            "indexv": 0
-        },
-        "timeDelta": 2000
+        "timeDelta": 42582
     },
     {
         "type": "blockDrop",
         "data": {
             "lastDroppedBlock": {
                 "selector": "evaluateCustomBlock",
-                "id": 94224,
+                "id": 882685,
                 "template": false,
                 "spec": "ред %l %cmdRing",
-                "guid": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
+                "definitionGUID": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
+                "isPrototype": false,
                 "objType": "BlockMorph"
             },
             "lastReplacedInput": null,
@@ -77,7 +70,7 @@
                     "objType": "ScriptsMorph"
                 },
                 "position": {
-                    "x": 300,
+                    "x": 672,
                     "y": 10,
                     "objType": "Point"
                 },
@@ -91,589 +84,62 @@
                     "objType": "ScriptsMorph"
                 },
                 "position": {
-                    "x": 32,
-                    "y": 28,
+                    "x": 30,
+                    "y": 29,
                     "objType": "Point"
                 },
                 "objType": "Object"
-            }
+            },
+            "_recordID": "ef5590dc-223e-467b-8e1d-7c9a66907378"
         },
-        "timeDelta": 3000
-    },
-    {
-        "type": "slidesVisible",
-        "data": {
-            "value": false
-        },
-        "timeDelta": 1000
-    },
-    {
-        "type": "run",
-        "data": {
-            "message": "IDE.greenFlag"
-        },
-        "timeDelta": 10341
+        "timeDelta": 1224
     },
     {
         "type": "run",
         "data": {
             "selector": "evaluateCustomBlock",
-            "id": 94224,
+            "id": 882685,
             "template": false,
             "spec": "ред %l %cmdRing",
-            "message": "Block.clickRun"
+            "definitionGUID": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "004627e6-6f4d-4626-adc4-bb0822aa288b"
         },
-        "timeDelta": 1608
+        "timeDelta": 11087
     },
     {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 94736,
-                "template": false,
-                "spec": "подготви следващ ред",
-                "guid": "f5f2711e-0199-4163-b27c-6fd08d303a31",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 300,
-                    "y": 62,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 31,
-                    "y": 88,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 16109
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 94736,
-            "template": false,
-            "spec": "подготви следващ ред",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 874
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 94737,
-                "template": false,
-                "spec": "ред %l %cmdRing",
-                "guid": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 300,
-                    "y": 97,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 30,
-                    "y": 130,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 7494
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 94737,
-            "template": false,
-            "spec": "ред %l %cmdRing",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 10674
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 469052,
-                "template": false,
-                "spec": "подготви следващ ред",
-                "guid": "f5f2711e-0199-4163-b27c-6fd08d303a31",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 300,
-                    "y": 149,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 34,
-                    "y": 190,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 2518
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 469052,
-            "template": false,
-            "spec": "подготви следващ ред",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 531
-    },
-    {
-        "type": "changeCategory",
-        "data": {
-            "value": "control",
-            "message": "IDE.changeCategory"
-        },
-        "timeDelta": 2880
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doRepeat",
-                "id": 471201,
-                "template": false,
-                "spec": "повтори %n %loop",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": {
-                "point": {
-                    "x": 249,
-                    "y": 128,
-                    "objType": "Point"
-                },
-                "element": {
-                    "selector": "evaluateCustomBlock",
-                    "id": 94224,
-                    "template": false,
-                    "spec": "ред %l %cmdRing",
-                    "guid": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
-                    "objType": "BlockMorph"
-                },
-                "loc": "wrap",
-                "type": "block",
-                "objType": "Object"
-            },
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": {
-                "source": "Sprite",
-                "spriteName": "Костенурка",
-                "objType": "ScriptsMorph"
-            },
-            "lastOrigin": {
-                "origin": {
-                    "source": "Palette",
-                    "objType": "FrameMorph"
-                },
-                "position": {
-                    "x": 5,
-                    "y": 468,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 25,
-                    "y": 4,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 5858
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 94736,
-                "template": false,
-                "spec": "подготви следващ ред",
-                "guid": "f5f2711e-0199-4163-b27c-6fd08d303a31",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": {
-                "point": {
-                    "x": 249,
-                    "y": 162,
-                    "objType": "Point"
-                },
-                "element": {
-                    "selector": "evaluateCustomBlock",
-                    "id": 94224,
-                    "template": false,
-                    "spec": "ред %l %cmdRing",
-                    "guid": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
-                    "objType": "BlockMorph"
-                },
-                "loc": "bottom",
-                "type": "block",
-                "objType": "Object"
-            },
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 31,
-                    "y": 94,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 32,
-                    "y": 65,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 2142
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 94737,
-                "template": false,
-                "spec": "ред %l %cmdRing",
-                "guid": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": {
-                "point": {
-                    "x": 249,
-                    "y": 179,
-                    "objType": "Point"
-                },
-                "element": {
-                    "selector": "evaluateCustomBlock",
-                    "id": 94736,
-                    "template": false,
-                    "spec": "подготви следващ ред",
-                    "guid": "f5f2711e-0199-4163-b27c-6fd08d303a31",
-                    "objType": "BlockMorph"
-                },
-                "loc": "bottom",
-                "type": "block",
-                "objType": "Object"
-            },
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 30,
-                    "y": 136,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 32,
-                    "y": 82,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 1498
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 469052,
-                "template": false,
-                "spec": "подготви следващ ред",
-                "guid": "f5f2711e-0199-4163-b27c-6fd08d303a31",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": {
-                "point": {
-                    "x": 249,
-                    "y": 213,
-                    "objType": "Point"
-                },
-                "element": {
-                    "selector": "evaluateCustomBlock",
-                    "id": 94737,
-                    "template": false,
-                    "spec": "ред %l %cmdRing",
-                    "guid": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
-                    "objType": "BlockMorph"
-                },
-                "loc": "bottom",
-                "type": "block",
-                "objType": "Object"
-            },
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 34,
-                    "y": 196,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 32,
-                    "y": 116,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 1696
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doSetGlobalFlag",
-            "id": 468981,
-            "template": false,
-            "spec": "set %setting to %b",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 9725
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doRepeat",
-            "id": 471201,
-            "template": false,
-            "spec": "повтори %n %loop",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2930
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 469054,
-                "template": false,
-                "spec": "%n двойни реда с цвят %cmdRing",
-                "guid": "aac548a6-5fbc-416d-a9bc-a89783e64423",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 300,
-                    "y": 229,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 21,
-                    "y": 167,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 6837
-    },
-    {
-        "type": "inputSlotEdit",
+        "type": "block_grabbed",
         "data": {
             "id": {
                 "selector": "evaluateCustomBlock",
-                "id": 469054,
+                "id": 882690,
                 "template": false,
-                "spec": "%n двойни реда с цвят %cmdRing",
-                "argIndex": 0,
-                "argType": "object",
+                "spec": "подготви следващ ред",
+                "definitionGUID": "f5f2711e-0199-4163-b27c-6fd08d303a31",
+                "isPrototype": false,
                 "objType": "Object"
             },
-            "text": "10",
-            "value": "10"
+            "origin": {
+                "x": 874,
+                "y": 172,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "26bf6742-c37c-4f49-a55a-94a54be769ac"
         },
-        "timeDelta": 3667
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doSetGlobalFlag",
-            "id": 468981,
-            "template": false,
-            "spec": "set %setting to %b",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 469054,
-            "template": false,
-            "spec": "%n двойни реда с цвят %cmdRing",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 94
+        "timeDelta": 29272
     },
     {
         "type": "blockDrop",
         "data": {
             "lastDroppedBlock": {
                 "selector": "evaluateCustomBlock",
-                "id": 469054,
+                "id": 882690,
                 "template": false,
-                "spec": "%n двойни реда с цвят %cmdRing",
-                "guid": "aac548a6-5fbc-416d-a9bc-a89783e64423",
+                "spec": "подготви следващ ред",
+                "definitionGUID": "f5f2711e-0199-4163-b27c-6fd08d303a31",
+                "isPrototype": false,
                 "objType": "BlockMorph"
             },
             "lastReplacedInput": null,
@@ -688,150 +154,8 @@
                     "objType": "ScriptsMorph"
                 },
                 "position": {
-                    "x": 20,
-                    "y": 161,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 979,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 7239
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doRepeat",
-                "id": 471201,
-                "template": false,
-                "spec": "повтори %n %loop",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 25,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 61,
-                    "y": 16,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "inputSlotEdit",
-        "data": {
-            "id": {
-                "selector": "setColor",
-                "id": 469051,
-                "template": false,
-                "spec": "цвят %clr",
-                "argIndex": 0,
-                "argType": "object",
-                "objType": "Object"
-            },
-            "color": {
-                "r": 21,
-                "g": 189,
-                "b": 0,
-                "a": 1,
-                "objType": "Color"
-            },
-            "value": {
-                "r": 21,
-                "g": 189,
-                "b": 0,
-                "a": 1,
-                "objType": "Color"
-            }
-        },
-        "timeDelta": 8392
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doSetGlobalFlag",
-            "id": 468981,
-            "template": false,
-            "spec": "set %setting to %b",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doRepeat",
-            "id": 471201,
-            "template": false,
-            "spec": "повтори %n %loop",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 2505
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 469053,
-                "template": false,
-                "spec": "разтъчи %n реда",
-                "guid": "9fc93eed-a231-4503-9a96-cfc7c61c2339",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 300,
-                    "y": 190,
+                    "x": 673,
+                    "y": 72,
                     "objType": "Point"
                 },
                 "objType": "Object"
@@ -845,107 +169,61 @@
                 },
                 "position": {
                     "x": 29,
-                    "y": 229,
+                    "y": 95,
                     "objType": "Point"
                 },
                 "objType": "Object"
-            }
-        },
-        "timeDelta": 6684
-    },
-    {
-        "type": "inputSlotEdit",
-        "data": {
-            "id": {
-                "selector": "evaluateCustomBlock",
-                "id": 469053,
-                "template": false,
-                "spec": "разтъчи %n реда",
-                "argIndex": 0,
-                "argType": "object",
-                "objType": "Object"
             },
-            "text": "20",
-            "value": "20"
+            "_recordID": "60893ffb-7d41-473f-bea1-a0e44c621a8e"
         },
-        "timeDelta": 5335
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doSetGlobalFlag",
-            "id": 468981,
-            "template": false,
-            "spec": "set %setting to %b",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 0
+        "timeDelta": 1213
     },
     {
         "type": "run",
         "data": {
             "selector": "evaluateCustomBlock",
-            "id": 469053,
+            "id": 882690,
             "template": false,
-            "spec": "разтъчи %n реда",
-            "message": "Block.clickRun"
+            "spec": "подготви следващ ред",
+            "definitionGUID": "f5f2711e-0199-4163-b27c-6fd08d303a31",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "e18ac8b9-c012-421a-9891-82d403d6d4a2"
         },
-        "timeDelta": 77
+        "timeDelta": 5034
     },
     {
-        "type": "blockDrop",
+        "type": "block_grabbed",
         "data": {
-            "lastDroppedBlock": {
-                "selector": "doRepeat",
-                "id": 471201,
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 882691,
                 "template": false,
-                "spec": "повтори %n %loop",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 61,
-                    "y": 10,
-                    "objType": "Point"
-                },
+                "spec": "ред %l %cmdRing",
+                "definitionGUID": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
+                "isPrototype": false,
                 "objType": "Object"
             },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 816,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
+            "origin": {
+                "x": 875,
+                "y": 218,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "d903d654-d6b9-466e-ae28-4aebb5cb03e7"
         },
-        "timeDelta": 9995
+        "timeDelta": 2988
     },
     {
         "type": "blockDrop",
         "data": {
             "lastDroppedBlock": {
                 "selector": "evaluateCustomBlock",
-                "id": 469053,
+                "id": 882691,
                 "template": false,
-                "spec": "разтъчи %n реда",
-                "guid": "9fc93eed-a231-4503-9a96-cfc7c61c2339",
+                "spec": "ред %l %cmdRing",
+                "definitionGUID": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
+                "isPrototype": false,
                 "objType": "BlockMorph"
             },
             "lastReplacedInput": null,
@@ -960,8 +238,8 @@
                     "objType": "ScriptsMorph"
                 },
                 "position": {
-                    "x": 149,
-                    "y": 221,
+                    "x": 674,
+                    "y": 118,
                     "objType": "Point"
                 },
                 "objType": "Object"
@@ -974,23 +252,62 @@
                     "objType": "ScriptsMorph"
                 },
                 "position": {
-                    "x": 20,
-                    "y": 1350,
+                    "x": 29,
+                    "y": 141,
                     "objType": "Point"
                 },
                 "objType": "Object"
-            }
+            },
+            "_recordID": "2b9b5117-5fd5-43a9-98de-4c3911ffb7cd"
         },
-        "timeDelta": 10
+        "timeDelta": 2658
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 882691,
+            "template": false,
+            "spec": "ред %l %cmdRing",
+            "definitionGUID": "03098401-7c67-4dfd-976c-3c14e1ca1f81",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "9a75a148-2ca6-4600-9c3f-c53b4fe6ca89"
+        },
+        "timeDelta": 9770
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 882696,
+                "template": false,
+                "spec": "подготви следващ ред",
+                "definitionGUID": "f5f2711e-0199-4163-b27c-6fd08d303a31",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 875,
+                "y": 278,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "2c48ba0c-f82c-4eb5-8428-e767889d0e70"
+        },
+        "timeDelta": 4203
     },
     {
         "type": "blockDrop",
         "data": {
             "lastDroppedBlock": {
-                "selector": "doRepeat",
-                "id": 469111,
+                "selector": "evaluateCustomBlock",
+                "id": 882696,
                 "template": false,
-                "spec": "повтори %n %loop",
+                "spec": "подготви следващ ред",
+                "definitionGUID": "f5f2711e-0199-4163-b27c-6fd08d303a31",
+                "isPrototype": false,
                 "objType": "BlockMorph"
             },
             "lastReplacedInput": null,
@@ -1005,8 +322,8 @@
                     "objType": "ScriptsMorph"
                 },
                 "position": {
-                    "x": 19,
-                    "y": 1085,
+                    "x": 674,
+                    "y": 178,
                     "objType": "Point"
                 },
                 "objType": "Object"
@@ -1020,79 +337,61 @@
                 },
                 "position": {
                     "x": 24,
-                    "y": 12,
+                    "y": 203,
                     "objType": "Point"
                 },
                 "objType": "Object"
-            }
+            },
+            "_recordID": "e10dc1a4-e642-4150-96ca-497fb87a3c3d"
         },
-        "timeDelta": 10
+        "timeDelta": 1187
     },
     {
         "type": "run",
         "data": {
-            "selector": "doRepeat",
-            "id": 469111,
+            "selector": "evaluateCustomBlock",
+            "id": 882696,
             "template": false,
-            "spec": "повтори %n %loop",
-            "message": "Block.clickRun"
+            "spec": "подготви следващ ред",
+            "definitionGUID": "f5f2711e-0199-4163-b27c-6fd08d303a31",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "64eb27a0-3895-4f05-bc74-7875d94900b9"
         },
-        "timeDelta": 7714
+        "timeDelta": 410
     },
     {
-        "type": "blockDrop",
+        "type": "block_grabbed",
         "data": {
-            "lastDroppedBlock": {
-                "selector": "doRepeat",
-                "id": 469111,
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 882697,
                 "template": false,
-                "spec": "повтори %n %loop",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 24,
-                    "y": 10,
-                    "objType": "Point"
-                },
+                "spec": "%n двойки редове лито %cmdRing",
+                "definitionGUID": "aac548a6-5fbc-416d-a9bc-a89783e64423",
+                "isPrototype": false,
                 "objType": "Object"
             },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1038,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
+            "origin": {
+                "x": 876,
+                "y": 283,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "2b551f6c-bbf6-4079-934d-7dcd81e48a6e"
         },
-        "timeDelta": 6183
+        "timeDelta": 17770
     },
     {
         "type": "blockDrop",
         "data": {
             "lastDroppedBlock": {
                 "selector": "evaluateCustomBlock",
-                "id": 471001,
+                "id": 882697,
                 "template": false,
-                "spec": "сплитка %l %cmdRing",
-                "guid": "e7760a2f-1881-4d92-97f1-334d261107b5",
+                "spec": "%n двойки редове лито %cmdRing",
+                "definitionGUID": "aac548a6-5fbc-416d-a9bc-a89783e64423",
+                "isPrototype": false,
                 "objType": "BlockMorph"
             },
             "lastReplacedInput": null,
@@ -1107,8 +406,8 @@
                     "objType": "ScriptsMorph"
                 },
                 "position": {
-                    "x": 20,
-                    "y": 1365,
+                    "x": 675,
+                    "y": 223,
                     "objType": "Point"
                 },
                 "objType": "Object"
@@ -1121,345 +420,13 @@
                     "objType": "ScriptsMorph"
                 },
                 "position": {
-                    "x": 20,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 3062
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doSetVar",
-                "id": 1565,
-                "template": false,
-                "spec": "направи %var на %s",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1404,
+                    "x": 26,
+                    "y": 234,
                     "objType": "Point"
                 },
                 "objType": "Object"
             },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 21,
-                    "y": 42,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 3561
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doSetVar",
-                "id": 1565,
-                "template": false,
-                "spec": "направи %var на %s",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 21,
-                    "y": 42,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": -110,
-                    "y": 22,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 8327
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doSetVar",
-                "id": 1565,
-                "template": false,
-                "spec": "направи %var на %s",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 10,
-                    "y": 22,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 130,
-                    "y": 70,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 6979
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doDeclareVariables",
-                "id": 1556,
-                "template": false,
-                "spec": "променливи на скрипта %scriptVars",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": {
-                "point": {
-                    "x": 249,
-                    "y": 170,
-                    "objType": "Point"
-                },
-                "element": {
-                    "selector": "doSetVar",
-                    "id": 1565,
-                    "template": false,
-                    "spec": "направи %var на %s",
-                    "objType": "BlockMorph"
-                },
-                "loc": "top",
-                "type": "block",
-                "objType": "Object"
-            },
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1623,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 32,
-                    "y": 11,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doDeclareVariables",
-                "id": 1556,
-                "template": false,
-                "spec": "променливи на скрипта %scriptVars",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 32,
-                    "y": 11,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 32,
-                    "y": 23,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 471001,
-                "template": false,
-                "spec": "сплитка %l %cmdRing",
-                "guid": "e7760a2f-1881-4d92-97f1-334d261107b5",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": {
-                "point": {
-                    "x": 249,
-                    "y": 386,
-                    "objType": "Point"
-                },
-                "element": {
-                    "selector": "doSetVar",
-                    "id": 469185,
-                    "template": false,
-                    "spec": "направи %var на %s",
-                    "objType": "BlockMorph"
-                },
-                "loc": "bottom",
-                "type": "block",
-                "objType": "Object"
-            },
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 120,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 32,
-                    "y": 283,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doSetGlobalFlag",
-            "id": 468981,
-            "template": false,
-            "spec": "set %setting to %b",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doDeclareVariables",
-            "id": 1556,
-            "template": false,
-            "spec": "променливи на скрипта %scriptVars",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "changeCategory",
-        "data": {
-            "value": "variables",
-            "message": "IDE.changeCategory"
+            "_recordID": "15ca0c88-a96c-4628-85ba-843504ecd659"
         },
         "timeDelta": 7862
     },
@@ -1470,918 +437,281 @@
             "id": 468981,
             "template": false,
             "spec": "set %setting to %b",
-            "message": "Block.clickRun"
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "c938d808-d277-49e9-9a78-43a0dbe403bb"
+        },
+        "timeDelta": 8160
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 882697,
+            "template": false,
+            "spec": "%n двойки редове лито %cmdRing",
+            "definitionGUID": "aac548a6-5fbc-416d-a9bc-a89783e64423",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "13498c6a-5950-4566-af6b-f3006b535cb7"
+        },
+        "timeDelta": 6265
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": true,
+            "_recordID": "04e80c0e-98d7-491d-9386-a621c3409f9f"
+        },
+        "timeDelta": 5612
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": false,
+            "_recordID": "eb3d969e-477c-4597-a55b-f6143fc339a9"
+        },
+        "timeDelta": 34
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 3,
+            "highlight": true,
+            "_recordID": "f2a4ffe9-fbfe-4b29-a0af-4481cbfcd159"
         },
         "timeDelta": 0
     },
     {
-        "type": "run",
+        "type": "menuItemSelect",
         "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 473636,
-            "template": true,
-            "spec": "сплитка вариация ХОХОХО",
-            "message": "Block.clickRun"
+            "index": 3,
+            "highlight": false,
+            "_recordID": "981bcfcb-540e-459e-96bd-c2dea20d39e5"
         },
-        "timeDelta": 10
+        "timeDelta": 32
     },
     {
-        "type": "blockDrop",
+        "type": "menuItemSelect",
         "data": {
-            "lastDroppedBlock": {
-                "selector": "doDeclareVariables",
-                "id": 1556,
-                "template": false,
-                "spec": "променливи на скрипта %scriptVars",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 32,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1624,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 7903
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 471038,
-                "template": false,
-                "spec": "килимна техника %l %cmdRing",
-                "guid": "3b39b1c3-d9f6-4f5d-9aba-c6a12428adba",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1700,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 20,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 5000
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doSetVar",
-                "id": 1597,
-                "template": false,
-                "spec": "направи %var на %s",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1718,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 68,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 4395
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doSetVar",
-                "id": 1597,
-                "template": false,
-                "spec": "направи %var на %s",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 15,
-                    "y": 68,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": -91,
-                    "y": 73,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 8360
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doSetVar",
-                "id": 1597,
-                "template": false,
-                "spec": "направи %var на %s",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 140,
-                    "y": 73,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 140,
-                    "y": 61,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 8000
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 471038,
-                "template": false,
-                "spec": "килимна техника %l %cmdRing",
-                "guid": "3b39b1c3-d9f6-4f5d-9aba-c6a12428adba",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 13,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 22,
-                    "y": 11,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doDeclareVariables",
-                "id": 1592,
-                "template": false,
-                "spec": "променливи на скрипта %scriptVars",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": {
-                "point": {
-                    "x": 232,
-                    "y": 160,
-                    "objType": "Point"
-                },
-                "element": {
-                    "selector": "doSetVar",
-                    "id": 1597,
-                    "template": false,
-                    "spec": "направи %var на %s",
-                    "objType": "BlockMorph"
-                },
-                "loc": "top",
-                "type": "block",
-                "objType": "Object"
-            },
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1853,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 15,
-                    "y": 1,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doDeclareVariables",
-                "id": 1592,
-                "template": false,
-                "spec": "променливи на скрипта %scriptVars",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 15,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 63,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 471038,
-                "template": false,
-                "spec": "килимна техника %l %cmdRing",
-                "guid": "3b39b1c3-d9f6-4f5d-9aba-c6a12428adba",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": {
-                "point": {
-                    "x": 237,
-                    "y": 342,
-                    "objType": "Point"
-                },
-                "element": {
-                    "selector": "doSetVar",
-                    "id": 1603,
-                    "template": false,
-                    "spec": "направи %var на %s",
-                    "objType": "BlockMorph"
-                },
-                "loc": "bottom",
-                "type": "block",
-                "objType": "Object"
-            },
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 22,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 239,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doSetGlobalFlag",
-            "id": 468981,
-            "template": false,
-            "spec": "set %setting to %b",
-            "message": "Block.clickRun"
+            "index": 4,
+            "highlight": true,
+            "_recordID": "6d3bcecc-4777-43c9-aafa-65eed645c32b"
         },
         "timeDelta": 0
     },
     {
-        "type": "run",
+        "type": "menuItemSelect",
         "data": {
-            "selector": "doDeclareVariables",
-            "id": 1592,
-            "template": false,
-            "spec": "променливи на скрипта %scriptVars",
-            "message": "Block.clickRun"
+            "index": 4,
+            "highlight": false,
+            "_recordID": "ad658f91-bffc-427e-acea-3ff292acaa8a"
         },
-        "timeDelta": 10
+        "timeDelta": 33
     },
     {
-        "type": "blockDrop",
+        "type": "menuItemSelect",
         "data": {
-            "lastDroppedBlock": {
-                "selector": "doDeclareVariables",
-                "id": 1592,
-                "template": false,
-                "spec": "променливи на скрипта %scriptVars",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1400,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
+            "index": 5,
+            "highlight": true,
+            "_recordID": "458a4aea-b553-44f4-90ad-384df861e68d"
         },
-        "timeDelta": 3731
+        "timeDelta": 1
     },
     {
-        "type": "blockDrop",
+        "type": "menuItemSelect",
         "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 471063,
-                "template": false,
-                "spec": "канатица %cmdRing %cmdRing %cmdRing",
-                "guid": "e9467b44-6aa9-4fde-89a4-15f0e2cd8fde",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1929,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 20,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
+            "index": 5,
+            "highlight": false,
+            "_recordID": "d4de0700-0990-4032-912e-3d360ccaac7d"
         },
-        "timeDelta": 4096
+        "timeDelta": 83
     },
     {
-        "type": "run",
+        "type": "menuItemSelect",
         "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 473639,
-            "template": true,
-            "spec": "отначало",
-            "message": "Block.clickRun"
+            "index": 6,
+            "highlight": true,
+            "_recordID": "415c5714-ca69-4244-bc7b-efdda29887a0"
         },
-        "timeDelta": 10
+        "timeDelta": 1
     },
     {
-        "type": "run",
+        "type": "menuItemSelect",
         "data": {
-            "selector": "doSetGlobalFlag",
-            "id": 468981,
-            "template": false,
-            "spec": "set %setting to %b",
-            "message": "Block.clickRun"
+            "index": 6,
+            "highlight": false,
+            "_recordID": "45072874-1337-4afb-8cd3-d8ac343a20a8"
+        },
+        "timeDelta": 33
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": true,
+            "_recordID": "37a5b708-7d40-49d4-a2a2-03f3f58ff806"
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": false,
+            "_recordID": "0741464b-46ad-4d7a-a3e6-ecbec258f11e"
+        },
+        "timeDelta": 34
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 9,
+            "highlight": true,
+            "_recordID": "3db7dc33-4d4e-45a1-ae49-870d66b9fe61"
         },
         "timeDelta": 0
     },
     {
-        "type": "run",
+        "type": "menuItemSelect",
         "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 471063,
-            "template": false,
-            "spec": "канатица %cmdRing %cmdRing %cmdRing",
-            "message": "Block.clickRun"
+            "index": 9,
+            "highlight": false,
+            "_recordID": "f6d2eb74-3dbf-47d9-bf83-b1fe976a326b"
         },
-        "timeDelta": 10
+        "timeDelta": 33
     },
     {
-        "type": "blockDrop",
+        "type": "menuItemSelect",
         "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 662392,
-                "template": false,
-                "spec": "отначало",
-                "guid": "dea84211-d283-44e6-bd3c-a90848949058",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Palette",
-                    "objType": "FrameMorph"
-                },
-                "position": {
-                    "x": 5,
-                    "y": 1256,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 79,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 10000
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 662392,
-            "template": false,
-            "spec": "отначало",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 788
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "evaluateCustomBlock",
-                "id": 471073,
-                "template": false,
-                "spec": "черга сплитка и канатица",
-                "guid": "925d6f52-24ac-42f4-a29e-27189f689f87",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 1923,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 132,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 7293
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "doSetGlobalFlag",
-            "id": 468981,
-            "template": false,
-            "spec": "set %setting to %b",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "run",
-        "data": {
-            "selector": "evaluateCustomBlock",
-            "id": 471073,
-            "template": false,
-            "spec": "черга сплитка и канатица",
-            "message": "Block.clickRun"
-        },
-        "timeDelta": 555
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doDeclareVariables",
-                "id": 1592,
-                "template": false,
-                "spec": "променливи на скрипта %scriptVars",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 180,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 17000
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doDeclareVariables",
-                "id": 1556,
-                "template": false,
-                "spec": "променливи на скрипта %scriptVars",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 32,
-                    "y": 10,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 20,
-                    "y": 400,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "blockDrop",
-        "data": {
-            "lastDroppedBlock": {
-                "selector": "doRepeat",
-                "id": 469111,
-                "template": false,
-                "spec": "повтори %n %loop",
-                "objType": "BlockMorph"
-            },
-            "lastReplacedInput": null,
-            "lastDropTarget": null,
-            "lastPreservedBlocks": null,
-            "lastNextBlock": null,
-            "lastWrapParent": null,
-            "lastOrigin": {
-                "origin": {
-                    "source": "Sprite",
-                    "spriteName": "Костенурка",
-                    "objType": "ScriptsMorph"
-                },
-                "position": {
-                    "x": 19,
-                    "y": 1079,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            },
-            "action": null,
-            "situation": {
-                "origin": {
-                    "source": "Palette",
-                    "objType": "ScrollFrameMorph"
-                },
-                "position": {
-                    "x": 71,
-                    "y": 108,
-                    "objType": "Point"
-                },
-                "objType": "Object"
-            }
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "videoPause",
-        "data": {},
-        "timeDelta": 10000
-    },
-    {
-        "type": "slideChanged",
-        "data": {
-            "id": "",
-            "indexh": 4,
-            "indexv": 0
+            "index": 10,
+            "highlight": true,
+            "_recordID": "3ba42568-ff8f-4981-8ce4-49481eeecf56"
         },
         "timeDelta": 0
     },
     {
-        "type": "slidesVisible",
+        "type": "menuItemSelect",
         "data": {
-            "value": true
+            "index": 10,
+            "highlight": false,
+            "_recordID": "97a1bb83-f663-48e3-aa64-7e69d4ac51d9"
         },
-        "timeDelta": 500
+        "timeDelta": 16
     },
     {
-        "type": "slidesToggled",
+        "type": "menuItemSelect",
         "data": {
-            "value": true
+            "index": 11,
+            "highlight": true,
+            "_recordID": "e46d00de-7d6d-4251-834e-39bd4bf6df1f"
         },
-        "timeDelta": 1000
+        "timeDelta": 0
     },
     {
-        "type": "slideChanged",
+        "type": "menuItemSelect",
         "data": {
-            "id": "",
-            "indexh": 5,
-            "indexv": 0
+            "index": 11,
+            "highlight": false,
+            "_recordID": "df74edf3-5dd2-4eb7-ac35-088f0cab0dcc"
         },
-        "timeDelta": 3000
+        "timeDelta": 17
     },
     {
-        "type": "slideChanged",
+        "type": "menuItemSelect",
         "data": {
-            "id": "",
-            "indexh": 6,
-            "indexv": 0
+            "index": 12,
+            "highlight": true,
+            "_recordID": "c7d13271-73dd-441b-aada-d69d46a319d4"
         },
-        "timeDelta": 6000
+        "timeDelta": 0
     },
     {
-        "type": "slideChanged",
+        "type": "menuItemSelect",
         "data": {
-            "id": "",
-            "indexh": 7,
-            "indexv": 0
+            "index": 12,
+            "highlight": false,
+            "_recordID": "63f60ec5-cf27-46b2-b66c-85c30d5a47f6"
         },
-        "timeDelta": 7000
+        "timeDelta": 34
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": true,
+            "_recordID": "0bcb82aa-747a-43e9-8d76-4d24aa6e3f3f"
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": false,
+            "_recordID": "e21a1236-9443-4af6-b4d6-a513c8a520b2"
+        },
+        "timeDelta": 34
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 15,
+            "highlight": true,
+            "_recordID": "bc86e92c-a6bd-44e3-bfeb-c2c939870bc2"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 15,
+            "highlight": false,
+            "_recordID": "2461dc95-c0c5-4dae-9dd5-f6aab716cdbe"
+        },
+        "timeDelta": 83
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 16,
+            "highlight": true,
+            "_recordID": "4b2ee3b4-28b3-4300-a42f-a7c13467ccb8"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 16,
+            "highlight": false,
+            "_recordID": "27f8d80e-4881-4073-90b9-05014387af56"
+        },
+        "timeDelta": 265
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 18,
+            "highlight": true,
+            "_recordID": "4646ed66-2397-4a4d-a6a3-d8a2b109efe3"
+        },
+        "timeDelta": 34
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 156,
+                "y": 235,
+                "objType": "Point"
+            },
+            "_recordID": "e1abdb41-e58b-43ff-877a-be5494ce1e93"
+        },
+        "timeDelta": 325
     }
 ]
