@@ -1,0 +1,5013 @@
+[
+    {
+        "type": "setBlockScale",
+        "data": {
+            "scale": 1,
+            "_recordID": "3444505c-99cf-4c21-a2a1-0800958a9a53"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "setLanguage",
+        "data": {
+            "lang": "en",
+            "_recordID": "5bb8b198-3610-41ca-94d9-e8d4aacb36f7"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 1,
+            "indexv": 0
+        },
+        "timeDelta": 5000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 2,
+            "indexv": 0
+        },
+        "timeDelta": 8000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 3,
+            "indexv": 0
+        },
+        "timeDelta": 15000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 4,
+            "indexv": 0
+        },
+        "timeDelta": 12000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 5000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 5,
+            "indexv": 0
+        },
+        "timeDelta": 2000
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 18,
+            "highlight": false,
+            "_recordID": "9283beba-d096-48d8-a085-8370d860f9f6"
+        },
+        "timeDelta": 30490
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 33971,
+            "template": false,
+            "spec": "1 t-rex",
+            "definitionGUID": "b22a9c17-8152-4fda-9a46-dea3e5dcf429",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "1907a57e-a002-4ba9-b45a-cf8a439dca4c"
+        },
+        "timeDelta": 1891
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 33972,
+            "template": false,
+            "spec": "2 switch tails",
+            "definitionGUID": "25252f04-d9fb-49f5-aa77-89d3d03654dd",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "674a438b-178a-46a9-a660-985a03e3f686"
+        },
+        "timeDelta": 11465
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 143,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "e4c95f94-ce11-421b-aee8-f034b19e8a2f"
+        },
+        "timeDelta": 26881
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 35,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 159,
+                    "y": 32,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "ad675a47-1f31-4aa2-b667-8a98a6fee8c3"
+        },
+        "timeDelta": 985
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 116,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "5e3103a6-da8c-493e-8fa3-21bded4373dd"
+        },
+        "timeDelta": 1545
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 8,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 157,
+                    "y": 80,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "068e3151-3e8f-480a-b608-4aafa9e15584"
+        },
+        "timeDelta": 1486
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "looks",
+            "message": "IDE.changeCategory",
+            "_recordID": "faa5ac52-859a-4e9a-805c-4ddbb6eddc04"
+        },
+        "timeDelta": 1255
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 34093,
+                "template": false,
+                "spec": "flip",
+                "definitionGUID": "4a3dc9ff-3748-4b2d-89e6-431c7374eb3d",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 745,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "3af784bd-36a2-4f2a-817d-1580c358bf6e"
+        },
+        "timeDelta": 1726
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 34093,
+                "template": false,
+                "spec": "flip",
+                "definitionGUID": "4a3dc9ff-3748-4b2d-89e6-431c7374eb3d",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 637,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 161,
+                    "y": 128,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "19e1d786-2f64-4cfb-b45b-50fd08a2878f"
+        },
+        "timeDelta": 1620
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "control",
+            "message": "IDE.changeCategory",
+            "_recordID": "a974f56d-2a27-4800-89ec-d5948714c71e"
+        },
+        "timeDelta": 10365
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 530,
+                "y": 676,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "df01072e-3ebc-4dd4-801e-c28af38f531a"
+        },
+        "timeDelta": 3099
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 329,
+                    "y": 576,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 11,
+                    "y": 37,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "70aa78a4-4967-4e59-b015-5b15cfacb4fa"
+        },
+        "timeDelta": 3175
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": true,
+            "_recordID": "4f251363-122f-4190-a809-bdc24ff4f9a2"
+        },
+        "timeDelta": 6656
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": false,
+            "_recordID": "8af6dfc5-6af8-4c3c-9795-eb29eab43a63"
+        },
+        "timeDelta": 317
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": true,
+            "_recordID": "3d3b1b39-8d4a-47dc-b139-c8e51e4c309b"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": false,
+            "_recordID": "5530dadf-0e39-43ba-878f-88cd7c800b8b"
+        },
+        "timeDelta": 233
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": true,
+            "_recordID": "85d85fc5-b9e4-470a-a3fc-bd0bbed894e7"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": false,
+            "_recordID": "7ec1dc1c-a581-4916-91fe-c4ee80f62521"
+        },
+        "timeDelta": 200
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": true,
+            "_recordID": "d0578c8c-45f3-44f6-b596-79e8fa008e4f"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": false,
+            "_recordID": "b72806d4-33df-405e-b3e2-c0652f6db95f"
+        },
+        "timeDelta": 335
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": true,
+            "_recordID": "03fa83d5-b8a2-4e86-910e-c82a1326497b"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": false,
+            "_recordID": "d156aa13-c448-4b6e-8574-4b30366f90ce"
+        },
+        "timeDelta": 532
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 7,
+            "highlight": true,
+            "_recordID": "59ea0da3-9c8e-4daa-ae70-1542b6a0ba0a"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 293,
+                "y": 225,
+                "objType": "Point"
+            },
+            "_recordID": "02d63bd5-0608-49c7-b004-543b896d6cb6"
+        },
+        "timeDelta": 857
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "item": "tail stegosaurus",
+            "value": "tail stegosaurus",
+            "_recordID": "e5521062-c818-4478-a5af-1e8866f446cb"
+        },
+        "timeDelta": 2
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 7,
+            "highlight": false,
+            "_recordID": "6ad8ac35-e912-4cd1-87a7-eb2b7e18a9f7"
+        },
+        "timeDelta": 1125
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 360,
+                "y": 132,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "79fe319e-b648-4ca9-ad9c-d2de16d5a90c"
+        },
+        "timeDelta": 1115
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 159,
+                    "y": 32,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 206,
+                    "y": 41,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "dff62d68-8f03-4e00-8e55-deaa2680a3a9"
+        },
+        "timeDelta": 680
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 407,
+                "y": 141,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "332723da-8b85-4633-b6c7-39057c26d3b5"
+        },
+        "timeDelta": 10538
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 368.4921875,
+                    "y": 149,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "reifyScript",
+                    "id": 33665,
+                    "template": false,
+                    "spec": "%rc %ringparms",
+                    "isPrototype": false,
+                    "argIndex": 0,
+                    "parentBlock": {
+                        "selector": "reifyScript",
+                        "id": 33665,
+                        "template": false,
+                        "spec": "%rc %ringparms",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 206,
+                    "y": 41,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 146.4921875,
+                    "y": 44,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "b8408dad-2db4-4d2b-9046-6390bdb1b572"
+        },
+        "timeDelta": 966
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "82ff60c8-1c9b-40c2-831d-3a8d3a66915b"
+        },
+        "timeDelta": 7782
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "d8cdc772-b137-4cb1-964f-01629e046468"
+        },
+        "timeDelta": 5472
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "ad857205-d32d-4d12-b1ca-f13dabfe1260"
+        },
+        "timeDelta": 816
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "fad0e178-b904-446f-b37f-6fb836a9601c"
+        },
+        "timeDelta": 872
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 33973,
+            "template": false,
+            "spec": "3 adjust stego tail",
+            "definitionGUID": "25252f04-d9fb-49f5-aa77-89d3d03654dd",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "5e485c8a-5c87-4efc-a342-0d84a9412401"
+        },
+        "timeDelta": 5199
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 33974,
+            "template": false,
+            "spec": "4 switch tails again",
+            "definitionGUID": "25252f04-d9fb-49f5-aa77-89d3d03654dd",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "75eefdf0-15a4-4e5c-ab43-45c0dbd85b9e"
+        },
+        "timeDelta": 18944
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 347.4921875,
+                "y": 144,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "3ff2c929-23be-4e9d-8a72-df8d3e9913ee"
+        },
+        "timeDelta": 7911
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 146.4921875,
+                    "y": 44,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 288.4921875,
+                    "y": 52,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "b94e24f9-97b9-477c-b3c1-b7a5c0196e1d"
+        },
+        "timeDelta": 874
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 34093,
+                "template": false,
+                "spec": "flip",
+                "definitionGUID": "4a3dc9ff-3748-4b2d-89e6-431c7374eb3d",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 362,
+                "y": 228,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "e101cd94-fe8f-4fcd-9777-8dc1a8aee717"
+        },
+        "timeDelta": 1076
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 34093,
+                "template": false,
+                "spec": "flip",
+                "definitionGUID": "4a3dc9ff-3748-4b2d-89e6-431c7374eb3d",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 368.4921875,
+                    "y": 149,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "reifyScript",
+                    "id": 33665,
+                    "template": false,
+                    "spec": "%rc %ringparms",
+                    "isPrototype": false,
+                    "argIndex": 0,
+                    "parentBlock": {
+                        "selector": "reifyScript",
+                        "id": 33665,
+                        "template": false,
+                        "spec": "%rc %ringparms",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 161,
+                    "y": 128,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 146.4921875,
+                    "y": 44,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "5af0ac62-e6ad-4ff3-b995-915a0def68f1"
+        },
+        "timeDelta": 1260
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": true,
+            "_recordID": "fb2d7d20-1743-4de8-a407-7baa7c1e7651"
+        },
+        "timeDelta": 5138
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": false,
+            "_recordID": "a0382be2-cf24-432a-9c38-9b3a21feaf7a"
+        },
+        "timeDelta": 134
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": true,
+            "_recordID": "7b90e83d-e385-4479-be50-6902c5ee4bcf"
+        },
+        "timeDelta": 50
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": false,
+            "_recordID": "f2ec810f-3d13-4184-9bcd-b86512cdf40a"
+        },
+        "timeDelta": 167
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": true,
+            "_recordID": "79dc8f78-cc1f-4661-a8f6-567c27a60f0d"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": false,
+            "_recordID": "8323cd08-5365-4899-ad24-cdea6adfa614"
+        },
+        "timeDelta": 166
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": true,
+            "_recordID": "9e01833b-3603-4704-b98a-9c13a82ec466"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": false,
+            "_recordID": "4ecd2264-8e0c-43b8-97c5-137da6d39286"
+        },
+        "timeDelta": 384
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 7,
+            "highlight": true,
+            "_recordID": "213bc898-ec99-440d-a27c-40bc84660465"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 7,
+            "highlight": false,
+            "_recordID": "8b31d269-4beb-4268-acb9-814bd67ce86b"
+        },
+        "timeDelta": 417
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": true,
+            "_recordID": "88fca90b-dbed-4a4f-b5be-2c590de66230"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": false,
+            "_recordID": "07c79ff3-cd6e-4845-9b6a-d12a96421962"
+        },
+        "timeDelta": 298
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": true,
+            "_recordID": "693a6c63-2b23-45da-a8d7-3d4e491b0505"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 309,
+                "y": 206,
+                "objType": "Point"
+            },
+            "_recordID": "342ff3fa-9d45-4cca-b846-d249c178406b"
+        },
+        "timeDelta": 933
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "item": "head brachiosaurus",
+            "value": "head brachiosaurus",
+            "_recordID": "323a42ac-0496-4345-a8a3-c2d62b756014"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": false,
+            "_recordID": "4d34c148-884b-435c-8370-a28a0a3dfedd"
+        },
+        "timeDelta": 884
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "6bda655c-a483-48b1-add8-28db179aaad8"
+        },
+        "timeDelta": 6474
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 33975,
+            "template": false,
+            "spec": "5 adjust brachio tail",
+            "definitionGUID": "25252f04-d9fb-49f5-aa77-89d3d03654dd",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "d33e0c47-a73c-48fd-82f3-293aa0cec59a"
+        },
+        "timeDelta": 7471
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 6,
+            "indexv": 0
+        },
+        "timeDelta": 5000
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": true,
+            "_recordID": "abcf8d59-881d-4a5c-bca8-9361cbd4b49c"
+        },
+        "timeDelta": 11671
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": false,
+            "_recordID": "0a6d3924-7a81-43ef-bc0d-51e7a41750cb"
+        },
+        "timeDelta": 116
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": true,
+            "_recordID": "f9b2ddeb-9e6b-4b4b-849f-fb451e88eb89"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": false,
+            "_recordID": "8fa5d9cb-48fc-48d1-aaa0-a5e665206b8f"
+        },
+        "timeDelta": 217
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": true,
+            "_recordID": "8972d3ed-eed0-4f22-98a0-1b7011b90eba"
+        },
+        "timeDelta": 16
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": false,
+            "_recordID": "878cfd33-3df1-41c2-a923-5c693681ed72"
+        },
+        "timeDelta": 100
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": true,
+            "_recordID": "645a9dc3-59c3-4a09-b3df-a433cd24f39d"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": false,
+            "_recordID": "99ef9796-01e4-4b12-a583-493c6a92525b"
+        },
+        "timeDelta": 1051
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": true,
+            "_recordID": "02a56084-1b8c-4e03-afaf-a36c749a4233"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": false,
+            "_recordID": "01daf583-5bdc-49b7-b745-11524c20f5d9"
+        },
+        "timeDelta": 83
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 7,
+            "highlight": true,
+            "_recordID": "93383262-153a-438d-8eb3-6af65cee9d81"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 7,
+            "highlight": false,
+            "_recordID": "2b63b574-f122-4d95-93fb-220d60584291"
+        },
+        "timeDelta": 99
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": true,
+            "_recordID": "64189f0d-eccf-4d95-8aa9-a0961175d8aa"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": false,
+            "_recordID": "c4d91c2a-6a17-48c6-8f68-d3c70ffe246d"
+        },
+        "timeDelta": 150
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 9,
+            "highlight": true,
+            "_recordID": "cb965700-2dce-41e4-999e-144388831e85"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 9,
+            "highlight": false,
+            "_recordID": "67919d93-6b59-4119-8177-2c7f46fae364"
+        },
+        "timeDelta": 84
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": true,
+            "_recordID": "be2842a4-db6c-4b7f-a304-02682b47ea99"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": false,
+            "_recordID": "e91984e7-bfc8-4c26-b27e-873095baf7e9"
+        },
+        "timeDelta": 32
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 11,
+            "highlight": true,
+            "_recordID": "fe75c4d9-ff12-404a-b8f5-83bb78749d6c"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 11,
+            "highlight": false,
+            "_recordID": "8efe132d-9d03-45f9-b98e-3f3a43b99025"
+        },
+        "timeDelta": 49
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 12,
+            "highlight": true,
+            "_recordID": "9891fa97-e5ac-4319-8f61-cb85d81f301e"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 12,
+            "highlight": false,
+            "_recordID": "3bac58e9-f95d-4f96-ac5b-c9a1159bb1fd"
+        },
+        "timeDelta": 151
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 13,
+            "highlight": true,
+            "_recordID": "6503403e-4282-4438-becf-5ab5a722cc55"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 13,
+            "highlight": false,
+            "_recordID": "b818edb0-cc38-4fc4-a66d-642f1308016e"
+        },
+        "timeDelta": 83
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": true,
+            "_recordID": "32e80c17-5a1c-4daf-a91f-ae67c59ed99d"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": false,
+            "_recordID": "a2bb748a-879d-424d-9013-62827eb2c0a5"
+        },
+        "timeDelta": 132
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 15,
+            "highlight": true,
+            "_recordID": "fdc74c64-e2a5-48ab-8a80-733761eefc93"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 309,
+                "y": 318,
+                "objType": "Point"
+            },
+            "_recordID": "c91243c6-8e7a-4d2c-aec7-04563d2a87ae"
+        },
+        "timeDelta": 1021
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "item": "leg t-rex",
+            "value": "leg t-rex",
+            "_recordID": "4b193311-1238-4279-b050-b69d53f39dda"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 15,
+            "highlight": false,
+            "_recordID": "7ec8da31-150c-4514-9443-3e01bd5510ad"
+        },
+        "timeDelta": 229
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 489.4921875,
+                "y": 152,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "f71e0dcd-6b62-47a1-ac5d-1e18a76f2730"
+        },
+        "timeDelta": 983
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 334.576171875,
+                    "y": 149,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "reifyScript",
+                    "id": 33665,
+                    "template": false,
+                    "spec": "%rc %ringparms",
+                    "isPrototype": false,
+                    "argIndex": 0,
+                    "parentBlock": {
+                        "selector": "reifyScript",
+                        "id": 33665,
+                        "template": false,
+                        "spec": "%rc %ringparms",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 34093,
+                "template": false,
+                "spec": "flip",
+                "definitionGUID": "4a3dc9ff-3748-4b2d-89e6-431c7374eb3d",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 288.4921875,
+                    "y": 52,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 112.576171875,
+                    "y": 44,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "6c81677a-15ab-4ffc-92cb-94531f524404"
+        },
+        "timeDelta": 808
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "evaluateCustomBlock",
+                "id": 34093,
+                "template": false,
+                "spec": "flip",
+                "definitionGUID": "4a3dc9ff-3748-4b2d-89e6-431c7374eb3d",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 313.576171875,
+                "y": 166,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "bb028844-ce23-45d4-9abf-c7ec47d1cc60"
+        },
+        "timeDelta": 776
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "evaluateCustomBlock",
+                "id": 34093,
+                "template": false,
+                "spec": "flip",
+                "definitionGUID": "4a3dc9ff-3748-4b2d-89e6-431c7374eb3d",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 112.576171875,
+                    "y": 66,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 354.576171875,
+                    "y": 75,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "8fd5c41b-18c7-4068-8174-22cbd983edb7"
+        },
+        "timeDelta": 427
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 358,
+                "y": 180,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "0fd55b01-2b63-4b17-a9dc-051e657e66f5"
+        },
+        "timeDelta": 756
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 157,
+                    "y": 80,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 306,
+                    "y": 118,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "c72125c1-2e4c-4ebf-870f-cf4656b4b454"
+        },
+        "timeDelta": 996
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "7977560e-f2f8-436a-a07a-8ec646400dd2"
+        },
+        "timeDelta": 3656
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 659,
+                "y": 676,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "f7901609-7c05-44da-98e6-9f7ea9e54409"
+        },
+        "timeDelta": 9817
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 458,
+                    "y": 576,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 9,
+                    "y": 99,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "ad0fcd8a-765f-4350-8885-403a2eca1afc"
+        },
+        "timeDelta": 2353
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": true,
+            "_recordID": "055312d8-0af0-4170-ae37-536e658d4a7c"
+        },
+        "timeDelta": 1911
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 1,
+            "highlight": false,
+            "_recordID": "0592477e-a363-4ebc-9082-57b2de5fc3fb"
+        },
+        "timeDelta": 217
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": true,
+            "_recordID": "95d59bab-5524-4d36-b9f4-6205735a2703"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": false,
+            "_recordID": "4a179996-389d-4858-b3b6-86c7725ae618"
+        },
+        "timeDelta": 66
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": true,
+            "_recordID": "6c608fae-07d8-4c9c-ab24-24573faf2554"
+        },
+        "timeDelta": 66
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": false,
+            "_recordID": "1b4842b3-66bf-4efe-9ef5-6a73f59e2baf"
+        },
+        "timeDelta": 385
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": true,
+            "_recordID": "edf89519-b635-48d4-a990-bbc7d8945548"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": false,
+            "_recordID": "67c8afdf-ec6c-4dce-9fd5-c34b64f25de3"
+        },
+        "timeDelta": 632
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": true,
+            "_recordID": "f95deb33-e0aa-4c61-8191-5b7719eafb58"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": false,
+            "_recordID": "5357cdc2-7f6d-42dc-8b28-97c31382dfc1"
+        },
+        "timeDelta": 333
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 7,
+            "highlight": true,
+            "_recordID": "3c7c54d1-d14c-42fc-8dde-a120df3a6757"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 7,
+            "highlight": false,
+            "_recordID": "8c9bc404-297e-414d-9640-da78dd6c2970"
+        },
+        "timeDelta": 234
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": true,
+            "_recordID": "a1fc541f-8aa9-43e5-9cd4-602491e9419d"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 8,
+            "highlight": false,
+            "_recordID": "dc0b9812-25c0-43c6-b2ec-c0f1b3791c70"
+        },
+        "timeDelta": 117
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 9,
+            "highlight": true,
+            "_recordID": "2fffd921-6ed3-4f96-ae99-0b37a0137f8d"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 9,
+            "highlight": false,
+            "_recordID": "4d057ef2-538b-4cc1-9886-f34c86696b61"
+        },
+        "timeDelta": 50
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": true,
+            "_recordID": "a41a0aaa-9f28-4a11-9284-b703d950e062"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 10,
+            "highlight": false,
+            "_recordID": "fb08f2b4-204e-4b0f-bbc9-0dca9774cdc1"
+        },
+        "timeDelta": 99
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 11,
+            "highlight": true,
+            "_recordID": "97cf3e63-59df-4201-ad82-5a3a4e8dc588"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 11,
+            "highlight": false,
+            "_recordID": "b25c8033-45b7-4c1b-a1ab-092fe54af476"
+        },
+        "timeDelta": 33
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 12,
+            "highlight": true,
+            "_recordID": "4bad8f47-4054-40d0-907f-60d8d85a3e68"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 12,
+            "highlight": false,
+            "_recordID": "2f4249d1-5d16-43d2-a1a7-523f5e0a6933"
+        },
+        "timeDelta": 49
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 13,
+            "highlight": true,
+            "_recordID": "3c7264fa-a03c-4b7b-9f40-5ce284defebf"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 13,
+            "highlight": false,
+            "_recordID": "67c0832c-e37a-43f4-b3ed-0e2e242367a9"
+        },
+        "timeDelta": 84
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": true,
+            "_recordID": "f5ec92a9-c388-4609-b976-d88ae8c3de75"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 14,
+            "highlight": false,
+            "_recordID": "1f06f6f1-39a8-41a8-83c4-4979b1ef9cf1"
+        },
+        "timeDelta": 266
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 15,
+            "highlight": true,
+            "_recordID": "bce2be69-a09b-4a86-a87b-200676f62c1d"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 306,
+                "y": 384,
+                "objType": "Point"
+            },
+            "_recordID": "3f62d209-18ec-4fd1-af9e-d96699dcf250"
+        },
+        "timeDelta": 1644
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "item": "leg t-rex",
+            "value": "leg t-rex",
+            "_recordID": "f7d723ce-10d0-40d4-8f01-5eb86400ef73"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 15,
+            "highlight": false,
+            "_recordID": "bb92c216-8a57-4755-95b2-facc1c5b1acb"
+        },
+        "timeDelta": 237
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "motion",
+            "message": "IDE.changeCategory",
+            "_recordID": "12b1bc57-aef2-4acb-8801-a1e478ff45ad"
+        },
+        "timeDelta": 1921
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "turnLeft",
+                "id": 34148,
+                "template": false,
+                "spec": "turn %counterclockwise %n degrees",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 171,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "6770d310-0abb-4c9b-ba97-b1a90ddd8fc8"
+        },
+        "timeDelta": 1381
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turnLeft",
+                "id": 34148,
+                "template": false,
+                "spec": "turn %counterclockwise %n degrees",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 332.576171875,
+                    "y": 211,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "reifyScript",
+                    "id": 33667,
+                    "template": false,
+                    "spec": "%rc %ringparms",
+                    "isPrototype": false,
+                    "argIndex": 0,
+                    "parentBlock": {
+                        "selector": "reifyScript",
+                        "id": 33667,
+                        "template": false,
+                        "spec": "%rc %ringparms",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 63,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 111.576171875,
+                    "y": 106,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "64692ebd-160d-4a6f-a39a-37917cc51474"
+        },
+        "timeDelta": 905
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "6a62a312-49f4-47df-8bb4-05f923ebaf92"
+        },
+        "timeDelta": 1722
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "d0d44879-be93-4316-a999-c8d57337df05"
+        },
+        "timeDelta": 4721
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "4d5db633-b83a-44f1-8072-6e086e2e391f"
+        },
+        "timeDelta": 1008
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "6285453d-5afb-497e-ad0c-b4cca42fd20c"
+        },
+        "timeDelta": 1023
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "91770464-75b5-4872-bbfe-73e445b1ca4a"
+        },
+        "timeDelta": 1369
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "2b33359c-9714-41ea-9366-56dd8fa2d40d"
+        },
+        "timeDelta": 1031
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "b54391d1-ac6c-4ac2-b0ef-46fe69a39f84"
+        },
+        "timeDelta": 816
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "38a4bf17-d8ff-4248-9055-fcb69d166e1a"
+        },
+        "timeDelta": 944
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "a49772a9-94fb-468d-9649-3c2f60f3cab0"
+        },
+        "timeDelta": 671
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "3f901d1c-5779-46e9-b85a-f175577fe012"
+        },
+        "timeDelta": 905
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "571b1b5e-91ad-4951-95e1-657fbee08932"
+        },
+        "timeDelta": 752
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "3f901d1c-5779-46e9-b85a-f175577fe0123"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "571b1b5e-91ad-4951-95e1-657fbee089323"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "3f901d1c-5779-46e9-b85a-f175577fe0122"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "571b1b5e-91ad-4951-95e1-657fbee089322"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "3f901d1c-5779-46e9-b85a-f175577fe0121"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "571b1b5e-91ad-4951-95e1-657fbee089321"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "control",
+            "message": "IDE.changeCategory",
+            "_recordID": "74d93561-3fc4-4901-b6a9-4c59f3fef969"
+        },
+        "timeDelta": 9672
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 576,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "e564bc81-2681-4a89-9536-292e386d9823"
+        },
+        "timeDelta": 2011
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 468,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 13,
+                    "y": 158,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "277b7e25-b0a1-492c-87f3-dc7becb26167"
+        },
+        "timeDelta": 3160
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 213,
+                "y": 137,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "e790b3a1-5c29-4099-800b-3dc3ac236ffa"
+        },
+        "timeDelta": 5121
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 237,
+                    "y": 282,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "doRepeat",
+                    "id": 34160,
+                    "template": false,
+                    "spec": "repeat %n %loop",
+                    "isPrototype": false,
+                    "argIndex": 1,
+                    "parentBlock": {
+                        "selector": "doRepeat",
+                        "id": 34160,
+                        "template": false,
+                        "spec": "repeat %n %loop",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 12,
+                    "y": 37,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 20,
+                    "y": 179,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "94388905-de79-4286-8e7a-758a412f40d1"
+        },
+        "timeDelta": 1536
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 211,
+                "y": 199,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "0996cfc5-f38a-42ca-9dbd-4ceeb008b3ed"
+        },
+        "timeDelta": 898
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 237,
+                    "y": 317,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "doTellTo",
+                    "id": 33664,
+                    "template": false,
+                    "spec": "tell %spr to %cmdRing %inputs",
+                    "isPrototype": false,
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 10,
+                    "y": 99,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 20,
+                    "y": 214,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "e84ef594-9202-45ae-b87c-935f7ebe19a6"
+        },
+        "timeDelta": 940
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 214,
+                "y": 258,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "04049280-0ca7-4261-942e-4c9ad3e1a62b"
+        },
+        "timeDelta": 809
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 13,
+                    "y": 158,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 15,
+                    "y": 27,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "b940e822-cc0b-4997-98f6-90bfdd54f3ea"
+        },
+        "timeDelta": 998
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "text": "10",
+            "value": "10",
+            "_recordID": "88a185d9-36a1-412e-bb70-740f1c19ad0c"
+        },
+        "timeDelta": 10281
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doRepeat",
+            "id": 34160,
+            "template": false,
+            "spec": "repeat %n %loop",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "11981d17-1d52-42cf-9865-bc5af804ecdf"
+        },
+        "timeDelta": 94
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34181,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 474,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "06cc1249-9553-491e-9989-de5ea234fe39"
+        },
+        "timeDelta": 21047
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doWait",
+                "id": 34181,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 239,
+                    "y": 186,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "doTellTo",
+                    "id": 33664,
+                    "template": false,
+                    "spec": "tell %spr to %cmdRing %inputs",
+                    "isPrototype": false,
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 366,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 22,
+                    "y": 83,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "ef85399d-9176-4290-855a-948ae485cdaf"
+        },
+        "timeDelta": 1983
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34182,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 474,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "cd4ad318-3c24-4b3b-9357-9896932857e3"
+        },
+        "timeDelta": 2233
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doWait",
+                "id": 34182,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 239,
+                    "y": 242,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "doTellTo",
+                    "id": 33666,
+                    "template": false,
+                    "spec": "tell %spr to %cmdRing %inputs",
+                    "isPrototype": false,
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 366,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 22,
+                    "y": 139,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "833f4209-8589-4b76-8aef-bc5dd9a5ef05"
+        },
+        "timeDelta": 1499
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34181,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "text": "0.5",
+            "value": "0.5",
+            "_recordID": "b429c6d4-2a41-45e5-921a-b692a206685b"
+        },
+        "timeDelta": 7678
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34182,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "text": "0.5",
+            "value": "0.5",
+            "_recordID": "f835dd9a-369a-4e26-bdd8-d38c07778cbc"
+        },
+        "timeDelta": 2688
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doRepeat",
+            "id": 34160,
+            "template": false,
+            "spec": "repeat %n %loop",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "5036ce68-94e9-4711-a3b4-d68f95754069"
+        },
+        "timeDelta": 1584
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 223,
+                "y": 148,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "4f7b5a0a-3b05-4671-8106-c3c7a3c1bd3f"
+        },
+        "timeDelta": 20699
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 22,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 20,
+                    "y": 92,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "f2143cd1-facb-4ff7-a1f2-1b099f9594a7"
+        },
+        "timeDelta": 1289
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 216,
+                "y": 127,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "b704cff8-0c6f-49e6-8b07-3c8d36623fe2"
+        },
+        "timeDelta": 761
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 15,
+                    "y": 27,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 169,
+                    "y": 229,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "6d45a34a-0849-4745-87c0-53e5a2c5d05e"
+        },
+        "timeDelta": 506
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34181,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 221,
+                "y": 227,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "35d9c978-e235-4948-8ad5-d28a33571a95"
+        },
+        "timeDelta": 727
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doWait",
+                "id": 34181,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 20,
+                    "y": 127,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 15,
+                    "y": 166,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "e801dab6-26d4-45e7-95aa-93d32be28970"
+        },
+        "timeDelta": 688
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 221,
+                "y": 192,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "0cdbc7c0-9c1e-40c3-97d5-ce8116824922"
+        },
+        "timeDelta": 794
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doTellTo",
+                "id": 33664,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 20,
+                    "y": 92,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 16,
+                    "y": 41,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "b42fae96-69db-46c5-8f64-ad258e9c9d19"
+        },
+        "timeDelta": 750
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 370,
+                "y": 329,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "3f6034b7-4703-4674-b12b-e5f653345cc9"
+        },
+        "timeDelta": 1351
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 169,
+                    "y": 229,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 145,
+                    "y": 111,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "4551afbc-228b-46d8-843e-79a8667a735a"
+        },
+        "timeDelta": 1001
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 318.576171875,
+                "y": 148,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "4183201c-d5d4-4275-b83b-57b8d7f87add"
+        },
+        "timeDelta": 1665
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turn",
+                "id": 34068,
+                "template": false,
+                "spec": "turn %clockwise %n degrees",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 369,
+                    "y": 235,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "doRepeat",
+                    "id": 34160,
+                    "template": false,
+                    "spec": "repeat %n %loop",
+                    "isPrototype": false,
+                    "argIndex": 1,
+                    "parentBlock": {
+                        "selector": "doRepeat",
+                        "id": 34160,
+                        "template": false,
+                        "spec": "repeat %n %loop",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 117.576171875,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 152,
+                    "y": 132,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "adaa08f0-edcc-4079-9b74-664c745c5a1f"
+        },
+        "timeDelta": 857
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 216,
+                "y": 287,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "dc7d5f57-43c2-44b6-8e59-9c27aabcf23f"
+        },
+        "timeDelta": 809
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 15,
+                    "y": 187,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 67,
+                    "y": 217,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "f2a3e4e4-1318-4e07-a282-df445dc411f9"
+        },
+        "timeDelta": 510
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34181,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 216,
+                "y": 266,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "f0bbec6c-d053-4bf7-bff8-263550b8a533"
+        },
+        "timeDelta": 608
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doWait",
+                "id": 34181,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 369,
+                    "y": 257,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turn",
+                    "id": 34068,
+                    "template": false,
+                    "spec": "turn %clockwise %n degrees",
+                    "isPrototype": false,
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 15,
+                    "y": 166,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 152,
+                    "y": 154,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "08d41334-670d-4c1d-9197-0581cc331719"
+        },
+        "timeDelta": 727
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "turnLeft",
+                "id": 34148,
+                "template": false,
+                "spec": "turn %counterclockwise %n degrees",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 369.576171875,
+                "y": 324,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "bbcc8a27-702b-41ba-b66c-0d5c0ce7570f"
+        },
+        "timeDelta": 856
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "turnLeft",
+                "id": 34148,
+                "template": false,
+                "spec": "turn %counterclockwise %n degrees",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 369,
+                    "y": 278,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "doWait",
+                    "id": 34181,
+                    "template": false,
+                    "spec": "wait %n secs",
+                    "isPrototype": false,
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 168.576171875,
+                    "y": 224,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 152,
+                    "y": 175,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "c7d3fab7-e180-4ce8-aa3b-e3f5c698e3f6"
+        },
+        "timeDelta": 880
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34182,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 268,
+                "y": 340,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "6b7931bd-5cfb-4166-a2ae-8e69a266e75a"
+        },
+        "timeDelta": 904
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doWait",
+                "id": 34182,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 369,
+                    "y": 300,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "turnLeft",
+                    "id": 34148,
+                    "template": false,
+                    "spec": "turn %counterclockwise %n degrees",
+                    "isPrototype": false,
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 67,
+                    "y": 240,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 152,
+                    "y": 197,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "b2ab13ce-c8f1-4fa6-816a-53fa5a5be92b"
+        },
+        "timeDelta": 929
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 268,
+                "y": 317,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "026876fa-2e4a-473a-98d7-a4e670026be6"
+        },
+        "timeDelta": 820
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 67,
+                    "y": 217,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 43,
+                    "y": 253,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "41b4c66c-4f06-4102-9677-ca8cbe9ea844"
+        },
+        "timeDelta": 748
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 346,
+                "y": 211,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "189c6d24-e1c1-40b2-b203-05120e970e00"
+        },
+        "timeDelta": 1586
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doRepeat",
+                "id": 34160,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 339.576171875,
+                    "y": 153,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "reifyScript",
+                    "id": 33665,
+                    "template": false,
+                    "spec": "%rc %ringparms",
+                    "isPrototype": false,
+                    "argIndex": 0,
+                    "parentBlock": {
+                        "selector": "reifyScript",
+                        "id": 33665,
+                        "template": false,
+                        "spec": "%rc %ringparms",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 145,
+                    "y": 111,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 117.576171875,
+                    "y": 48,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "4d117c2d-02ac-4ab4-83d8-e35a34db7e9f"
+        },
+        "timeDelta": 3593
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "e9200fc4-9f86-4d88-94e2-20010a0fe956"
+        },
+        "timeDelta": 3197
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 508,
+                "y": 218,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "f0aec584-ea90-4c9e-9623-dd3557131ac6"
+        },
+        "timeDelta": 35611
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 307,
+                    "y": 118,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 219,
+                    "y": 211,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "32513c16-900e-4d26-9551-5622d837f6b6"
+        },
+        "timeDelta": 926
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 244,
+                "y": 353,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "03541800-e5c3-4f8c-8c3f-e5ea36021770"
+        },
+        "timeDelta": 1057
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 43,
+                    "y": 253,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 18,
+                    "y": 216,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "9f2cf46f-bfc8-457f-a7e6-7074c397896f"
+        },
+        "timeDelta": 1196
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": true,
+            "_recordID": "071dce4e-6fdb-4cf3-a6da-63709862c888"
+        },
+        "timeDelta": 3035
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 2,
+            "highlight": false,
+            "_recordID": "e3bd9295-fc9f-453c-9679-75c2c6a7feef"
+        },
+        "timeDelta": 101
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": true,
+            "_recordID": "f9517c0e-56ef-4849-b836-4ec50fbb4837"
+        },
+        "timeDelta": 83
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 4,
+            "highlight": false,
+            "_recordID": "407b9590-da89-45cd-97dc-54239ebb2123"
+        },
+        "timeDelta": 183
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": true,
+            "_recordID": "96821706-a510-4400-b71e-1760e2e8bec6"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 5,
+            "highlight": false,
+            "_recordID": "90a13b03-b927-448a-9892-49eeed884463"
+        },
+        "timeDelta": 316
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": true,
+            "_recordID": "19cfd814-f2f7-407c-9baf-8a05dd772ff1"
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "menu",
+        "data": {
+            "parent": null,
+            "open": false,
+            "position": {
+                "x": 288,
+                "y": 389,
+                "objType": "Point"
+            },
+            "_recordID": "02ee43ea-b5c5-4279-8384-8c893bd65d9c"
+        },
+        "timeDelta": 841
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doTellTo",
+                "id": 33666,
+                "template": false,
+                "spec": "tell %spr to %cmdRing %inputs",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "item": "head t-rex",
+            "value": "head t-rex",
+            "_recordID": "d9e9e2c1-d7c3-4c76-b4c4-6669701edb27"
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "menuItemSelect",
+        "data": {
+            "index": 6,
+            "highlight": false,
+            "_recordID": "18c54113-bcb0-449f-8a70-f6fad0e4fe48"
+        },
+        "timeDelta": 491
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 420,
+                "y": 311,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "d7b1d9ec-d0a8-4322-a291-4ac7d6068f38"
+        },
+        "timeDelta": 1835
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 350.4775390625,
+                    "y": 328,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "reifyScript",
+                    "id": 33667,
+                    "template": false,
+                    "spec": "%rc %ringparms",
+                    "isPrototype": false,
+                    "argIndex": 0,
+                    "parentBlock": {
+                        "selector": "reifyScript",
+                        "id": 33667,
+                        "template": false,
+                        "spec": "%rc %ringparms",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 219,
+                    "y": 211,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 128.4775390625,
+                    "y": 223,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "faae5658-3363-4924-8d27-07abf18779f5"
+        },
+        "timeDelta": 1349
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "text": "3",
+            "value": "3",
+            "_recordID": "1fca79d3-04c6-48a6-a8b5-8da829bf11e7"
+        },
+        "timeDelta": 8214
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "32c5afee-533b-43eb-b976-46aff0b8c7d7"
+        },
+        "timeDelta": 3839
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "32c5afee-533b-43eb-b976-46aff0b8c7d8"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "32c5afee-533b-43eb-b976-46aff0b8c7d9"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "text": "-3",
+            "value": "-3",
+            "_recordID": "f31e8cae-ddb1-48ca-845d-97e66f1a9c5c"
+        },
+        "timeDelta": 20700
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "f9c21ed9-9a99-45ea-85ac-e073bd98101a"
+        },
+        "timeDelta": 108
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "f9c21ed9-9a99-45ea-85ac-e073bd98101a1"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "f9c21ed9-9a99-45ea-85ac-e073bd98101a2"
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doRepeat",
+                "id": 34210,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 576,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "48e37b91-68e7-4efb-9bf1-148abe40eee3"
+        },
+        "timeDelta": 9409
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doRepeat",
+                "id": 34210,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": null,
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 468,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 117,
+                    "y": 298,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "85a65ebf-2095-4ff8-b0d7-fe9bc49bed16"
+        },
+        "timeDelta": 857
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "text": "3",
+            "value": "3",
+            "_recordID": "23d3dc3e-0d5f-41b2-a206-c3f6477f4c1d"
+        },
+        "timeDelta": 2975
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 329.4775390625,
+                "y": 323,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "b778e001-a395-45be-9207-d956042b8466"
+        },
+        "timeDelta": 98
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 34069,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 341,
+                    "y": 422,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "doRepeat",
+                    "id": 34210,
+                    "template": false,
+                    "spec": "repeat %n %loop",
+                    "isPrototype": false,
+                    "argIndex": 1,
+                    "parentBlock": {
+                        "selector": "doRepeat",
+                        "id": 34210,
+                        "template": false,
+                        "spec": "repeat %n %loop",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 128.4775390625,
+                    "y": 223,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 124,
+                    "y": 319,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "ab9e7be9-b714-4009-871e-f279f306f69b"
+        },
+        "timeDelta": 679
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34211,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 474,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "68612def-5778-4e0e-8f77-8c24e69f7a6a"
+        },
+        "timeDelta": 2022
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doWait",
+                "id": 34211,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 341,
+                    "y": 443,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 34069,
+                    "template": false,
+                    "spec": "move %n steps",
+                    "isPrototype": false,
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 366,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 124,
+                    "y": 340,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "92c6f14b-f7c6-49e7-8641-41505a8535e9"
+        },
+        "timeDelta": 880
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34211,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "text": "0.5",
+            "value": "0.5",
+            "_recordID": "b14a138c-6e73-42ae-af37-8ce46685c03c"
+        },
+        "timeDelta": 3970
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "motion",
+            "message": "IDE.changeCategory",
+            "_recordID": "54116ca9-01cf-42df-9fc5-71e5539c0583"
+        },
+        "timeDelta": 68
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34212,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 116,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "d486a108-df69-4f73-a9ef-17224caf5ce2"
+        },
+        "timeDelta": 1050
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "forward",
+                "id": 34212,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 341,
+                    "y": 464,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "doWait",
+                    "id": 34211,
+                    "template": false,
+                    "spec": "wait %n secs",
+                    "isPrototype": false,
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 8,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 124,
+                    "y": 361,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "8ebe7e35-7658-48cd-a544-e0136a9ee4ad"
+        },
+        "timeDelta": 1121
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "forward",
+                "id": 34212,
+                "template": false,
+                "spec": "move %n steps",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "text": "-3",
+            "value": "-3",
+            "_recordID": "627e6e3e-ec58-48d1-a19e-d190c252ec57"
+        },
+        "timeDelta": 5568
+    },
+    {
+        "type": "changeCategory",
+        "data": {
+            "value": "control",
+            "message": "IDE.changeCategory",
+            "_recordID": "d7750244-87d8-481d-bf80-725811545162"
+        },
+        "timeDelta": 77
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34213,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 5,
+                "y": 474,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "0a061158-335b-4b7e-96a6-a5d8965ed078"
+        },
+        "timeDelta": 1051
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doWait",
+                "id": 34213,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 341,
+                    "y": 485,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "forward",
+                    "id": 34212,
+                    "template": false,
+                    "spec": "move %n steps",
+                    "isPrototype": false,
+                    "objType": "BlockMorph"
+                },
+                "loc": "bottom",
+                "type": "block",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Palette",
+                    "objType": "FrameMorph"
+                },
+                "position": {
+                    "x": 5,
+                    "y": 366,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 124,
+                    "y": 382,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "df1adfc6-7e89-4420-b6a8-228be0a41f7e"
+        },
+        "timeDelta": 1120
+    },
+    {
+        "type": "inputSlotEdit",
+        "data": {
+            "id": {
+                "selector": "doWait",
+                "id": 34213,
+                "template": false,
+                "spec": "wait %n secs",
+                "isPrototype": false,
+                "argIndex": 0,
+                "objType": "Object"
+            },
+            "text": "0.5",
+            "value": "0.5",
+            "_recordID": "096644cc-4974-43a2-83cb-044b780aee24"
+        },
+        "timeDelta": 4775
+    },
+    {
+        "type": "block_grabbed",
+        "data": {
+            "id": {
+                "selector": "doRepeat",
+                "id": 34210,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "Object"
+            },
+            "origin": {
+                "x": 318,
+                "y": 398,
+                "objType": "Point"
+            },
+            "message": "Block.grabbed",
+            "_recordID": "f4de7b16-b60f-41e7-bd5a-280bcd67d226"
+        },
+        "timeDelta": 1821
+    },
+    {
+        "type": "blockDrop",
+        "data": {
+            "lastDroppedBlock": {
+                "selector": "doRepeat",
+                "id": 34210,
+                "template": false,
+                "spec": "repeat %n %loop",
+                "isPrototype": false,
+                "objType": "BlockMorph"
+            },
+            "lastReplacedInput": null,
+            "lastDropTarget": {
+                "point": {
+                    "x": 350.4775390625,
+                    "y": 328,
+                    "objType": "Point"
+                },
+                "element": {
+                    "selector": "reifyScript",
+                    "id": 33667,
+                    "template": false,
+                    "spec": "%rc %ringparms",
+                    "isPrototype": false,
+                    "argIndex": 0,
+                    "parentBlock": {
+                        "selector": "reifyScript",
+                        "id": 33667,
+                        "template": false,
+                        "spec": "%rc %ringparms",
+                        "isPrototype": false,
+                        "objType": "BlockMorph"
+                    },
+                    "objType": "ArgMorph"
+                },
+                "loc": "bottom",
+                "type": "slot",
+                "objType": "Object"
+            },
+            "lastPreservedBlocks": null,
+            "lastNextBlock": null,
+            "lastWrapParent": null,
+            "lastOrigin": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 117,
+                    "y": 298,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "action": null,
+            "situation": {
+                "origin": {
+                    "source": "Sprite",
+                    "spriteName": "Turtle",
+                    "objType": "ScriptsMorph"
+                },
+                "position": {
+                    "x": 128.4775390625,
+                    "y": 223,
+                    "objType": "Point"
+                },
+                "objType": "Object"
+            },
+            "_recordID": "08791194-8ff2-489e-b2ba-878aa928317d"
+        },
+        "timeDelta": 3357
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33666,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "993e22cb-d075-4566-aaed-b95e5f238765"
+        },
+        "timeDelta": 9677
+    },
+    {
+        "type": "run",
+        "data": {
+            "selector": "doTellTo",
+            "id": 33664,
+            "template": false,
+            "spec": "tell %spr to %cmdRing %inputs",
+            "isPrototype": false,
+            "message": "Block.clickRun",
+            "_recordID": "4bc01e66-7197-4222-b799-0576641f7073"
+        },
+        "timeDelta": 3088
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 7,
+            "indexv": 0
+        },
+        "timeDelta": 0
+    },
+    {
+        "type": "videoPause",
+        "data": {
+            "_recordID": "64b8188b-b2ed-4f35-90a7-3d8b7bc61880"
+        },
+        "timeDelta": 43484
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 8,
+            "indexv": 0
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 1000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 9,
+            "indexv": 0
+        },
+        "timeDelta": 8000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 10,
+            "indexv": 0
+        },
+        "timeDelta": 15000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 11,
+            "indexv": 0
+        },
+        "timeDelta": 7000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 12,
+            "indexv": 0
+        },
+        "timeDelta": 7000
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 13,
+            "indexv": 0
+        },
+        "timeDelta": 9000
+    }
+]
