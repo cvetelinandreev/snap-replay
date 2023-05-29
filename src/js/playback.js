@@ -647,6 +647,9 @@ export class Playback {
     }
 
     showFinishedModal() {
+        if (process.env.SHOW_FINISHED_MODAL !== 'true') {
+            return;
+        }
         if (!this.code) this.code = this.makeCode();
         Trace.log('Playback.finishedModal', {
             'code': this.code,
