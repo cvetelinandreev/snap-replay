@@ -38,7 +38,6 @@ export class Playback {
         this.loader.onLoaded = (script) => {
             this.script = script;
             this.events = script.getEvents();
-            console.log(this.events);
             this.addScript();
             this.restart();
             this.createSlides();
