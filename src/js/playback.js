@@ -61,8 +61,8 @@ export class Playback {
         });
         this.audio = $('#audio')[0];
         this.$scrubber = $('#scrubber');
-        this.$scrubber.on("change input", () => this.setDuration());
-        this.$scrubber.on("change", () => this.finishSettingDuration());
+        // this.$scrubber.on("change input", () => this.setDuration());
+        // this.$scrubber.on("change", () => this.finishSettingDuration());
         this.$script = $('#script');
         this.time = 0;
         this.playing = false;
