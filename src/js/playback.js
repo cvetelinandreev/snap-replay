@@ -107,7 +107,7 @@ export class Playback {
         // HACK: TODO: Make this actually configurable
         const videoTable = {
             // Loops
-            'media/learntogether/music/rhythm/5/': 'https://drive.google.com/file/d/1bDNN6rAlNwcl-nNHlwgHCHB0o5jwXsln/view?usp=sharing',
+            'media/learntogether/music/rhythm/5/': 'https://youtu.be/BKcWVbRuAk0',
         };
         let link = videoTable[path]
         if (link) {
