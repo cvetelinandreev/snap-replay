@@ -23,22 +23,13 @@
         "timeDelta": 0
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 18,
-            "highlight": false,
-            "_recordID": "91eaaa65-7134-437a-a9e4-36c2137ba2aa"
-        },
-        "timeDelta": 376
-    },
-    {
         "type": "slideChanged",
         "data": {
             "id": "",
             "indexh": 1,
             "indexv": 0
         },
-        "timeDelta": 4000
+        "timeDelta": 4376
     },
     {
         "type": "slideChanged",
@@ -98,65 +89,6 @@
         "timeDelta": 8011
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "05845e15-91b7-4e83-96db-5c00a6556878"
-        },
-        "timeDelta": 1606
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "3a34493d-8d76-45cf-8091-d5324b7e23b2"
-        },
-        "timeDelta": 65
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "78ab2997-258b-4948-b25a-52f86aa3a558"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "8bb1db90-f085-4989-9c05-c77518bd0a32"
-        },
-        "timeDelta": 250
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "74319fac-8433-4ae2-8ee4-b0958ba2158e"
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 914,
-                "y": 189,
-                "objType": "Point"
-            },
-            "_recordID": "235fc302-ce73-41d4-a5e3-ae135d9dc0f6"
-        },
-        "timeDelta": 487
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -172,16 +104,7 @@
             "value": "big open one finger",
             "_recordID": "d0ad321e-699a-421c-8b65-b729fe3ec3e4"
         },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "b3835f37-2c2c-458c-9286-da9b965aeb8c"
-        },
-        "timeDelta": 378
+        "timeDelta": 2410
     },
     {
         "type": "run",
@@ -195,84 +118,7 @@
             "message": "Block.clickRun",
             "_recordID": "e8559764-6143-4df5-87e5-74dfaa9d22e5"
         },
-        "timeDelta": 1771
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "f2913461-5ce6-4680-9c87-9fe9e568c4a9"
-        },
-        "timeDelta": 1948
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "3aba2f09-29a6-4a61-9d6f-0308e87be4ec"
-        },
-        "timeDelta": 164
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "0f9eded6-8a45-4ce7-810e-643cc7363e2a"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "81925124-ba9d-4750-ab8a-ac38afe00338"
-        },
-        "timeDelta": 184
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "704fa140-6626-4db8-b48f-8392c8b106e1"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "2201ea27-6c2c-4ca5-bc25-bdf0e9ed3baa"
-        },
-        "timeDelta": 202
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "71034451-8884-41d6-8304-2647e591b7dc"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 961,
-                "y": 209,
-                "objType": "Point"
-            },
-            "_recordID": "5c699f2f-d39e-462c-84dc-5588113c0d51"
-        },
-        "timeDelta": 620
+        "timeDelta": 2149
     },
     {
         "type": "inputSlotEdit",
@@ -290,16 +136,7 @@
             "value": "big open slide dugi",
             "_recordID": "293323c8-6971-444e-b943-026111f03136"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "c7b0cfdb-b616-4cad-84b4-fd25eec658e2"
-        },
-        "timeDelta": 361
+        "timeDelta": 3111
     },
     {
         "type": "run",
@@ -313,102 +150,7 @@
             "message": "Block.clickRun",
             "_recordID": "2398e481-62a0-4056-9c2a-03d038b317b6"
         },
-        "timeDelta": 1972
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "b26a9529-d059-4898-b8e9-d261856ae86f"
-        },
-        "timeDelta": 1729
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "05a87b44-6d31-4adc-9d3d-49c3e3c2be65"
-        },
-        "timeDelta": 149
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "62101075-e7ec-4a9f-8583-bf7ea0eb041b"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "f2d6b74b-1968-4bc1-98d1-d8e069583c78"
-        },
-        "timeDelta": 202
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "1e315e6d-d2a9-4c4c-9796-befdac96ab4f"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "ef1cb930-04a0-4808-a52b-8402538b59b3"
-        },
-        "timeDelta": 533
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "e49e33b0-79b9-4622-bdae-f558c0681bb2"
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "05ef0130-3976-4356-8fa3-b4f01061db1f"
-        },
-        "timeDelta": 163
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "b6497395-c9dd-41c7-9444-fad593d5c503"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 960,
-                "y": 215,
-                "objType": "Point"
-            },
-            "_recordID": "84e4691f-12c0-4054-8979-5d88be5798dd"
-        },
-        "timeDelta": 507
+        "timeDelta": 2333
     },
     {
         "type": "inputSlotEdit",
@@ -426,16 +168,7 @@
             "value": "big open whole hand",
             "_recordID": "880aac3c-271e-4ec6-8102-bd2b680a2315"
         },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "d7a5817e-3479-4bfc-8651-762eca0c2f0c"
-        },
-        "timeDelta": 325
+        "timeDelta": 3285
     },
     {
         "type": "run",
@@ -449,120 +182,7 @@
             "message": "Block.clickRun",
             "_recordID": "eb6fd152-77d5-474c-bd2b-34a0f352d303"
         },
-        "timeDelta": 1189
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "84fd545c-a7fe-4449-8bd6-e2319dc6a99e"
-        },
-        "timeDelta": 3562
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "838d551e-6a1e-4760-9d0e-a1d4f56fb29e"
-        },
-        "timeDelta": 53
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "7d14cd24-e20d-42e4-a050-bc15fa6b0ca0"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "20cd30a9-3889-4767-8d44-a4cce7f66e2e"
-        },
-        "timeDelta": 49
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "e8179590-e479-4118-8d58-7d3cd240324a"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "63a46939-4642-4262-b9b5-e45f73b413e5"
-        },
-        "timeDelta": 82
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "80faadb2-5456-44be-adaf-ad5c86670e32"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "4ba64b3b-7faa-4aa6-aea3-a1b393679e5b"
-        },
-        "timeDelta": 66
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "49fcf12a-195e-498f-a61b-e96b9e7e1995"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "eeb5777f-34f1-4d79-917f-bb48e0a3ea10"
-        },
-        "timeDelta": 235
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "721d24bf-38c6-48a1-ade9-1895a5800d73"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 956,
-                "y": 232,
-                "objType": "Point"
-            },
-            "_recordID": "640b5955-949e-49d6-9c1b-aea636418c17"
-        },
-        "timeDelta": 405
+        "timeDelta": 1514
     },
     {
         "type": "inputSlotEdit",
@@ -580,16 +200,7 @@
             "value": "small closed",
             "_recordID": "44292bdd-fb37-4454-95b3-f0c683175bdb"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "e80281b4-df0b-4157-969a-933c46b8f29a"
-        },
-        "timeDelta": 310
+        "timeDelta": 4452
     },
     {
         "type": "run",
@@ -603,138 +214,7 @@
             "message": "Block.clickRun",
             "_recordID": "aafef19f-5389-4b15-815b-9860f86b6b3b"
         },
-        "timeDelta": 671
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "10934d69-2a10-48cf-93da-47990cdc237f"
-        },
-        "timeDelta": 1061
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "f94fa952-f9f2-4207-a5a8-cff474a771f0"
-        },
-        "timeDelta": 18
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "47de8e49-7e99-4787-9692-24c33ac0d164"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "badb2243-9b16-4148-9fe8-3c627f33e80e"
-        },
-        "timeDelta": 35
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "f9ae5d6a-f1a6-42bb-b145-f015f7d2f28d"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "38c82e38-4d2a-43cf-b635-0ace2b366179"
-        },
-        "timeDelta": 83
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "a9d54293-19d4-4c64-91ec-a704e928fd48"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "5f5656f6-1783-4287-8f0e-25b80a4d58c1"
-        },
-        "timeDelta": 100
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "184df82f-1bf3-4342-b251-e5912979f0a6"
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "a15b3724-7b8f-44f0-8158-82c4f46c594c"
-        },
-        "timeDelta": 98
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "d086385f-c8b3-47ec-bc53-84bc53a9bfa5"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "c7d717de-e2b6-4fd1-82f6-fe2dbe797f91"
-        },
-        "timeDelta": 133
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": true,
-            "_recordID": "a975d119-1df8-453c-879f-72b7c70b4537"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 953,
-                "y": 245,
-                "objType": "Point"
-            },
-            "_recordID": "a7af8076-0823-4269-b3c4-9a068d5bb78c"
-        },
-        "timeDelta": 355
+        "timeDelta": 981
     },
     {
         "type": "inputSlotEdit",
@@ -752,16 +232,7 @@
             "value": "small open",
             "_recordID": "37c62e0e-622c-4b2c-af41-5d363566a23e"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": false,
-            "_recordID": "f0cccca7-fabe-4734-92bf-0675fb8cf9c9"
-        },
-        "timeDelta": 195
+        "timeDelta": 1884
     },
     {
         "type": "run",
@@ -775,120 +246,7 @@
             "message": "Block.clickRun",
             "_recordID": "093a88c8-6c1c-4bc9-b540-a95b854ecb39"
         },
-        "timeDelta": 572
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "40102408-8f2e-46e2-a4fe-d8f3cfaea533"
-        },
-        "timeDelta": 1062
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "c12b85ed-f518-40e3-869c-f25129449520"
-        },
-        "timeDelta": 18
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "daa85e8a-4304-4c11-a3ec-21342fc3c0be"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "5b0a439b-8a20-4362-8cb9-77a2de3d1fa2"
-        },
-        "timeDelta": 17
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "00d80fce-56b4-4a11-93a9-284e94a74ef3"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "c0cb70a6-c474-45e6-a201-d5f6c5b55b32"
-        },
-        "timeDelta": 16
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "049bfc76-62f8-4e00-bc71-9dcc00ba7a63"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "873369d3-9b4b-4147-97ea-84b07638324b"
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": true,
-            "_recordID": "a2fe837a-cbfc-4d66-80ce-fef1aabf0bab"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": false,
-            "_recordID": "b2872056-0e81-4bd0-9c93-ef489cb1ad0b"
-        },
-        "timeDelta": 33
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": true,
-            "_recordID": "48bdb81f-c9c0-4d65-b1cc-22eda524af1c"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 956,
-                "y": 264,
-                "objType": "Point"
-            },
-            "_recordID": "b73315ee-7cef-49e5-bd2e-ac750447f3da"
-        },
-        "timeDelta": 453
+        "timeDelta": 767
     },
     {
         "type": "inputSlotEdit",
@@ -906,16 +264,7 @@
             "value": "small stroke",
             "_recordID": "624bd8bf-9e3b-4efc-a59f-ae10967f2208"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": false,
-            "_recordID": "d2ed1aa0-c558-4abf-84af-07c27d49c235"
-        },
-        "timeDelta": 245
+        "timeDelta": 1633
     },
     {
         "type": "run",
@@ -929,7 +278,30 @@
             "message": "Block.clickRun",
             "_recordID": "9987393b-44e0-4bd9-b5ec-e6ca0a5b83bd"
         },
-        "timeDelta": 822
+        "timeDelta": 1067
+    },
+    {
+        "type": "slideChanged",
+        "data": {
+            "id": "",
+            "indexh": 6,
+            "indexv": 0
+        },
+        "timeDelta": 5000
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": true
+        },
+        "timeDelta": 1
+    },
+    {
+        "type": "slidesToggled",
+        "data": {
+            "value": false
+        },
+        "timeDelta": 23116
     },
     {
         "type": "block_grabbed",
@@ -951,7 +323,7 @@
             "message": "Block.grabbed",
             "_recordID": "7f137132-650d-4ca1-aa9e-04a34c55c316"
         },
-        "timeDelta": 31117
+        "timeDelta": 3000
     },
     {
         "type": "blockDrop",
@@ -1413,101 +785,6 @@
         "timeDelta": 653
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "f5f4e247-8c9c-44ec-839a-8f31af847a68"
-        },
-        "timeDelta": 1346
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "c7df1407-5cf9-4e52-9a65-67512549ec37"
-        },
-        "timeDelta": 49
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "68adf325-007a-4a60-95d9-63257f30d367"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "3f06ed57-8632-4f98-a699-ea4ad182a437"
-        },
-        "timeDelta": 84
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "1c615ab0-c2dc-4fa1-bde4-97d33313c9d4"
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "3b20230a-a089-4400-bcfe-e735de39ceea"
-        },
-        "timeDelta": 163
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "f5c13036-29cc-4842-9e75-23548ba54271"
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "6d295c10-2b7e-4023-9fab-1074478b1c82"
-        },
-        "timeDelta": 367
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "634b7968-6426-4362-b9cd-6edc89e2d107"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 360,
-                "y": 306,
-                "objType": "Point"
-            },
-            "_recordID": "2f7300b0-4842-43e0-94d3-77ceda7b15b4"
-        },
-        "timeDelta": 388
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -1524,16 +801,7 @@
             "value": "big open whole hand",
             "_recordID": "edd778b4-436c-4dfb-b45d-7ed30d607a7b"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "7cb2c645-30ff-4151-a1af-ff3330094536"
-        },
-        "timeDelta": 311
+        "timeDelta": 2399
     },
     {
         "type": "block_grabbed",
@@ -1555,7 +823,7 @@
             "message": "Block.grabbed",
             "_recordID": "ebf1aaa2-e0e1-47b2-a541-6e8e2d354fde"
         },
-        "timeDelta": 1119
+        "timeDelta": 1420
     },
     {
         "type": "blockDrop",
@@ -1605,137 +873,6 @@
         "timeDelta": 922
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "09a1fb53-4924-4b24-8353-31970aff42d5"
-        },
-        "timeDelta": 1910
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "49db4515-1638-461c-93a7-f9dfac3889fb"
-        },
-        "timeDelta": 16
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "66906cde-96b5-4633-be19-50ad1b567019"
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "1a2b4407-e59e-42be-87fe-0e487ab256dc"
-        },
-        "timeDelta": 17
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "3c72f260-c207-40e9-b6a4-179082b7563b"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "71c320b1-7bf0-4ab0-b976-54fca02a1e1c"
-        },
-        "timeDelta": 32
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "d1cd2289-cecd-4d7f-a18d-479af35c79bf"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "1aa8a788-1a42-4203-afea-046259ff1de6"
-        },
-        "timeDelta": 19
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "7da692d3-6d98-4c7d-b0db-df2d3320aee1"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "d25cec02-f1d1-4633-9c51-4f02c8460140"
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "63c48e83-1844-46c6-9be0-43f6d6eb0cf0"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "a26df1be-e3ac-4126-ad45-5130877856ac"
-        },
-        "timeDelta": 49
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": true,
-            "_recordID": "8bc31bee-a950-4ffa-90fd-e6fa861123c1"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 357,
-                "y": 407,
-                "objType": "Point"
-            },
-            "_recordID": "7b274d80-7f91-4143-bf43-dd3844f16e0c"
-        },
-        "timeDelta": 688
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -1752,16 +889,7 @@
             "value": "small open",
             "_recordID": "22694c8d-f491-4b8b-9e02-843fabb57e1a"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": false,
-            "_recordID": "27964a9c-608f-4faf-99e4-0d202b280ac0"
-        },
-        "timeDelta": 9160
+        "timeDelta": 2766
     },
     {
         "type": "block_grabbed",
@@ -1783,7 +911,7 @@
             "message": "Block.grabbed",
             "_recordID": "f7898872-c068-4071-80da-84882495a9dc"
         },
-        "timeDelta": 1888
+        "timeDelta": 11048
     },
     {
         "type": "blockDrop",
@@ -2106,24 +1234,6 @@
         "timeDelta": 1149
     },
     {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "bac4fc6f-c03c-4190-bdaa-b6dbf19d1ee2"
-        },
-        "timeDelta": 25
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "11cb6e55-212d-4876-b888-5a59d2a2f412"
-        },
-        "timeDelta": 9
-    },
-    {
         "type": "block_grabbed",
         "data": {
             "id": {
@@ -2143,7 +1253,7 @@
             "message": "Block.grabbed",
             "_recordID": "5a5a8627-36d0-4469-b9e0-c3861d84947b"
         },
-        "timeDelta": 2110
+        "timeDelta": 2146
     },
     {
         "type": "blockDrop",
@@ -3316,245 +2426,6 @@
         "timeDelta": 339
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "096512f6-8ca2-4a97-bf31-e0168af8243e"
-        },
-        "timeDelta": 7160
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "df7cca2e-f53c-4273-8792-370828570c87"
-        },
-        "timeDelta": 18
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "6b893a39-5a71-44d0-b903-8602987013af"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "924a4c47-d0a2-4e07-9260-7f5767aeee1b"
-        },
-        "timeDelta": 17
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "10f6665f-7b78-430c-ae14-314c8a21c0c1"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "bf3671cf-cd99-4b5d-b157-7198020e5563"
-        },
-        "timeDelta": 32
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "2230864a-07a2-4e91-97ad-3460f0e48730"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "a2baa060-bbb7-4b88-8c22-bb9884526681"
-        },
-        "timeDelta": 18
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "e8b53af8-8f4f-4998-b85f-bf798f85fa5b"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "4206efd7-81ff-4f5b-ba1b-e264d40327d6"
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": true,
-            "_recordID": "638d8153-1c1f-471a-88ee-586462fa9ca9"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": false,
-            "_recordID": "156254cc-8ea9-455b-ab1c-51896d4a65c3"
-        },
-        "timeDelta": 66
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": true,
-            "_recordID": "c1079c13-33ab-41dd-a193-885ac5d1dda0"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": false,
-            "_recordID": "99f8e037-1879-417b-90bc-3a99404c9764"
-        },
-        "timeDelta": 367
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": true,
-            "_recordID": "15a13c43-34d1-4637-952b-69416579acb7"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": false,
-            "_recordID": "b2642eec-33ba-4cc4-acac-9aab06bf7054"
-        },
-        "timeDelta": 50
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "2b53eba2-1908-488f-aeec-2f707f796d13"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "6ee3abdd-bb35-49b4-a08c-3b04ebb617bf"
-        },
-        "timeDelta": 32
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "6c876834-c077-4f0e-a0ec-3b1e6a065640"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "a159c5aa-8fd3-4227-99c6-4f7ccbbcb33b"
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "0681d202-4271-439b-8309-9a21821b9a49"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "e2252c57-d52d-49c0-b847-317b58dd094f"
-        },
-        "timeDelta": 134
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "df4a0432-87e8-446d-83cf-ec3ba6e24244"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "63eb860f-96ea-48a2-baf9-e9a16138cc77"
-        },
-        "timeDelta": 116
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "a3ef5651-888f-4f8d-af03-5f90fb093caf"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 349,
-                "y": 285,
-                "objType": "Point"
-            },
-            "_recordID": "fd2e0ca8-8f76-4aed-9bac-6c1b5ba8279b"
-        },
-        "timeDelta": 438
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -3571,16 +2442,7 @@
             "value": "big closed",
             "_recordID": "2ea93e9f-583c-4c13-a232-29d31bacafa8"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "dad7b56d-413e-4915-a585-247d1f4ae553"
-        },
-        "timeDelta": 279
+        "timeDelta": 8516
     },
     {
         "type": "changeCategory",
@@ -3589,7 +2451,7 @@
             "message": "IDE.changeCategory",
             "_recordID": "15c6754f-636e-4687-aa1e-cba39273a131"
         },
-        "timeDelta": 1403
+        "timeDelta": 1682
     },
     {
         "type": "block_grabbed",
@@ -3775,119 +2637,6 @@
         "timeDelta": 1022
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "3188223a-c517-4c47-bb18-86bb729866ac"
-        },
-        "timeDelta": 2710
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "168d034a-9c9b-444c-939a-e1202a0a11b3"
-        },
-        "timeDelta": 67
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "964bbb17-825d-4028-bc70-d2decaf3e153"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "44713ecb-082f-41b7-a9c9-f5bb1efa6827"
-        },
-        "timeDelta": 184
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "abf0ab44-7ca5-4235-813c-3f37fc7463b7"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "472c3c17-e0fd-462f-ac32-d59d719b0cf6"
-        },
-        "timeDelta": 51
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "3df4315e-a662-423f-944c-f28c1b084b22"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "8ecd06e5-55b8-4b84-9eac-bf5d5b3a77bd"
-        },
-        "timeDelta": 415
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "38bcb85f-2da6-4f97-bb50-24efe59af653"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "a6f23a81-f832-4bd2-a0c8-5bf7de1fa843"
-        },
-        "timeDelta": 1001
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "96d20a6c-2727-4e74-a48c-b0d3f4430622"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 379,
-                "y": 382,
-                "objType": "Point"
-            },
-            "_recordID": "e4648884-4383-47e1-90e2-208409a2c9b1"
-        },
-        "timeDelta": 387
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -3904,16 +2653,7 @@
             "value": "big open slide dugi",
             "_recordID": "e91a03e2-cb0f-4164-bb3d-6bc520feb863"
         },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "dda5a749-ac5d-474e-96fe-ce8f5a2d3fad"
-        },
-        "timeDelta": 295
+        "timeDelta": 4816
     },
     {
         "type": "changeCategory",
@@ -3922,7 +2662,7 @@
             "message": "IDE.changeCategory",
             "_recordID": "af693550-aaba-493b-9bd1-d311c9b10059"
         },
-        "timeDelta": 1493
+        "timeDelta": 1788
     },
     {
         "type": "block_grabbed",
@@ -4108,137 +2848,6 @@
         "timeDelta": 861
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "ba058895-5ee3-47de-bce5-85366f13a214"
-        },
-        "timeDelta": 1940
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "1af1c85e-b465-47b6-939f-62b9c9a54aa0"
-        },
-        "timeDelta": 29
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "5b2a652f-d201-4564-98ed-8ad990c45715"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "0c94d510-7f33-4c75-9737-c58fd014ef4c"
-        },
-        "timeDelta": 21
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "052c2e8f-3cb1-4f33-aae7-c12bcb85c94d"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "3fa53606-8a11-49f7-8915-ef98ccfbeb06"
-        },
-        "timeDelta": 31
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "0c83e9a0-b37e-4ee8-b6c4-ef610bda4026"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "e3923d3e-d219-4dc6-9c07-fa74291e6c5b"
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "185c30b9-c787-47f0-b9df-f65e3d7998a0"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "fd8f940a-9905-422d-983a-aecca2a2c82f"
-        },
-        "timeDelta": 267
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "6fc09ab5-2ec5-4e58-aabe-b4eb9eea1fbc"
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "56b76494-c425-4885-bc26-6ad364e8e81a"
-        },
-        "timeDelta": 1549
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "fc0c544a-afbb-4e8f-983c-b17fd842dee8"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 378,
-                "y": 470,
-                "objType": "Point"
-            },
-            "_recordID": "d175f792-b544-4f90-b0dc-8af5001db9e3"
-        },
-        "timeDelta": 604
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -4251,20 +2860,11 @@
                 "argIndex": 0,
                 "objType": "Object"
             },
-            "item": "small closed",
-            "value": "small closed",
+            "item": "big closed",
+            "value": "big closed",
             "_recordID": "4df9df60-9c6d-43bd-9226-6c854deef4ae"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "02c79a73-1b4b-4371-a2c2-32d279689160"
-        },
-        "timeDelta": 414
+        "timeDelta": 4476
     },
     {
         "type": "run",
@@ -4278,25 +2878,7 @@
             "message": "Block.clickRun",
             "_recordID": "74cfa2d8-db51-495e-a953-cae4432848fe"
         },
-        "timeDelta": 7536
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "8f9f286e-383b-41af-a163-6c49dbcd2a41"
-        },
-        "timeDelta": 28
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "1e191b8e-8eb9-4d74-894d-89e4fa7b8e5e"
-        },
-        "timeDelta": 13
+        "timeDelta": 7950
     },
     {
         "type": "run",
@@ -4310,7 +2892,7 @@
             "message": "Block.clickRun",
             "_recordID": "459397d5-9519-40c1-8edd-25297a209ca1"
         },
-        "timeDelta": 2959
+        "timeDelta": 3000
     },
     {
         "type": "run",
@@ -4519,173 +3101,6 @@
         "timeDelta": 910
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "a583c06b-8ed6-4918-b331-a5b31139a205"
-        },
-        "timeDelta": 1338
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "b1144e25-6bfa-4d54-9963-a10f5d55020b"
-        },
-        "timeDelta": 33
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "1af9addd-99aa-42a1-9311-f68462b464c6"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "dcf02cf6-b9d2-476c-be4e-cbb30ac07757"
-        },
-        "timeDelta": 35
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "58a5c5d9-5bfe-4eb6-8889-b8a003a09b9e"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "1372d809-1021-4940-b68b-77686654f846"
-        },
-        "timeDelta": 16
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "6a9449b1-def9-42e6-be83-49b637adae33"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "892fce6e-a565-4f74-9fb7-5c29c848d97b"
-        },
-        "timeDelta": 49
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "100a4b1a-c703-4cf7-9dda-11c05a0efe01"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "e1971765-99f8-407d-aaf1-3083c54c9616"
-        },
-        "timeDelta": 68
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "417252b6-5620-4b1e-ba4f-c8c371a648af"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "b6bc5bbd-072d-4764-abd6-82a35b8f52d5"
-        },
-        "timeDelta": 716
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "e740c6cd-1409-4bf8-a6be-9f19a20042e4"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "b31fb9bd-56ad-4cf9-b456-d3c4a9942141"
-        },
-        "timeDelta": 82
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "2b13a319-8077-4ef6-8135-a1e3525b35a5"
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "988ff04d-bc31-4add-985c-06b2994af9db"
-        },
-        "timeDelta": 103
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "741e965e-3317-4d73-ba9b-45a12624998e"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 373,
-                "y": 515,
-                "objType": "Point"
-            },
-            "_recordID": "40ca5f4b-affd-4321-8a5e-c22d6310e4e8"
-        },
-        "timeDelta": 434
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -4702,16 +3117,7 @@
             "value": "big open one finger",
             "_recordID": "3d8b5dfe-2cab-467a-9c7e-ce64297166de"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "da05c846-467e-4ec9-bbe6-9e45eef80a17"
-        },
-        "timeDelta": 232
+        "timeDelta": 2875
     },
     {
         "type": "run",
@@ -4725,52 +3131,7 @@
             "message": "Block.clickRun",
             "_recordID": "f4f18e20-6576-42e6-bedc-8973afe462a9"
         },
-        "timeDelta": 786
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "beee9920-4392-4d43-a2ad-6c8f7c100b38"
-        },
-        "timeDelta": 20
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "f5fcc685-0f6a-4aaa-a0cb-792eb78fb198"
-        },
-        "timeDelta": 13
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "4b5ff7b3-2f76-4aff-8837-e55f4a114d92"
-        },
-        "timeDelta": 13
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "e877d100-bf3e-4960-85eb-c6ce071b1364"
-        },
-        "timeDelta": 12
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "c6ba1ba5-58ba-441e-8e41-b9490bdafbef"
-        },
-        "timeDelta": 10
+        "timeDelta": 1018
     },
     {
         "type": "run",
@@ -4784,7 +3145,7 @@
             "message": "Block.clickRun",
             "_recordID": "00d6d64f-f95e-4bfd-9de1-c6ce9730f58f"
         },
-        "timeDelta": 1998
+        "timeDelta": 2066
     },
     {
         "type": "run",
@@ -5254,137 +3615,6 @@
         "timeDelta": 1220
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "a798c633-4079-4709-8e3f-3458a371cc7b"
-        },
-        "timeDelta": 1493
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "8f241deb-2998-4be0-a893-0b614062895e"
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "7d58be46-9252-4e75-b74e-40a3df095df6"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "e7fc0313-527e-42f8-bb4b-b31e6b914493"
-        },
-        "timeDelta": 33
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "09cc374d-b6e2-4dc2-8e02-0b566f01ee1a"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "aab975a5-78bd-4022-af4c-870e9f316fdd"
-        },
-        "timeDelta": 32
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "87ca70af-0291-4b10-87e9-d8423d67b397"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "e839141c-3851-4adf-9d33-52aca365f202"
-        },
-        "timeDelta": 51
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "0dc48aee-c6be-488e-8f00-d08ac1c4fdb0"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "311df621-0271-4f08-99c5-8f0bf25e000a"
-        },
-        "timeDelta": 99
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "5153faa2-7af8-40f1-a149-f8fc0b5bcf82"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "31f7a67e-a47c-4c21-a562-c0030422e15a"
-        },
-        "timeDelta": 135
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": true,
-            "_recordID": "37131926-68ad-47d8-841d-bca9c0ff6900"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 527,
-                "y": 475,
-                "objType": "Point"
-            },
-            "_recordID": "a4b5fe87-9da5-4db1-94fc-71a50cd2c3f4"
-        },
-        "timeDelta": 436
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -5401,16 +3631,7 @@
             "value": "small open",
             "_recordID": "08e11f33-69e1-48ca-ae3e-30a50e72ca19"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": false,
-            "_recordID": "6d2647bf-7b66-464b-b5a0-f5f9bbd53ca1"
-        },
-        "timeDelta": 348
+        "timeDelta": 2313
     },
     {
         "type": "run",
@@ -5424,61 +3645,7 @@
             "message": "Block.clickRun",
             "_recordID": "d2e960a5-81f1-4920-82c1-9abb6efd4c16"
         },
-        "timeDelta": 1919
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "efcd5dca-5631-4b86-8aec-9930ae788568"
-        },
-        "timeDelta": 24
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "40bd3791-f2c4-45ca-9d72-1fcb253d432d"
-        },
-        "timeDelta": 12
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "cbb6c731-9cf3-49ba-a314-640270f4a01c"
-        },
-        "timeDelta": 15
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "44663685-d340-4a30-a697-23ce42a38820"
-        },
-        "timeDelta": 11
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "f80faec3-4f61-4a9f-8da9-ec1ea2ab920a"
-        },
-        "timeDelta": 11
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "5675e210-2acb-4a4a-be43-5f76ca1baa4d"
-        },
-        "timeDelta": 9
+        "timeDelta": 2267
     },
     {
         "type": "block_grabbed",
@@ -5500,7 +3667,7 @@
             "message": "Block.grabbed",
             "_recordID": "aa605080-a228-4191-8a60-538ed6e7ad9f"
         },
-        "timeDelta": 1049
+        "timeDelta": 1131
     },
     {
         "type": "blockDrop",
@@ -5579,13 +3746,28 @@
         "timeDelta": 1940
     },
     {
+        "type": "run",
+        "data": {
+            "selector": "evaluateCustomBlock",
+            "id": 1094108,
+            "template": false,
+            "spec": "play %n times",
+            "definitionGUID": "2bb461c3-7d6e-4625-87e5-649bcd460365",
+            "isPrototype": false,
+            "skipOnScrub": true,
+            "message": "Block.clickRun",
+            "_recordID": "39ee5ab1-2d53-4cb6-a290-b1f67893f4ee"
+        },
+        "timeDelta": 5000
+    },
+    {
         "type": "changeCategory",
         "data": {
             "value": "control",
             "message": "IDE.changeCategory",
             "_recordID": "ced4bdd0-8d16-4c8f-a345-5066ab034fe2"
         },
-        "timeDelta": 26043
+        "timeDelta": 21043
     },
     {
         "type": "block_grabbed",
@@ -6184,69 +4366,6 @@
         "timeDelta": 11914
     },
     {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "25dcf5f1-3230-4d1d-a1cf-cf256b71d341"
-        },
-        "timeDelta": 21
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "ab9d5f07-68f7-4d4b-9b6f-38e5a1cd2133"
-        },
-        "timeDelta": 8
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "b38617af-e33c-4242-ae38-880045b9d929"
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "c36dfb42-34fc-43e7-af85-3b653b86b9cf"
-        },
-        "timeDelta": 9
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "f1d01c12-6902-4a42-af3e-619e2a909db4"
-        },
-        "timeDelta": 9
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "c79ac12a-fe37-4407-81f6-953bd41232c7"
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "f0e401fd-fee4-4aa1-9112-14d502f9eaa8"
-        },
-        "timeDelta": 11
-    },
-    {
         "type": "run",
         "data": {
             "selector": "evaluateCustomBlock",
@@ -6258,7 +4377,7 @@
             "message": "Block.clickRun",
             "_recordID": "d9800dee-e44b-4a2a-98da-685413106699"
         },
-        "timeDelta": 1123
+        "timeDelta": 1201
     },
     {
         "type": "run",
@@ -6611,69 +4730,6 @@
         "timeDelta": 1612
     },
     {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "e8242c6e-a6f2-4307-801d-81139579d266"
-        },
-        "timeDelta": 18
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "01d755e6-cca4-4d7d-872f-ae6f176ca641"
-        },
-        "timeDelta": 7
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "ccfdfb52-7b43-4b1b-b428-c318bb422e83"
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "bd85ebb8-5b5e-45a5-8b12-87cb3077cdec"
-        },
-        "timeDelta": 9
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "54f10eb0-c956-44f0-bd1c-a20433a048f5"
-        },
-        "timeDelta": 10
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "6850de39-d7ca-4a4d-a591-2a5437ca4d9e"
-        },
-        "timeDelta": 9
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "7043d1b9-980d-4822-95d1-1c608516548e"
-        },
-        "timeDelta": 12
-    },
-    {
         "type": "run",
         "data": {
             "selector": "evaluateCustomBlock",
@@ -6685,7 +4741,7 @@
             "message": "Block.clickRun",
             "_recordID": "0a138ea4-8690-4c68-9817-3d031446f39d"
         },
-        "timeDelta": 1010
+        "timeDelta": 1085
     },
     {
         "type": "run",
@@ -6952,119 +5008,6 @@
         "timeDelta": 1107
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "dfcb0227-943e-4f9e-9cab-08fa41f5d5f4"
-        },
-        "timeDelta": 1728
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "accf5452-9496-4a93-8599-88097e084f9d"
-        },
-        "timeDelta": 33
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "9ddfd22c-f6f5-4d7f-b159-563972e34401"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "0f03f0c0-3c43-424d-bbed-b058954edc11"
-        },
-        "timeDelta": 184
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "046a3c92-85fe-4f53-8b2e-30d39e49b97c"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "91b3068e-adc2-412b-841b-bdca4bf38a37"
-        },
-        "timeDelta": 66
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "44d4d441-e394-4a56-817b-32b293c50ddf"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "9c9cba4f-02b7-43ea-b466-e7462eb56921"
-        },
-        "timeDelta": 49
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "2b82bd30-92bb-4ec7-9809-64abdacda46a"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "69a66705-1ca1-4c0a-b5f8-9c05853af9c2"
-        },
-        "timeDelta": 83
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "ac5a3557-9204-41fe-a0be-f23bc9a48caa"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 537,
-                "y": 407,
-                "objType": "Point"
-            },
-            "_recordID": "6d3624cd-aeec-4cde-8295-5059c9d1d786"
-        },
-        "timeDelta": 505
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -7081,16 +5024,7 @@
             "value": "small closed",
             "_recordID": "e1ef2cf9-4c9d-4071-b7ea-92778f0e48d9"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "11054ec8-36da-45a0-a246-ed148cb3e772"
-        },
-        "timeDelta": 313
+        "timeDelta": 2648
     },
     {
         "type": "block_grabbed",
@@ -7112,7 +5046,7 @@
             "message": "Block.grabbed",
             "_recordID": "d9b98375-9157-4e73-b556-e21d7c686d2f"
         },
-        "timeDelta": 5202
+        "timeDelta": 5515
     },
     {
         "type": "blockDrop",
@@ -7162,137 +5096,6 @@
         "timeDelta": 1138
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "18c125d3-48bd-44b6-9cd0-40bed17335d7"
-        },
-        "timeDelta": 1228
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "1823c5c1-81f7-4c69-aa32-541db2cd32a2"
-        },
-        "timeDelta": 35
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "407c25ab-68c5-48cf-b12e-6e68fb219b79"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "b389dacb-9a8f-4a2a-9554-ee6c9c9f30c4"
-        },
-        "timeDelta": 63
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "38568039-8ef6-40b2-a976-c847fb5ce9fa"
-        },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "f1cb1847-ae74-4e37-a303-bebdfd31f99f"
-        },
-        "timeDelta": 250
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "d524612d-5b0f-442d-8d16-da8c0eed31bb"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "cdc6dffd-173f-44e2-812a-df956ec90d9e"
-        },
-        "timeDelta": 168
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "43e37eb5-82cf-400a-8175-7f5f922aa039"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "518ac16f-02b2-4a9e-9b90-990c6575d81f"
-        },
-        "timeDelta": 132
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "18ecd3c0-bd66-4e42-8d58-a2c3bd3fe5a2"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "1cde6dbc-1997-4322-90c2-8f198b164c81"
-        },
-        "timeDelta": 301
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": true,
-            "_recordID": "2aca2685-0fc3-4d74-bc3e-e0bdab659718"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 563,
-                "y": 501,
-                "objType": "Point"
-            },
-            "_recordID": "5d3b8e56-ba66-4bfa-a81d-7a2e31d3646f"
-        },
-        "timeDelta": 538
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -7309,16 +5112,7 @@
             "value": "small open",
             "_recordID": "ba2787f3-2a4c-48f1-9ada-5f0fbb465038"
         },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": false,
-            "_recordID": "55376832-1edd-4b7a-b9a3-e5f88f4802a5"
-        },
-        "timeDelta": 264
+        "timeDelta": 2716
     },
     {
         "type": "block_grabbed",
@@ -7340,7 +5134,7 @@
             "message": "Block.grabbed",
             "_recordID": "ba1a0c1a-3a30-4c9a-b140-64fbe135661a"
         },
-        "timeDelta": 933
+        "timeDelta": 1197
     },
     {
         "type": "blockDrop",
@@ -7390,155 +5184,6 @@
         "timeDelta": 1038
     },
     {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "25cb72e2-6cfc-49b7-8342-25ff174478c7"
-        },
-        "timeDelta": 1361
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "d3fb513e-315c-4e13-a5c4-3e53bd08ec03"
-        },
-        "timeDelta": 35
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": true,
-            "_recordID": "ceaef450-cffc-44a8-ad79-bcc540dbb76a"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 2,
-            "highlight": false,
-            "_recordID": "87865623-9cce-48c6-88e5-5b33f12063e6"
-        },
-        "timeDelta": 32
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "29033ece-1258-4326-93c1-3ec1c545746a"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "24e534ee-8064-4cc8-b3a1-d6bc50d4aeba"
-        },
-        "timeDelta": 33
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "6fbd2364-80e5-449a-83ea-6726b93b640e"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "22664c9e-ba65-43fc-926d-166abe072f9e"
-        },
-        "timeDelta": 48
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": true,
-            "_recordID": "eafa8f57-33de-4f45-95c8-3130da429887"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 5,
-            "highlight": false,
-            "_recordID": "e4e66c00-320a-4efa-a665-ebbc0f05d68a"
-        },
-        "timeDelta": 168
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "efddf9eb-d264-4f12-8da4-d6e1336e6394"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "9ecd643b-1549-481d-8db8-8fe8ea68632f"
-        },
-        "timeDelta": 132
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": true,
-            "_recordID": "03aa047a-11ff-466c-b155-28dfc5d9fc3f"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 7,
-            "highlight": false,
-            "_recordID": "d3efa0c1-6120-4341-a1a6-e454f36a0163"
-        },
-        "timeDelta": 150
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": true,
-            "_recordID": "8521c1b8-5c1d-47fc-8c03-e2696d8b15d5"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 588,
-                "y": 592,
-                "objType": "Point"
-            },
-            "_recordID": "bd2b015b-e3d5-45e8-945d-0cdca4631287"
-        },
-        "timeDelta": 389
-    },
-    {
         "type": "inputSlotEdit",
         "data": {
             "id": {
@@ -7555,16 +5200,7 @@
             "value": "small stroke",
             "_recordID": "ce89e554-567c-453d-abbe-15802226fa47"
         },
-        "timeDelta": 1
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": false,
-            "_recordID": "e934e4b2-932c-4da3-880f-5566c8402d1c"
-        },
-        "timeDelta": 228
+        "timeDelta": 2349
     },
     {
         "type": "changeCategory",
@@ -7573,7 +5209,7 @@
             "message": "IDE.changeCategory",
             "_recordID": "ba93651f-47a7-44f4-90f5-9d172d33407c"
         },
-        "timeDelta": 987
+        "timeDelta": 1215
     },
     {
         "type": "block_grabbed",
@@ -7940,69 +5576,6 @@
         "timeDelta": 6666
     },
     {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "539a6e69-d45f-4e38-9992-ed8362707827"
-        },
-        "timeDelta": 22
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "2cae58f8-c92c-4867-86d5-e067c4b464dd"
-        },
-        "timeDelta": 9
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "62655e70-bda1-4483-b106-6e09b48bd489"
-        },
-        "timeDelta": 17
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "62c80e6a-9446-4349-bdec-bd8f4630a964"
-        },
-        "timeDelta": 15
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "c36c3748-eb1d-48f1-862a-de25e1a06d64"
-        },
-        "timeDelta": 12
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "a2fbefa7-cd96-4f9e-8c04-4e7047f15caa"
-        },
-        "timeDelta": 12
-    },
-    {
-        "type": "IDE_selectSprite",
-        "data": {
-            "value": "DJ",
-            "message": "IDE.selectSprite",
-            "_recordID": "8fd50a8f-1b63-4013-8466-87757ded6e37"
-        },
-        "timeDelta": 10
-    },
-    {
         "type": "run",
         "data": {
             "selector": "evaluateCustomBlock",
@@ -8028,7 +5601,7 @@
             "message": "Block.clickRun",
             "_recordID": "2cfd3718-87bb-45db-824c-4280bd4220a9"
         },
-        "timeDelta": 4401
+        "timeDelta": 4498
     },
     {
         "type": "inputSlotEdit",
@@ -8065,242 +5638,12 @@
         "timeDelta": 99
     },
     {
-        "type": "menuItemSelect",
+        "type": "slideChanged",
         "data": {
-            "index": 1,
-            "highlight": true,
-            "_recordID": "aa0bf13c-cb10-4358-81c9-ad42e3edfe0d"
+            "id": "",
+            "indexh": 7,
+            "indexv": 0
         },
-        "timeDelta": 26364
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 1,
-            "highlight": false,
-            "_recordID": "189c1cb7-0d58-4387-93c1-edc703b323d4"
-        },
-        "timeDelta": 51
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": true,
-            "_recordID": "d1a0c290-7aa7-45b9-be55-973fe89e6f50"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 3,
-            "highlight": false,
-            "_recordID": "0c11c4ee-8656-4a3c-94a6-8914b2be3736"
-        },
-        "timeDelta": 14
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": true,
-            "_recordID": "7eb2e515-f381-47c0-ac14-cb530b17973b"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 4,
-            "highlight": false,
-            "_recordID": "c4e4671b-a7de-4282-a87e-05aa5ada3995"
-        },
-        "timeDelta": 35
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": true,
-            "_recordID": "50d06457-4579-4cc7-9afd-ac3a881dd193"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 6,
-            "highlight": false,
-            "_recordID": "62a596a4-af99-497f-91c1-6ad702b4d042"
-        },
-        "timeDelta": 33
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": true,
-            "_recordID": "ab5b5f42-b34d-4d53-bde8-5c963b23ccf1"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 8,
-            "highlight": false,
-            "_recordID": "3e0c79df-a31d-4c5c-a12a-62beeaf08bd0"
-        },
-        "timeDelta": 17
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 9,
-            "highlight": true,
-            "_recordID": "6ffd03e2-bbab-440a-b8cf-9345bb94ec91"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 9,
-            "highlight": false,
-            "_recordID": "a43e0115-1840-4dd5-80e1-e7be13206eb5"
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 10,
-            "highlight": true,
-            "_recordID": "474f2f49-c533-46c7-8952-9353afba8770"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 10,
-            "highlight": false,
-            "_recordID": "530c9857-4dc6-4e8f-bb9d-48bfed2a00b5"
-        },
-        "timeDelta": 33
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 11,
-            "highlight": true,
-            "_recordID": "99a90877-a535-4a4b-b102-4f5ba8082e67"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 11,
-            "highlight": false,
-            "_recordID": "eee64337-0bab-44f5-b1be-b61c15f010a7"
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 12,
-            "highlight": true,
-            "_recordID": "737bd728-7f99-4bdb-a971-ae344094ac68"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 12,
-            "highlight": false,
-            "_recordID": "f8d9e17d-d4fd-4a68-a36a-64d0ba7dfbee"
-        },
-        "timeDelta": 34
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 14,
-            "highlight": true,
-            "_recordID": "f60dbe8e-5da5-465a-88a7-5c6a6b5e6b79"
-        },
-        "timeDelta": 14
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 14,
-            "highlight": false,
-            "_recordID": "29f36286-5786-4e57-8d32-c99275625cb9"
-        },
-        "timeDelta": 134
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 15,
-            "highlight": true,
-            "_recordID": "3c637cd9-4666-4434-a300-65bf67460d49"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 15,
-            "highlight": false,
-            "_recordID": "23f3fe75-f490-44aa-97f0-d1e7df5fc7d6"
-        },
-        "timeDelta": 99
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 16,
-            "highlight": true,
-            "_recordID": "63201f98-ec5f-48aa-a87e-584353461b9b"
-        },
-        "timeDelta": 0
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 16,
-            "highlight": false,
-            "_recordID": "bf855999-d412-4615-a15d-e0559a6435d9"
-        },
-        "timeDelta": 86
-    },
-    {
-        "type": "menuItemSelect",
-        "data": {
-            "index": 18,
-            "highlight": true,
-            "_recordID": "24856d4b-d7d1-4853-9c57-0a77b48579af"
-        },
-        "timeDelta": 33
-    },
-    {
-        "type": "menu",
-        "data": {
-            "parent": null,
-            "open": false,
-            "position": {
-                "x": 167,
-                "y": 235,
-                "objType": "Point"
-            },
-            "_recordID": "b1eab0e0-fcf4-45df-b509-7115409fa181"
-        },
-        "timeDelta": 2636
+        "timeDelta": 10000
     }
 ]
