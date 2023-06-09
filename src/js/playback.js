@@ -38,7 +38,6 @@ export class Playback {
         this.loader.onLoaded = (script) => {
             this.script = script;
             this.events = script.getEvents();
-            console.log(this.events);
             this.addScript();
             this.restart();
             this.createSlides();
@@ -108,17 +107,7 @@ export class Playback {
         // HACK: TODO: Make this actually configurable
         const videoTable = {
             // Loops
-            'media/csc110/loops/repeat/': 'https://drive.google.com/file/d/1bDNN6rAlNwcl-nNHlwgHCHB0o5jwXsln/view?usp=sharing',
-            'media/csc110/loops/forever/': 'https://drive.google.com/file/d/10ADXro2E_59fXwJ8B3MJtFEpTduM6utQ/view?usp=sharing',
-            'media/csc110/loops/repeatUntil/': 'https://drive.google.com/file/d/1Pfn9bLfbRN8tSSWXqMqwjnVcgiink1Wf/view?usp=sharing',
-            // Procedures
-            'media/csc110/procedures/basics/': 'https://drive.google.com/open?id=1-ILgfur1TOnO2FpoIilWKHmYV8IcKMaB&authuser=twprice%40ncsu.edu&usp=drive_fs',
-            // Variables
-            'media/csc110/variables/snap-variables/': 'https://drive.google.com/file/d/17JcjIGuSG99kT8sQA7MrZ_KpDX6usIAM/view?usp=sharing',
-            'media/csc110/variables/variables/': 'https://drive.google.com/file/d/1-FE4ZznMvtx2YCLNmXOiQlCz15-q7uZ3/view?usp=sharing',
-            'media/csc110/variables/var-loop-recipe/': 'https://drive.google.com/file/d/16BP77DmEEB8GwkF87S57Ty2dz0pXyGCN/view?usp=sharing',
-            // IDE
-            'media/csc110/api/clones/': 'https://drive.google.com/file/d/1AP7_iCqLRNfQnpZB2rfNH2txfosZU_u7/view?usp=sharing',
+            'media/learntogether/music/rhythm/5/': 'https://youtu.be/BKcWVbRuAk0',
         };
         let link = videoTable[path]
         if (link) {
@@ -636,7 +625,7 @@ export class Playback {
         Trace.log('Playback.scrub', {
             'time': this.duration,
         });
-        this.updateEvents();
+        this.updateEvents(false, true);
         if (this.wasPlaying) {
             setTimeout(() => this.play(), 1);
         }
@@ -649,6 +638,9 @@ export class Playback {
     }
 
     showFinishedModal() {
+        if (process.env.SHOW_FINISHED_MODAL !== 'true') {
+            return;
+        }
         if (!this.code) this.code = this.makeCode();
         Trace.log('Playback.finishedModal', {
             'code': this.code,
@@ -785,8 +777,8 @@ export class Playback {
         $('#scrubber-bg').css('background', `linear-gradient(90deg, rgb(152 203 255) ${left}%, #ffffff00 ${right}%)`);
     }
 
-    updateEvents(noReset) {
-        this.updateLogs(noReset);
+    updateEvents(noReset, skipSpecialBlocks) {
+        this.updateLogs(noReset, skipSpecialBlocks);
         this.updateText();
         this.updateHighlights();
     }
@@ -906,7 +898,7 @@ export class Playback {
         return record;
     }
 
-    updateLogs(noReset) {
+    updateLogs(noReset, skipSpecialBlocks) {
         if (this.playingLog || this.warnResume) return;
 
         let durationS = this.getCurrentDuration() / 1000;
@@ -950,13 +942,20 @@ export class Playback {
 
         let record = this.getRecordFromEvent(event);
 
+        if (record.type === 'run' && skipSpecialBlocks) {
+            if (record.data.skipOnScrub) {
+                this.currentLogIndex++;
+                this.update();
+                return;
+            }
+        }
         this.playingLog = event;
         this.playingAction = true;
         try {
             record.replay(() => {
                 // console.log('Clear playing');
                 this.playingLog = null;
-                this.updateLogs();
+                this.updateLogs(false, true);
             }, fast);
         } catch (e) {
             console.error(e);
